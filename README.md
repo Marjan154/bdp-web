@@ -29,3 +29,7 @@ Heres a very rough outline.
 
 ###### Pretty Websites we can try to mimic:
 https://topnonprofits.com/lists/best-nonprofit-websites/
+
+###### Our current Wix site:
+https://www.wix.com/dashboard/27b6abbb-f9ba-43d9-bc63-1f910820888e/home
+- Note: The live version of the site is outdated. You have to go to the edit site option to see the latest.
