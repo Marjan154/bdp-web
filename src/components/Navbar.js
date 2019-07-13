@@ -8,19 +8,19 @@ function Navbar() {
       <ul>
         <li>
           {" "}
-          <Link to="/Home">Home</Link>{" "}
+          <Link to="/">Home</Link>{" "}
         </li>
         <li>
           {" "}
-          <Link to="/Issues/">Issues</Link>{" "}
+          <Link to="/issues/">Issues</Link>{" "}
         </li>
         <li>
           {" "}
-          <Link to="/Projects/">Projects</Link>{" "}
+          <Link to="/projects/">Projects</Link>{" "}
         </li>
         <li>
           {" "}
-          <Link to="/Donate/">Donate</Link>{" "}
+          <Link to="/donate/">Donate</Link>{" "}
         </li>
       </ul>
     </nav>
