@@ -8,11 +8,11 @@ import Home from "./components/Home";
 import Donate from "./components/Donate";
 import Issues from "./components/Issues";
 import Projects from "./components/Projects";
-import Childlabor from "./components/ChildLabor";
+import Healthcare from "./components/Healthcare";
+import ChildLabor from "./components/ChildLabor";
+import Prositution from "./components/Prostitution";
 import Education from "./components/Education";
 import EarlyMarriage from "./components/EarlyMarriage";
-import Prostitution from "./components/Prostitution";
-import Healthcare from "./components/Healthcare"
 
 function App() {
   return (
@@ -24,11 +24,11 @@ function App() {
           <Route exact path="/donate" component={Donate} />
           <Route exact path="/issues" component={Issues} />
           <Route exact path="/projects" component={Projects} />
-          <Route exact path="/childlabor" component={Childlabor} />
-          <Route exact path="/education" component={Education} />
-          <Route exact path="/earlymarriage" component={EarlyMarriage} />
-          <Route exact path="/prostitution" component={Prostitution} />
-          <Route exact path="/healthcare" component={Healthcare} />
+          <Route exact path="/issues/healthcare" component={Healthcare} />
+          <Route exact path="/issues/childlabor" component={ChildLabor} />
+          <Route exact path="/issues/prostitution" component={Prositution} />
+          <Route exact path="/issues/education" component={Education} />
+          <Route exact path="/issues/earlymarriage" component={EarlyMarriage} />
         </div>
       </Router>
     </div>
