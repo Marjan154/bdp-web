@@ -8,7 +8,7 @@ import {
 import "bootstrap/dist/css/bootstrap.css";
 import { Link } from "react-router-dom";
 
-class Example extends React.Component {
+class Dropdown extends React.Component {
   constructor(props) {
     super(props);
 
@@ -68,4 +68,4 @@ class Example extends React.Component {
   }
 }
 
-export default Example;
+export default Dropdown;
