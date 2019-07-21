@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
-import Dropdown from "./Dropdown";
+import IssuesDropdown from "./Dropdown";
 
 function Navbar() {
   return (
@@ -12,9 +12,7 @@ function Navbar() {
           <Link to="/">Home</Link>{" "}
         </li>
         <li>
-          {/* {" "} */}
-          {/* <Link to="/issues/">Issues</Link>  */}
-          <Dropdown />
+          <IssuesDropdown />
         </li>
         <li>
           {" "}
