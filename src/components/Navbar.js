@@ -11,7 +11,11 @@ function Navbar() {
           {" "}
           <Link to="/">Home</Link>{" "}
         </li>
-        <li>{<Example />}</li>
+        <li>
+          {/* {" "} */}
+          {/* <Link to="/issues/">Issues</Link>  */}
+          <Example />
+        </li>
         <li>
           {" "}
           <Link to="/projects/">Projects</Link>{" "}

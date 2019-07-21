@@ -43,22 +43,24 @@ class Example extends React.Component {
         isOpen={this.state.dropdownOpen}
         toggle={this.toggle}
       >
-        <DropdownToggle caret>Issues</DropdownToggle>
+        <DropdownToggle tag={Link} to="/issues" caret>
+          Issues
+        </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem>
-            <Link to="/education">Education</Link>
+          <DropdownItem tag={Link} to="/issues/education">
+            Education
           </DropdownItem>
-          <DropdownItem>
-            <Link to="/healthcare">Healthcare</Link>
+          <DropdownItem tag={Link} to="issues/healthcare">
+            Healthcare
           </DropdownItem>
-          <DropdownItem>
-            <Link to="/prostitution">Prostitution</Link>
+          <DropdownItem tag={Link} to="/issues/prostitution">
+            Prostitution
           </DropdownItem>
-          <DropdownItem>
-            <Link to="/childlabor">Child Labor</Link>
+          <DropdownItem tag={Link} to="/issues/childlabor">
+            Child labor
           </DropdownItem>
-          <DropdownItem>
-            <Link to="/childlabor">Early Marriage</Link>
+          <DropdownItem tag={Link} to="/issues/earlymarriage">
+            Early Marriage
           </DropdownItem>
         </DropdownMenu>
       </Dropdown>
