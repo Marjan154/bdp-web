@@ -1,4 +1,4 @@
-html {
+/* html {
   background: url(../images/Background.jpg) no-repeat center center fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("../images/bdpbg.jpg");
@@ -6,11 +6,21 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
 
 body {
   position: relative;
   z-index: 1;
+}
+
+.bg {
+  background: url(../images/Background.jpg) no-repeat center center fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("../images/bdpbg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #mission {
