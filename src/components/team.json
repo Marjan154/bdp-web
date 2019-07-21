@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Ashabul Lastname",
+    "description": "President & Founder",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+  },
+  {
+    "id": "2",
+    "title": "Naiful Bahri",
+    "description": "Vice President",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+  },
+  {
+    "id": "3",
+    "title": "Thamid Zawad",
+    "description": "Vice president",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+  },
+  {
+    "id": "4",
+    "title": "Marjan Ansar",
+    "description": "Web developer",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+  },
+  {
+    "id": "1",
+    "title": "Ashabul Khan",
+    "description": "President & Founder",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+  },
+  {
+    "id": "2",
+    "title": "Naiful Bahri",
+    "description": "Vice President",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+  },
+  {
+    "id": "3",
+    "title": "Thamid Zawad",
+    "description": "Vice president",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+  },
+  {
+    "id": "4",
+    "title": "Marjan Ansar",
+    "description": "Web developer",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+  }
+]

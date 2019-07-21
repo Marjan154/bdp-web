@@ -13,6 +13,7 @@ import ChildLabor from "./components/ChildLabor";
 import Prositution from "./components/Prostitution";
 import Education from "./components/Education";
 import EarlyMarriage from "./components/EarlyMarriage";
+import Team from "./components/Team";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/issues/prostitution" component={Prositution} />
           <Route exact path="/issues/education" component={Education} />
           <Route exact path="/issues/earlymarriage" component={EarlyMarriage} />
+          <Route exact path="/team" component={Team} />
         </div>
       </Router>
     </div>

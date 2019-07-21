@@ -22,6 +22,10 @@ function Navbar() {
           {" "}
           <Link to="/donate/">Donate</Link>{" "}
         </li>
+        <li>
+          {" "}
+          <Link to="/team/">Team</Link>{" "}
+        </li>
       </ul>
     </nav>
   );
