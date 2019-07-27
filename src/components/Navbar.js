@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
+import IssuesDropdown from "./Dropdown";
 
 function Navbar() {
   return (
@@ -11,8 +12,7 @@ function Navbar() {
           <Link to="/">Home</Link>{" "}
         </li>
         <li>
-          {" "}
-          <Link to="/issues/">Issues</Link>{" "}
+          <IssuesDropdown />
         </li>
         <li>
           {" "}
@@ -21,6 +21,10 @@ function Navbar() {
         <li>
           {" "}
           <Link to="/donate/">Donate</Link>{" "}
+        </li>
+        <li>
+          {" "}
+          <Link to="/team/">Team</Link>{" "}
         </li>
       </ul>
     </nav>

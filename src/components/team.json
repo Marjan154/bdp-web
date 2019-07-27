@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "name": "Ashabul Khan",
+    "title": "President & Founder",
+    "description": "President & Founder Bio",
+    "img": "Jaheen.JPG"
+  },
+  {
+    "id": "2",
+    "name": "Tahmid Zawad",
+    "title": "Vice President",
+    "description": "Vice President Bio",
+    "img": "Tahmid.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Tanjeela newaz",
+    "description": "Cultural Chair",
+    "img": "Tanjeela.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Jaheen Haque",
+    "title": "Law boi",
+    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
+    "img": "Jaheen.JPG"
+  },
+  {
+    "id": "5",
+    "name": "Marjan Ansar",
+    "title": "Web developer",
+    "description": "Ma bio",
+    "img": "Jaheen.JPG"
+  },
+  {
+    "id": "6",
+    "name": "Noshin Ahmed",
+    "title": "Editor/HR/Events",
+    "description": " Noshin graduated from Hunter College with a degree in English Literature and a minor in Psychology. She plans to become an educator in order to influence the youth to become the best versions of themselves. She is deeply passionate about charitable and youth work and iced tea.",
+    "img": "Noshin.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Tahmind Zawad",
+    "title": "Vice President",
+    "description": "Vice President Bio",
+    "img": "Jaheen.JPG"
+  },
+  {
+    "id": "8",
+    "title": "Naiful Bahri",
+    "description": "'Stache guy",
+    "img": "Jaheen.JPG"
+  },
+  {
+    "id": "9",
+    "name": "Jaheen Haque",
+    "title": "Law boi",
+    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
+    "img": "Jaheen.JPG"
+  },
+  {
+    "id": "10",
+    "name": "Marjan Ansar",
+    "title": "Web developer",
+    "description": "Ma bio",
+    "img": "Jaheen.JPG"
+  }
+]
