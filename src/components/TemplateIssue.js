@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "../styles/education2.css";
-import ACard from "./Card.js";
+// import ACard from "./Card.js";
 import "../styles/card.css";
-import { Card, Icon, Image } from "semantic-ui-react";
+import { Card, Image } from "semantic-ui-react";
+// import { Card, Icon, Image } from "semantic-ui-react";
 
 class TemplateIssue extends Component {
   state = {};
@@ -44,9 +45,7 @@ class TemplateIssue extends Component {
             <div class="col-lg-5">
               <h1 class="font-weight-light">Business Name or Tagline</h1>
               <p>{mainSummary}</p>
-              <a class="btn btn-primary" href="#">
-                Call to Action!
-              </a>
+              <p class="btn btn-primary">Call to Action!</p>
             </div>
           </div>
 

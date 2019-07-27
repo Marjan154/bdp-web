@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../styles/projects.css";
-import { Container, Grid, Image, Card, Icon } from "semantic-ui-react";
+// import { Container, Grid, Image, Card, Icon } from "semantic-ui-react";
+import { Grid, Image } from "semantic-ui-react";
 
 class Projects extends Component {
   state = {};
@@ -28,7 +29,7 @@ class Projects extends Component {
                 shoutouts! YOU were the ones keeping this initiative alive and
                 allowing this to come to fruition. This is a huge milestone for
                 BDP and we wish that you all continue to support us in our
-                journey to serve as a beacon of hope for our motherland. ✊🏾🇧🇩🙏🏽
+                journey to serve as a beacon of hope for our motherland.
                 #BDPiftaar #dhaka #bangladesh #Ramadan #Ramadan2019 #GivingBack
                 #humanitarian #unicef #jaago #oxfam #helpinghands
                 #savethechildren #childrenontheedge #brac #BSAofNY
@@ -45,8 +46,7 @@ class Projects extends Component {
 
 export default Projects;
 
-{
-  /* <div>
+/* <div>
                   As the holy month of Ramadan nears its end, BDP took on a
                   special initiative to sponsor Iftaar dinner for a large cohort
                   of poor and helpless people. BDP was able to fundraise enough
@@ -68,4 +68,3 @@ export default Projects;
                   #BSAofNY #bangladeshstudentsassociation #bengalisofnewyork
                   #humansofnewyork #bangladeshdevelopmentproject
                 </div> */
-}
