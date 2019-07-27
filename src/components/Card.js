@@ -1,19 +1,13 @@
 import React, { Component } from "react";
 import "../styles/card.css";
-import { Card, Icon, Image } from "semantic-ui-react";
+import { Card, Image } from "semantic-ui-react";
 
 class ACard extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   render() {
-    const { title, name, description, img, id } = this.props;
-    console.log(img);
-    const url = "../images/team/" + img;
+    const { title, name, description, img } = this.props;
     return (
-      <div style={{ padding: "20px" }}>
-        <Card style={{ width: "400px" }}>
+      <React.Fragment>
+        <Card style={{ width: "400px", padding: "20px" }}>
           <Image src={img} wrapped ui={false} />
           <Card.Content>
             <Card.Header>{name}</Card.Header>
@@ -23,7 +17,7 @@ class ACard extends Component {
             <Card.Description>{description}</Card.Description>
           </Card.Content>
         </Card>
-      </div>
+      </React.Fragment>
     );
   }
 }

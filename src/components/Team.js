@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import data from "./team.json";
 import ACard from "./Card.js";
 import "../styles/card.css";
-import j from "../images/team/Jaheen.JPG";
+// import j from "../images/team/Jaheen.JPG";
 
 class Team extends Component {
   constructor(props) {
