@@ -14,7 +14,7 @@ class ACard extends Component {
     return (
       <div style={{ padding: "20px" }}>
         <Card style={{ width: "400px" }}>
-          <Image src={require("../images/team/" + img)} wrapped ui={false} />
+          <Image src={img} wrapped ui={false} />
           <Card.Content>
             <Card.Header>{name}</Card.Header>
             <Card.Meta>
