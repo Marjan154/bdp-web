@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import {
   Button,
   Container,
@@ -240,7 +241,9 @@ const HomepageLayout = () => (
         </Grid.Row>
         <Grid.Row>
           <Grid.Column textAlign="center">
-            <Button size="huge">Check Out Our Team</Button>
+            <Link to="/team">
+              <Button size="huge">Check Out Our Team</Button>
+            </Link>
           </Grid.Column>
         </Grid.Row>
       </Grid>
