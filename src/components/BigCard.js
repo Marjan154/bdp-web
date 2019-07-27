@@ -35,28 +35,3 @@ class BigCard extends Component {
 }
 
 export default BigCard;
-
-{
-  /* <Card>
-<Image
-  src="https://image.shutterstock.com/image-vector/social-member-vector-icon-person-260nw-1139787308.jpg"
-  wrapped
-  ui={false}
-/>
-<Card.Content>
-  <Card.Header>Matthew</Card.Header>
-  <Card.Meta>
-    <span className="date">Joined in 2015</span>
-  </Card.Meta>
-  <Card.Description>
-    Matthew is a musician living in Nashville.
-  </Card.Description>
-</Card.Content>
-<Card.Content extra>
-  <a>
-    <Icon name="user" />
-    22 Friends
-  </a>
-</Card.Content>
-</Card> */
-}

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import data from "./team.json";
-import Card from "./Card.js";
+import ACard from "./Card.js";
 import "../styles/card.css";
+import j from "../images/team/Jaheen.JPG";
 
 class Team extends Component {
   constructor(props) {
@@ -19,8 +20,9 @@ class Team extends Component {
 
     let cards = team.map(member => {
       return (
-        <Card
+        <ACard
           id={member.id}
+          name={member.name}
           title={member.title}
           description={member.description}
           img={member.img}

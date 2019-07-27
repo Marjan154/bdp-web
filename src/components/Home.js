@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles/home.css";
+// import Slideshow from "./Slideshow";
 
 import { Card, Icon, Image } from "semantic-ui-react";
 
@@ -10,6 +11,7 @@ class Home extends Component {
       <div>
         <div className="bg">
           <div>
+            {/* <Slideshow /> */}
             <h1 id="welcome">Bangladesh Development Welcomes You!</h1>
 
             <div id="mission">

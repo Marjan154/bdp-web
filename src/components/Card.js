@@ -1,38 +1,31 @@
 import React, { Component } from "react";
 import "../styles/card.css";
+import { Card, Icon, Image } from "semantic-ui-react";
 
-class Card extends Component {
+class ACard extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
   render() {
-    const { title, img, description, id } = this.props;
+    const { title, name, description, img, id } = this.props;
+    console.log(img);
+    const url = "../images/team/" + img;
     return (
-      <div className="cardbox">
-        <img src={img} />
-        <div className="card-text">
-          <h3>{title}</h3>
-          <ul>
-            <li>{description}</li>
-          </ul>
-          <div className="button-list-container">
-            <ul>
-              <li>
-                <button className="green">View</button>{" "}
-              </li>
-              <li>
-                <button className="blue">Edit</button>
-              </li>
-              <li>
-                <button className="red">Delete</button>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div style={{ padding: "20px" }}>
+        <Card style={{ width: "400px" }}>
+          <Image src={require("../images/team/" + img)} wrapped ui={false} />
+          <Card.Content>
+            <Card.Header>{name}</Card.Header>
+            <Card.Meta>
+              <span className="date">{title}</span>
+            </Card.Meta>
+            <Card.Description>{description}</Card.Description>
+          </Card.Content>
+        </Card>
       </div>
     );
   }
 }
 
-export default Card;
+export default ACard;
