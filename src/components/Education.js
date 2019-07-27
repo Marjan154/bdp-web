@@ -8,20 +8,20 @@ const data = [
     title: "President & Founder",
     description:
       "I am Ashabul Khan, born and raised in Dhaka, Bangladesh. I graduated from Hunter College with a major in Political Science and a minor in Maths. I like studying history and playing piano during my pastime. I also like playing cricket and soccer during summer. I love traveling around the world. My dream is to see a Bangladesh free of poverty, illiteracy, and malnutrition.",
-    img: "Ashabul.jpg"
+    img: "healthcard1.jpg"
   },
   {
     id: "2",
     name: "Tahmid Zawad",
     title: "Vice President",
     description: "Vice President Bio",
-    img: "Tahmid.jpg"
+    img: "healthcard1.jpg"
   },
   {
     id: "3",
     title: "Tanjeela newaz",
-    description: "Cultural Chair",
-    img: "Tanjeela.jpg"
+    description: "Cultural` Chair",
+    img: "healthcard1.jpg"
   }
 ];
 
@@ -43,6 +43,7 @@ class Education extends Component {
   render() {
     return (
       <TemplateIssue
+        mainTitle={<div>Education</div>}
         mainImg={mainImg}
         mainSummary={mainSummary}
         actionline={actionline}
