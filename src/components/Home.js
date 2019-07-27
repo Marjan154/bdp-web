@@ -94,9 +94,9 @@ class DesktopContainer extends Component {
             style={{
               minHeight: 700,
               padding: "1em 0em",
-              color: "transparent",
-              backgroundImage: `url(${"../images/NiceHome.jpg"})`,
-              backgroundSize: "cover"
+              color: "transparent"
+              // backgroundImage: `url(${"../images/NiceHome.jpg"})`,
+              // backgroundSize: "cover"
             }}
             vertical
           >
