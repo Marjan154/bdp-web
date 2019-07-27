@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Ashabul Khan",
     "title": "President & Founder",
-    "description": "I am Ashabul Khan, born and raised in Dhaka, Bangladesh. I graduated from Hunter College with a major in Political Science and a minor in Maths. I like studying history and playing piano during my pastime. I also like playing cricket and soccer during summer. I love traveling around the world. My dream is to see a Bangladesh free of poverty, illiteracy, and malnutrition.",
+    "description": "Ashabul Khan was born and raised in Dhaka, Bangladesh. He graduated from Hunter College with a major in Political Science and a minor in Maths. He likes travelling, studying history, playing piano, cricket, and soccer during his pastimes.  His dream is to see a Bangladesh free of poverty, illiteracy, and malnutrition.",
     "img": "Ashabul.jpg"
   },
   {
@@ -14,12 +14,6 @@
     "img": "Tahmid.jpg"
   },
   {
-    "id": "3",
-    "title": "Tanjeela newaz",
-    "description": "Cultural Chair",
-    "img": "Tanjeela.jpg"
-  },
-  {
     "id": "4",
     "name": "Jaheen Haque",
     "title": "Law boi",
@@ -27,10 +21,17 @@
     "img": "Jaheen.JPG"
   },
   {
+    "id": "7",
+    "name": "Mosammat Jahan",
+    "title": "Secratary",
+    "description": "Mosammat Jahan aka Ria is an upcoming sophomore at Hunter and her intended major is human biology. She aspires to be in medical facilities because she wants to assist people with her acquired skills. In her spare time she enjoys kpop/kdrama and spending time with her relatives' kids.",
+    "img": "Mosammat.jpg"
+  },
+  {
     "id": "5",
     "name": "Marjan Ansar",
     "title": "Web developer",
-    "description": "Ma bio",
+    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
     "img": "Jaheen.JPG"
   },
   {
@@ -41,30 +42,22 @@
     "img": "Noshin.jpg"
   },
   {
-    "id": "7",
-    "name": "Tahmind Zawad",
-    "title": "Vice President",
-    "description": "Vice President Bio",
+    "id": "8",
+    "title": "Naiful Bahri",
+    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
     "img": "Jaheen.JPG"
   },
   {
-    "id": "8",
-    "title": "Naiful Bahri",
-    "description": "'Stache guy",
-    "img": "Jaheen.JPG"
+    "id": "3",
+    "title": "Tanjeela newaz",
+    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
+    "img": "Tanjeela.jpg"
   },
   {
     "id": "9",
     "name": "Jaheen Haque",
     "title": "Law boi",
     "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
-    "img": "Jaheen.JPG"
-  },
-  {
-    "id": "10",
-    "name": "Marjan Ansar",
-    "title": "Web developer",
-    "description": "Ma bio",
     "img": "Jaheen.JPG"
   }
 ]

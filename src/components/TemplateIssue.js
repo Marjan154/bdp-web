@@ -3,27 +3,31 @@ import "../styles/education2.css";
 import ACard from "./Card.js";
 import "../styles/card.css";
 import { Card, Icon, Image } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 class TemplateIssue extends Component {
   state = {};
 
   render() {
-    const { mainImg, mainSummary, actionline, data } = this.props;
+    const { mainImg, mainSummary, mainTitle, actionline, data } = this.props;
     const cards = data.map(member => {
       return (
         <div style={{ padding: "20px" }}>
           <Card>
             <Image
-              src={require("../images/team/" + member.img)}
+              src={require("../images/" + member.img)}
               wrapped
               ui={false}
             />
+
             <Card.Content>
-              <Card.Header>{member.name}</Card.Header>
+              <Card.Header>Article Title</Card.Header>
               <Card.Meta>
-                <span className="date">{member.title}</span>
+                <span className="date">By author</span>
               </Card.Meta>
-              <Card.Description>{member.description}</Card.Description>
+              <Link>
+                <Card.Description>Read More -></Card.Description>
+              </Link>
             </Card.Content>
           </Card>
         </div>
@@ -42,7 +46,7 @@ class TemplateIssue extends Component {
             </div>
 
             <div class="col-lg-5">
-              <h1 class="font-weight-light">Business Name or Tagline</h1>
+              <h1 class="font-weight-light">{mainTitle}</h1>
               <p>{mainSummary}</p>
               <a class="btn btn-primary" href="#">
                 Call to Action!
