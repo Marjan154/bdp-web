@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
+import Nav from "./components/Nav";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Donate from "./components/Donate";
@@ -19,6 +19,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        {/* <Nav /> */}
         <div>
           <Route exact path="/" component={Home} />
           <Route exact path="/donate" component={Donate} />
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/issues/education" component={Education} />
           <Route exact path="/issues/earlymarriage" component={EarlyMarriage} />
           <Route exact path="/team" component={Team} />
+          <Route exact path="/nav" component={Nav} />
         </div>
       </Router>
     </div>
