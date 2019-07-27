@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../styles/education2.css";
-// import ACard from "./Card.js";
+import ACard from "./Card.js";
 import "../styles/card.css";
-import { Card, Image } from "semantic-ui-react";
+import { Card, Icon, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 class TemplateIssue extends Component {
@@ -48,7 +48,9 @@ class TemplateIssue extends Component {
             <div class="col-lg-5">
               <h1 class="font-weight-light">{mainTitle}</h1>
               <p>{mainSummary}</p>
-              <p class="btn btn-primary">Call to Action!</p>
+              <a class="btn btn-primary" href="#">
+                Call to Action!
+              </a>
             </div>
           </div>
 

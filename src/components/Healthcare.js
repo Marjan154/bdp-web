@@ -41,6 +41,7 @@ const actionline = (
 );
 
 class Healthcare extends Component {
+  state = {};
   render() {
     return (
       <TemplateIssue

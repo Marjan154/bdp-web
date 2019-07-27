@@ -1,10 +1,8 @@
-import React from "react";
-// import React, { Component } from "react";
-import { Dropdown } from "semantic-ui-react";
-// import { Dropdown, Menu } from "semantic-ui-react";
+import React, { Component } from "react";
+import { Dropdown, Menu } from "semantic-ui-react";
 import { Link } from "react-router-dom";
-// import styles from "../styles/navbar.css";
-// import Navbar from "./Navbar";
+import styles from "../styles/navbar.css";
+import Navbar from "./Navbar";
 
 const options = [
   { key: 1, text: "Education", value: 1, as: Link, to: "/issues/education" },
@@ -26,19 +24,19 @@ const options = [
   }
 ];
 
-// const DropdownExampleSimple = () => (
-//   <Link to="/issues">
-//     {/* <Menu compact style={{ background: "#222" }}> */}
-//     <Dropdown
-//       text="Issues"
-//       options={options}
-//       simple
-//       item
-//       style={{ color: "white" }}
-//     />
-//     {/* </Menu> */}
-//   </Link>
-// );
+const DropdownExampleSimple = () => (
+  <Link to="/issues">
+    {/* <Menu compact style={{ background: "#222" }}> */}
+    <Dropdown
+      text="Issues"
+      options={options}
+      simple
+      item
+      style={{ color: "white" }}
+    />
+    {/* </Menu> */}
+  </Link>
+);
 
 const DropdownNav = () => (
   <Link to="/issues">

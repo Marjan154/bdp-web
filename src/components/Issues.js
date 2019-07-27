@@ -1,7 +1,16 @@
 import React, { Component } from "react";
 import "../styles/issues.css";
+import { Card, Icon, Image, Grid, Container } from "semantic-ui-react";
 import BigCard from "./BigCard";
+import { Link } from "react-router-dom";
 
+const des = (
+  <div>
+    BDP took on a special initiative to sponsor Iftaar dinner for a large cohort
+    of poor and helpless people. BDP was able to fundraise enough to feed 1000
+    people over a span of FIVE days!
+  </div>
+);
 const healthDes = (
   <div>
     Access to healthcare is a greater issue in third world countries.
@@ -49,7 +58,7 @@ class Issues extends Component {
   state = {};
   render() {
     return (
-      <React.Fragment>
+      <div>
         <BigCard
           image="https://d30fl32nd2baj9.cloudfront.net/media/2017/05/21/health.jpg/ALTERNATES/w640/Health.jpg"
           description={healthDes}
@@ -83,7 +92,7 @@ class Issues extends Component {
           title="Child Labor"
           linkroute="/childlabor"
         />
-      </React.Fragment>
+      </div>
     );
   }
 }

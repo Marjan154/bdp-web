@@ -40,6 +40,7 @@ const actionline = (
   </p>
 );
 class Education extends Component {
+  state = {};
   render() {
     return (
       <TemplateIssue

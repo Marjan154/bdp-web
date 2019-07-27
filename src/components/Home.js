@@ -78,7 +78,7 @@ class DesktopContainer extends Component {
 
   render() {
     const { children } = this.props;
-    // const { fixed } = this.state;
+    const { fixed } = this.state;
 
     return (
       <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}>
@@ -296,7 +296,7 @@ const HomepageLayout = () => (
           horizontal
           style={{ margin: "3em 0em", textTransform: "uppercase" }}
         >
-          <p>News</p>
+          <a href="#">News</a>
         </Divider>
         <Header as="h3" style={{ fontSize: "2em" }}>
           2019 Ramadan Project

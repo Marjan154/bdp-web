@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../styles/childlabor.css";
 import TemplateIssue from "./TemplateIssue";
-const mainImg = require("../images/Education.jpg");
 
 const data = [
   {
@@ -26,7 +25,7 @@ const data = [
     img: "healthcard1.jpg"
   }
 ];
-
+const mainImg = require("../images/Education.jpg");
 const mainSummary = (
   <p>
     This is a template that is great for small businesses. It doesn't have too
@@ -34,7 +33,6 @@ const mainSummary = (
     core components. Feel free to use this template for any project you want!
   </p>
 );
-
 const actionline = (
   <p>
     This call to action card is a great place to showcase some important
@@ -43,6 +41,7 @@ const actionline = (
 );
 
 class ChildLabor extends Component {
+  state = {};
   render() {
     return (
       <TemplateIssue
