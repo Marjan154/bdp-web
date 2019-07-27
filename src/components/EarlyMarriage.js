@@ -42,7 +42,6 @@ const actionline = (
 );
 
 class EarlyMarriage extends Component {
-  state = {};
   render() {
     return (
       <TemplateIssue

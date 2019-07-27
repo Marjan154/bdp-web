@@ -19,20 +19,17 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        {/* <Nav /> */}
-        <div>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/donate" component={Donate} />
-          <Route exact path="/issues" component={Issues} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/issues/healthcare" component={Healthcare} />
-          <Route exact path="/issues/childlabor" component={ChildLabor} />
-          <Route exact path="/issues/prostitution" component={Prositution} />
-          <Route exact path="/issues/education" component={Education} />
-          <Route exact path="/issues/earlymarriage" component={EarlyMarriage} />
-          <Route exact path="/team" component={Team} />
-          <Route exact path="/nav" component={Nav} />
-        </div>
+        <Route exact path="/" component={Home} />
+        <Route path="/donate" component={Donate} />
+        <Route path="/issues" component={Issues} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/issues/healthcare" component={Healthcare} />
+        <Route path="/issues/childlabor" component={ChildLabor} />
+        <Route path="/issues/prostitution" component={Prositution} />
+        <Route path="/issues/education" component={Education} />
+        <Route path="/issues/earlymarriage" component={EarlyMarriage} />
+        <Route path="/team" component={Team} />
+        <Route path="/nav" component={Nav} />
       </Router>
     </div>
   );

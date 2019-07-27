@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../styles/childlabor.css";
 import TemplateIssue from "./TemplateIssue";
+const mainImg = require("../images/Education.jpg");
 
 const data = [
   {
@@ -25,7 +26,7 @@ const data = [
     img: "Tanjeela.jpg"
   }
 ];
-const mainImg = require("../images/Education.jpg");
+
 const mainSummary = (
   <p>
     This is a template that is great for small businesses. It doesn't have too
@@ -41,7 +42,6 @@ const actionline = (
 );
 
 class ChildLabor extends Component {
-  state = {};
   render() {
     return (
       <TemplateIssue

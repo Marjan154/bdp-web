@@ -1,16 +1,10 @@
 import React, { Component } from "react";
 import "../styles/card.css";
-import { Card, Icon, Image } from "semantic-ui-react";
+import { Card, Image } from "semantic-ui-react";
 
 class ACard extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   render() {
-    const { title, name, description, img, id } = this.props;
-    console.log(img);
-    const url = "../images/team/" + img;
+    const { title, name, description, img } = this.props;
     return (
       <div style={{ padding: "20px" }}>
         <Card style={{ width: "400px" }}>
