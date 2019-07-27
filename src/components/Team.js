@@ -25,7 +25,7 @@ class Team extends Component {
           name={member.name}
           title={member.title}
           description={member.description}
-          img={member.img}
+          img={require("../images/team/" + member.img)}
         />
       );
     });

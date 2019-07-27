@@ -1,71 +1,53 @@
-import React from "react";
-import {
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
-} from "reactstrap";
-import "bootstrap/dist/css/bootstrap.css";
+import React, { Component } from "react";
+import { Dropdown, Menu } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import styles from "../styles/navbar.css";
+import Navbar from "./Navbar";
 
-class IssuesDropdown extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.toggle = this.toggle.bind(this);
-    this.onMouseEnter = this.onMouseEnter.bind(this);
-    this.onMouseLeave = this.onMouseLeave.bind(this);
-    this.state = {
-      dropdownOpen: false
-    };
+const options = [
+  { key: 1, text: "Education", value: 1, as: Link, to: "/issues/education" },
+  { key: 2, text: "Healthcare", value: 2, as: Link, to: "/issues/healthcare" },
+  {
+    key: 3,
+    text: "Prostitution",
+    value: 3,
+    as: Link,
+    to: "/issues/prostitution"
+  },
+  { key: 4, text: "Child labor", value: 4, as: Link, to: "/issues/childlabor" },
+  {
+    key: 5,
+    text: "Early Marriage",
+    value: 5,
+    as: Link,
+    to: "/issues/earlymarriage"
   }
+];
 
-  toggle() {
-    this.setState(prevState => ({
-      dropdownOpen: !prevState.dropdownOpen
-    }));
-  }
+const DropdownExampleSimple = () => (
+  <Link to="/issues">
+    {/* <Menu compact style={{ background: "#222" }}> */}
+    <Dropdown
+      text="Issues"
+      options={options}
+      simple
+      item
+      style={{ color: "white" }}
+    />
+    {/* </Menu> */}
+  </Link>
+);
 
-  onMouseEnter() {
-    this.setState({ dropdownOpen: true });
-  }
+const DropdownNav = () => (
+  <Link to="/issues">
+    <Dropdown
+      text="Issues"
+      options={options}
+      simple
+      item
+      // style={{ color: "white" }}
+    />
+  </Link>
+);
 
-  onMouseLeave() {
-    this.setState({ dropdownOpen: false });
-  }
-
-  render() {
-    return (
-      <Dropdown
-        className="d-inline-block"
-        onMouseOver={this.onMouseEnter}
-        onMouseLeave={this.onMouseLeave}
-        isOpen={this.state.dropdownOpen}
-        toggle={this.toggle}
-      >
-        <DropdownToggle tag={Link} to="/issues" caret>
-          Issues
-        </DropdownToggle>
-        <DropdownMenu>
-          <DropdownItem tag={Link} to="/issues/education">
-            Education
-          </DropdownItem>
-          <DropdownItem tag={Link} to="issues/healthcare">
-            Healthcare
-          </DropdownItem>
-          <DropdownItem tag={Link} to="/issues/prostitution">
-            Prostitution
-          </DropdownItem>
-          <DropdownItem tag={Link} to="/issues/childlabor">
-            Child labor
-          </DropdownItem>
-          <DropdownItem tag={Link} to="/issues/earlymarriage">
-            Early Marriage
-          </DropdownItem>
-        </DropdownMenu>
-      </Dropdown>
-    );
-  }
-}
-
-export default IssuesDropdown;
+export default DropdownNav;

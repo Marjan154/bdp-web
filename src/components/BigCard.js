@@ -7,7 +7,7 @@ class BigCard extends Component {
     const { image, description, title, linkroute } = this.props;
     return (
       <div style={{ padding: "50px" }}>
-        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+        <div className="card mb-3" style={{ maxWidth: "70%" }}>
           <div className="row no-gutters">
             <div className="col-md-4">
               <img
