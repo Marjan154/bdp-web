@@ -1,11 +1,9 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { render } from "react-dom";
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Home2 from "./components/Home2";
 import Donate from "./components/Donate";
 import Issues from "./components/Issues";
 import Projects from "./components/Projects";

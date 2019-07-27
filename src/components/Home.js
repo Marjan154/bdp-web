@@ -33,7 +33,7 @@ const HomepageHeading = ({ mobile }) => (
   <Container text>
     <Header
       as="h1"
-      content="Bangladesh Development Company"
+      content="Bangladesh Development Project"
       inverted
       style={{
         fontSize: mobile ? "2em" : "4em",
