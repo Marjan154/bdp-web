@@ -53,10 +53,12 @@ const HomepageHeading = ({ mobile }) => (
         marginTop: mobile ? "0.5em" : "1.5em"
       }}
     />
-    <Button primary size="huge">
-      Donate
-      <Icon name="right arrow" />
-    </Button>
+    <Link to="/donate">
+      <Button primary size="huge">
+        Donate
+        <Icon name="right arrow" />
+      </Button>
+    </Link>
   </Container>
 );
 
@@ -282,9 +284,12 @@ const HomepageLayout = () => (
           These issues include prostitution, healthcare, early marriage, child
           labor, and education.
         </p>
-        <Button as="a" size="large">
-          Read More
-        </Button>
+        <Link to="/issues">
+          <Button as="a" size="large">
+            Read More
+          </Button>
+        </Link>
+
         <Divider
           as="h4"
           className="header"
@@ -301,9 +306,11 @@ const HomepageLayout = () => (
           yet. Within just a few weeks we were able to raise enough money to
           feed over a hundered starving people.
         </p>
-        <Button as="a" size="large">
-          Read more about our projects
-        </Button>
+        <Link to="/projects">
+          <Button as="a" size="large">
+            Read more about our projects
+          </Button>
+        </Link>
       </Container>
     </Segment>
     <Segment inverted vertical style={{ padding: "5em 0em" }}>
