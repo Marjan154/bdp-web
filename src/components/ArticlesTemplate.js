@@ -21,9 +21,9 @@ class ArticlesTemplate  extends Component {
     render() {
         const { mainImg, mainTitle, date, author, content } = this.props;
         return(
-            <div class="body">
+            <div class="articlebody">
                 <div>
-                    <img class="image"
+                    <img class="articleimage"
                     src={mainImg}
                     alt=""/>
                     <Header as="h1" style={{ fontSize: "5em" }}>
