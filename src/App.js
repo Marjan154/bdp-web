@@ -20,8 +20,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
-        {/* <Nav /> */}
+        {/* <Navbar /> */}
+
+        <Nav />
         <div>
           <Route exact path="/" component={Home} />
           <Route exact path="/donate" component={Donate} />

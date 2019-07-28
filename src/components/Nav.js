@@ -1,94 +1,48 @@
-import PropTypes from "prop-types";
-import React, { Component } from "react";
+import React from "react";
 import {
-  Button,
   Container,
+  Divider,
+  Dropdown,
+  Grid,
+  Header,
+  Image,
+  List,
   Menu,
-  Responsive,
-  Segment,
-  Visibility,
-  Dropdown
+  Segment
 } from "semantic-ui-react";
 import DropdownNav from "./Dropdown";
-// Heads up!
-// We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
-// For more advanced usage please check Responsive docs under the "Usage" section.
-const getWidth = () => {
-  const isSSR = typeof window === "undefined";
+import { Link } from "react-router-dom";
 
-  return isSSR ? Responsive.onlyTablet.minWidth : window.innerWidth;
-};
-
-/* eslint-disable react/no-multi-comp */
-/* Heads up! HomepageHeading uses inline styling, however it's not the best practice. Use CSS or styled components for
- * such things.
- */
-
-/* Heads up!
- * Neither Semantic UI nor Semantic UI React offer a responsive navbar, however, it can be implemented easily.
- * It can be more complicated, but you can create really flexible markup.
- */
-class DesktopContainer extends Component {
-  state = {};
-
-  hideFixedMenu = () => this.setState({ fixed: false });
-  showFixedMenu = () => this.setState({ fixed: true });
-
-  render() {
-    const { fixed } = this.state;
-
-    return (
-      <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}>
-        <Visibility
-          once={false}
-          onBottomPassed={this.showFixedMenu}
-          onBottomPassedReverse={this.hideFixedMenu}
-        >
-          <Segment inverted textAlign="center" vertical>
-            <Menu
-              fixed={fixed ? "top" : null}
-              inverted={!fixed}
-              pointing={!fixed}
-              secondary={!fixed}
-              size="large"
-            >
-              <Container>
-                <Menu.Item as="a" active>
-                  Home
-                </Menu.Item>
-                <Menu.Item as="a">
-                  <DropdownNav />
-                </Menu.Item>
-                <Menu.Item as="a">Project</Menu.Item>
-                <Menu.Item as="a">Donate</Menu.Item>
-                <Menu.Item as="a">Team</Menu.Item>
-                <Menu.Item position="right">
-                  <Button as="a" inverted={!fixed}>
-                    Donate
-                  </Button>
-                </Menu.Item>
-              </Container>
-            </Menu>
-          </Segment>
-        </Visibility>
-      </Responsive>
-    );
-  }
-}
-
-DesktopContainer.propTypes = {
-  children: PropTypes.node
-};
-
-const ResponsiveContainer = ({ children }) => (
-  <div>
-    <DesktopContainer>{children}</DesktopContainer>
+const FixedMenuLayout = () => (
+  <div style={{ marginBottom: "5em" }}>
+    <Segment>
+      <Menu fixed="top" inverted style={{ background: "rgb(165, 18, 18)" }}>
+        <Container>
+          <Menu.Item as="a" header style={{ padding: "25px" }}>
+            <Image
+              size="tiny"
+              src={require("../images/logoBDP.png")}
+              style={{ marginRight: "1.5em" }}
+            />
+            Bangladesh Development Project
+          </Menu.Item>
+          <Menu.Item as={Link} to="/">
+            Home
+          </Menu.Item>
+          <DropdownNav />
+          <Menu.Item as={Link} to="/projects">
+            Projects
+          </Menu.Item>
+          <Menu.Item as={Link} to="/donate">
+            Donate
+          </Menu.Item>
+          <Menu.Item as={Link} to="/team">
+            Team
+          </Menu.Item>
+        </Container>
+      </Menu>
+    </Segment>
   </div>
 );
 
-ResponsiveContainer.propTypes = {
-  children: PropTypes.node
-};
-
-const Nav = () => <ResponsiveContainer />;
-export default Nav;
+export default FixedMenuLayout;
