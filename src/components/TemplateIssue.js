@@ -25,7 +25,7 @@ class TemplateIssue extends Component {
               <Card.Meta>
                 <span className="date">By author</span>
               </Card.Meta>
-              <Link>
+              <Link to="/articles">
                 <Card.Description>Read More -></Card.Description>
               </Link>
             </Card.Content>
