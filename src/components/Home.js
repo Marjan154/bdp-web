@@ -56,7 +56,7 @@ const HomepageHeading = ({ mobile }) => (
       }}
     />
     <Link to="/donate">
-      <Button primary size="huge">
+      <Button primary size="huge" style={{ background: "rgb(165, 18, 18)" }}>
         Donate
         <Icon name="right arrow" />
       </Button>
@@ -200,7 +200,10 @@ const HomepageLayout = () => (
       <Grid container stackable verticalAlign="middle">
         <Grid.Row>
           <Grid.Column width={8}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
+            <Header
+              as="h3"
+              style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}
+            >
               We Help Our Blood
             </Header>
             <p style={{ fontSize: "1.33em", color: "black" }}>
@@ -208,7 +211,10 @@ const HomepageLayout = () => (
               hidden adn we help solve them. With Your help, we can save the
               world, one person at a time.
             </p>
-            <Header as="h3" style={{ fontSize: "2em" }}>
+            <Header
+              as="h3"
+              style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}
+            >
               We Connect People
             </Header>
             <p style={{ fontSize: "1.33em", color: "black" }}>
@@ -238,7 +244,10 @@ const HomepageLayout = () => (
       <Grid celled="internally" columns="equal" stackable>
         <Grid.Row textAlign="center">
           <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
-            <Header as="h3" style={{ fontSize: "2em", color: "black" }}>
+            <Header
+              as="h3"
+              style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}
+            >
               "We raised $XXXX"
             </Header>
             <p style={{ fontSize: "1.33em", color: "black" }}>
@@ -246,7 +255,10 @@ const HomepageLayout = () => (
             </p>
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
-            <Header as="h3" style={{ fontSize: "2em", color: "black" }}>
+            <Header
+              as="h3"
+              style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}
+            >
               "I was able to help so many people with the power of BDP"
             </Header>
             <p style={{ fontSize: "1.33em", color: "black" }}>
@@ -259,7 +271,7 @@ const HomepageLayout = () => (
     </Segment>
     <Segment style={{ padding: "8em 0em" }} vertical>
       <Container text>
-        <Header as="h3" style={{ fontSize: "2em", color: "black" }}>
+        <Header as="h3" style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}>
           Did you know that prostitution is still leagalized in Bangladesh?
         </Header>
         <p style={{ fontSize: "1.33em", color: "black" }}>
@@ -269,7 +281,7 @@ const HomepageLayout = () => (
           labor, and education.
         </p>
         <Link to="/issues">
-          <Button as="a" size="large">
+          <Button as="a" size="large" style={{ color: "rgb(165, 18, 18)" }}>
             Read More
           </Button>
         </Link>
@@ -282,7 +294,7 @@ const HomepageLayout = () => (
         >
           <a href="#">News</a>
         </Divider>
-        <Header as="h3" style={{ fontSize: "2em" }}>
+        <Header as="h3" style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}>
           2019 Ramadan Project
         </Header>
         <p style={{ fontSize: "1.33em", color: "black" }}>
@@ -291,7 +303,7 @@ const HomepageLayout = () => (
           feed over a hundered starving people.
         </p>
         <Link to="/projects">
-          <Button as="a" size="large">
+          <Button as="a" size="large" style={{ color: "rgb(165, 18, 18)" }}>
             Read more about our projects
           </Button>
         </Link>
