@@ -22,7 +22,7 @@ class Nav extends Component {
   showFixedMenu = () => this.setState({ fixed: true });
   render() {
     return (
-      <div classname="Nav" style={{ marginBottom: "5em" }}>
+      <div style={{ marginBottom: "5em" }}>
         <Visibility
           once={false}
           onBottomPassed={this.showFixedMenu}
@@ -49,7 +49,6 @@ class Nav extends Component {
                 <Menu.Item as={Link} to="/projects">
                   Projects
                 </Menu.Item>
-                {/* <Menu.Item style={{ padding: "0px" }} /> */}
                 <Menu.Item as={Link} to="/donate">
                   Donate
                 </Menu.Item>
