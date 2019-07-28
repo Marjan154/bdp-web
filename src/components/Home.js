@@ -234,7 +234,9 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column textAlign="center">
             <Link to="/team">
-              <Button size="huge">Check Out Our Team</Button>
+              <Button size="huge" style={{ color: "rgb(165, 18, 18)" }}>
+                Check Out Our Team
+              </Button>
             </Link>
           </Grid.Column>
         </Grid.Row>
