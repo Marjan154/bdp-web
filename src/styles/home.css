@@ -14,16 +14,16 @@ body {
 }
 
 .bg {
-  background: url(../images/Background.jpg) no-repeat center center fixed;
+  background: url(../images/NiceHome.jpg) no-repeat center center fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("../images/bdpbg.jpg");
+    url("../images/NiceHome.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-#mission {
+/* #mission {
   padding: 50px;
   color: white;
   font-size: 30px;
@@ -82,4 +82,4 @@ body {
   right: 0;
   margin-right: 0;
   z-index: -1;
-}
+} */

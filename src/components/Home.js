@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import styles from "../styles/home.css";
 import {
   Button,
   Container,
@@ -87,13 +88,19 @@ class DesktopContainer extends Component {
           onBottomPassed={this.showFixedMenu}
           onBottomPassedReverse={this.hideFixedMenu}
         >
-          <Segment
-            inverted
-            textAlign="center"
-            style={{ minHeight: 700, padding: "1em 0em" }}
-            vertical
-          >
-            {/* <Menu
+          <div className="bg">
+            <Segment
+              className="bg"
+              inverted
+              textAlign="center"
+              style={{
+                minHeight: 700,
+                padding: "1em 0em",
+                background: "transparent"
+              }}
+              vertical
+            >
+              {/* <Menu
               fixed={fixed ? "top" : null}
               inverted={!fixed}
               pointing={!fixed}
@@ -114,10 +121,10 @@ class DesktopContainer extends Component {
                 </Menu.Item>
               </Container>
             </Menu> */}
-            <HomepageHeading />
-          </Segment>
+              <HomepageHeading />
+            </Segment>
+          </div>
         </Visibility>
-
         {children}
       </Responsive>
     );
