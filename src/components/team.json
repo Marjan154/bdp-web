@@ -17,7 +17,7 @@
     "id": "12",
     "name": "Naiful Bahri",
     "title": "Vice President",
-    "description": "Ladies love the 'stache",
+    "description": "Nafiul was born and raised in New York, and is currently pursue a career in law at Hunter College. Throughout his work, he has tried his best to stay involved with multicultural and multi faith work. His Bengali identity, and love for Bangladesh allowed him to take part of initiatives to represent, and advocate for all marginalized/ under represented groups.",
     "img": "Naiful.jpg"
   },
   {
@@ -36,9 +36,9 @@
   },
   {
     "id": "14",
-    "name": "Tasmiyah Rahmad",
+    "name": "Tasmiyah Rahman",
     "title": "Vice President",
-    "description": "Tasmiyah Rahman is a 3rd year student at Hunter College. She is majoring in Human Biology and minoring in Political Science and is currently on the Pre-Med track. Tasmiyah is always looking for ways to help the community by volunteering at doctors offices, rehabilitation centers and schools. Her long term goal is to become a cardiothoracic surgeon and help those back in Bangladesh who do not have access to proper health care.",
+    "description": "Tasmiyah is majoring in Human Biology and minoring in Political Science at Hunter College. Tasmiyah is always looking for ways to help the community by volunteering at doctors offices, rehabilitation centers and schools. Her long term goal is to become a cardiothoracic surgeon and help those back in Bangladesh who do not have access to proper health care.",
     "img": "Simran.jpg"
   },
   {
@@ -65,38 +65,48 @@
   {
     "id": "5",
     "name": "Marjan Ansar",
-    "title": "Web developer",
-    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
-    "img": "Jaheen.JPG"
+    "title": "Web Developer",
+    "description": "Marjan was born and raised in New York and is majoring in Computer Science at Hunter college. In her free time, she enjoys travelling, going out to eat with friends and family, and caring for animals when she can. She hopes to help save and improve the lives of oppressed, disadvantaged, and neglected people through the power of technology.",
+    "img": "Marjan.jpg"
+  },
+  {
+    "id": "17",
+    "name": "Amina Miah",
+    "title": "Events Coordinator",
+    "description": "Amina Miah is a Bangladeshi-born American, majoring in Psychology at CUNY Hunter College. She hopes to become a clinical psychologist and raise awareness about mental illnesses in Bangladesh, which are often overlooked, neglected and stigmatized. In my spare time, I like to cook and tutor kids around my community. I hope to help create a better place for the next generation.",
+    "img": "Amina.jpg"
   },
   {
     "id": "3",
-    "title": "Tanjeela newaz",
-    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
+    "name": "Tanjeela Newaz",
+    "title": "Cultural Chair",
+    "description": "Tanjeela is currently a junior at The City College of New York in Harlem, Manhattan. She is majoring in Psychology. She aspires to become an advocate for mental health treatment in South Asian communities. For hobbies, she has been professionally dancing for more than 10 years, loves film/photography and food!",
     "img": "Tanjeela.jpg"
   },
   {
     "id": "8",
-    "title": "Priya Saha",
+    "name": "Priya Saha",
+    "title": "Events Coordinator",
     "description": "Priya graduated from Hunter College in Biochemistry and Psychology. She aspires to obtain a PhD in infectious diseases in the future and aims to learn more about the health crises in developing countries. You can find her in a laboratory doing tuberculosis research. ",
     "img": "Priya.jpg"
   },
   {
     "id": "15",
     "name": "Mohuya Khan",
-    "title": "Editor",
-    "description": "Ladies love the 'stache",
+    "title": "Editor/Designer",
+    "description": "Mohuya is a senior at Hunter College studying English and Education. Her dream is to teach the youth gracefully and effectively use her art to bring awareness to Bangladesh history and highlighting the resilience that women have.",
     "img": "Momo.jpg"
   },
   {
     "id": "13",
     "name": "Fardous Sabnur",
-    "title": "Web designer",
+    "title": "Web Designer",
     "description": "Short hair don't care",
     "img": "Ferdous.jpg"
   },
+
   {
-    "id": "11",
+    "id": "18",
     "name": "Amiya Prema Ahmed",
     "title": "Cultural Chair",
     "description": "Amiya Prema Ahmed is a sophomore at Hunter College, where she majoring in Human Biology to pursue her career in medicine, and double minoring in Sociology and Music. Prema is passionate about music, singing, performing, writing poetry, traveling, and spending her spare time with her children and family. She was born in  Bronx, New York but she has always felt proud of her Bangladeshi background and identity. Although she has yet to visit her motherland to this day, her mother has raised her into becoming a true Bangladeshi-American at heart, who can fluently speak, read, write, and sing in Bengali. Prema is willing to provide her compassionate care and support to people in need through her active participation in daily community service.",
