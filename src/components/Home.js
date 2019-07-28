@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import styles from "../styles/home.css";
 import {
   Button,
   Container,
@@ -17,6 +18,7 @@ import {
   Visibility
 } from "semantic-ui-react";
 
+//backgroundImage: `url(../images/NiceHome.jpg)`
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
 // For more advanced usage please check Responsive docs under the "Usage" section.
@@ -90,34 +92,16 @@ class DesktopContainer extends Component {
           <Segment
             inverted
             textAlign="center"
-            style={{ minHeight: 700, padding: "1em 0em" }}
+            style={{
+              minHeight: 700,
+              padding: "1em 0em",
+              color: "transparent"
+            }}
             vertical
           >
-            {/* <Menu
-              fixed={fixed ? "top" : null}
-              inverted={!fixed}
-              pointing={!fixed}
-              secondary={!fixed}
-              size="large"
-            >
-              <Container>
-                <Menu.Item as="a" active>
-                  Home
-                </Menu.Item>
-                <Menu.Item as="a">Work</Menu.Item>
-                <Menu.Item as="a">Company</Menu.Item>
-                <Menu.Item as="a">Careers</Menu.Item>
-                <Menu.Item position="right">
-                  <Button as="a" inverted={!fixed}>
-                    Donate
-                  </Button>
-                </Menu.Item>
-              </Container>
-            </Menu> */}
             <HomepageHeading />
           </Segment>
         </Visibility>
-
         {children}
       </Responsive>
     );
@@ -219,7 +203,7 @@ const HomepageLayout = () => (
             <Header as="h3" style={{ fontSize: "2em" }}>
               We Help Our Blood
             </Header>
-            <p style={{ fontSize: "1.33em" }}>
+            <p style={{ fontSize: "1.33em", color: "black" }}>
               We help raise awareness of the issues in Bangladesh that are
               hidden adn we help solve them. With Your help, we can save the
               world, one person at a time.
@@ -227,7 +211,7 @@ const HomepageLayout = () => (
             <Header as="h3" style={{ fontSize: "2em" }}>
               We Connect People
             </Header>
-            <p style={{ fontSize: "1.33em" }}>
+            <p style={{ fontSize: "1.33em", color: "black" }}>
               We help reignite the connections between Bengali Americans with
               their people back home
             </p>
@@ -254,18 +238,18 @@ const HomepageLayout = () => (
       <Grid celled="internally" columns="equal" stackable>
         <Grid.Row textAlign="center">
           <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
+            <Header as="h3" style={{ fontSize: "2em", color: "black" }}>
               "We raised $XXXX"
             </Header>
-            <p style={{ fontSize: "1.33em" }}>
+            <p style={{ fontSize: "1.33em", color: "black" }}>
               That is what they all say about us
             </p>
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
+            <Header as="h3" style={{ fontSize: "2em", color: "black" }}>
               "I was able to help so many people with the power of BDP"
             </Header>
-            <p style={{ fontSize: "1.33em" }}>
+            <p style={{ fontSize: "1.33em", color: "black" }}>
               <Image avatar src="/images/avatar/large/nan.jpg" />
               <b>Marjan</b> A very important person
             </p>
@@ -275,10 +259,10 @@ const HomepageLayout = () => (
     </Segment>
     <Segment style={{ padding: "8em 0em" }} vertical>
       <Container text>
-        <Header as="h3" style={{ fontSize: "2em" }}>
+        <Header as="h3" style={{ fontSize: "2em", color: "black" }}>
           Did you know that prostitution is still leagalized in Bangladesh?
         </Header>
-        <p style={{ fontSize: "1.33em" }}>
+        <p style={{ fontSize: "1.33em", color: "black" }}>
           Bangladesh is one of the fastest growing third world countries in the
           world. Yet is still riddled with issues that are difficult to solves.
           These issues include prostitution, healthcare, early marriage, child
@@ -301,7 +285,7 @@ const HomepageLayout = () => (
         <Header as="h3" style={{ fontSize: "2em" }}>
           2019 Ramadan Project
         </Header>
-        <p style={{ fontSize: "1.33em" }}>
+        <p style={{ fontSize: "1.33em", color: "black" }}>
           This Ramadan, BDP was incredibly successful in its largest project
           yet. Within just a few weeks we were able to raise enough money to
           feed over a hundered starving people.
@@ -311,41 +295,6 @@ const HomepageLayout = () => (
             Read more about our projects
           </Button>
         </Link>
-      </Container>
-    </Segment>
-    <Segment inverted vertical style={{ padding: "5em 0em" }}>
-      <Container>
-        <Grid divided inverted stackable>
-          <Grid.Row>
-            <Grid.Column width={3}>
-              <Header inverted as="h4" content="About" />
-              <List link inverted>
-                <List.Item as="a">Sitemap</List.Item>
-                <List.Item as="a">Contact Us</List.Item>
-                <List.Item as="a">Religious Ceremonies</List.Item>
-                <List.Item as="a">Gazebo Plans</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={3}>
-              <Header inverted as="h4" content="Services" />
-              <List link inverted>
-                <List.Item as="a">Banana Pre-Order</List.Item>
-                <List.Item as="a">DNA FAQ</List.Item>
-                <List.Item as="a">How To Access</List.Item>
-                <List.Item as="a">Favorite X-Men</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={7}>
-              <Header as="h4" inverted>
-                Footer Header
-              </Header>
-              <p>
-                Extra space for a call to action inside the footer that could
-                help re-engage users.
-              </p>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
       </Container>
     </Segment>
   </ResponsiveContainer>

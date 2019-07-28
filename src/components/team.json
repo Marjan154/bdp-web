@@ -10,8 +10,15 @@
     "id": "2",
     "name": "Tahmid Zawad",
     "title": "Vice President",
-    "description": "Vice President Bio",
+    "description": "Tahmid graduated hunter College with A B.S in Biology and a minor in psychology. Dedicated towards understanding the plight of people and using his  resources to contribute in humanitarian efforts, he is socially active. Tahhmid has a keen interest in travelling and sports, especially basketball. Aspiring to be a physician, he is actiely pursuing a career in medicine.",
     "img": "Tahmid.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Naiful Bahri",
+    "title": "Vice President",
+    "description": "Ladies love the 'stache",
+    "img": "Naiful.jpg"
   },
   {
     "id": "4",
@@ -19,6 +26,34 @@
     "title": "Law boi",
     "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
     "img": "Jaheen.JPG"
+  },
+  {
+    "id": "6",
+    "name": "Noshin Ahmed",
+    "title": "Editor/HR/Events",
+    "description": " Noshin graduated from Hunter College with a degree in English Literature and a minor in Psychology. She plans to become an educator in order to influence the youth to become the best versions of themselves. She is deeply passionate about charitable and youth work and iced tea.",
+    "img": "Noshin.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Tasmiyah Rahmad",
+    "title": "Vice President",
+    "description": "Tasmiyah Rahman is a 3rd year student at Hunter College. She is majoring in Human Biology and minoring in Political Science and is currently on the Pre-Med track. Tasmiyah is always looking for ways to help the community by volunteering at doctors offices, rehabilitation centers and schools. Her long term goal is to become a cardiothoracic surgeon and help those back in Bangladesh who do not have access to proper health care.",
+    "img": "Simran.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Karima Khondakar",
+    "title": "Coordinate Associative and Outreach Manager",
+    "description": "Karima started Hunter college at the age of 16. She’s a rising sophomore who’s majoring in Biochemistry. She aspires to become a physician, create a hospital in Bangladesh and inspire the youth. She loves to listen to music, draw, photography, read mysteries and watch movies. ",
+    "img": "Karima.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Sila Pollen",
+    "title": "Treasurer and Marketing Manager",
+    "description": "Sila is currently double majoring in Human Biology and Economics at Hunter College. You may recognize her from various other nonprofit organizations. Sila is always planning her future and looking for new ways to become more productive. Hypothetically ,if Sila had any free time she would probably spend it binge watching serial killer documentaries on Netflix. ",
+    "img": "Sila.jpg"
   },
   {
     "id": "7",
@@ -35,29 +70,36 @@
     "img": "Jaheen.JPG"
   },
   {
-    "id": "6",
-    "name": "Noshin Ahmed",
-    "title": "Editor/HR/Events",
-    "description": " Noshin graduated from Hunter College with a degree in English Literature and a minor in Psychology. She plans to become an educator in order to influence the youth to become the best versions of themselves. She is deeply passionate about charitable and youth work and iced tea.",
-    "img": "Noshin.jpg"
-  },
-  {
-    "id": "8",
-    "title": "Naiful Bahri",
-    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
-    "img": "Jaheen.JPG"
-  },
-  {
     "id": "3",
     "title": "Tanjeela newaz",
     "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
     "img": "Tanjeela.jpg"
   },
   {
-    "id": "9",
-    "name": "Jaheen Haque",
-    "title": "Law boi",
-    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
-    "img": "Jaheen.JPG"
+    "id": "8",
+    "title": "Priya Saha",
+    "description": "Priya graduated from Hunter College in Biochemistry and Psychology. She aspires to obtain a PhD in infectious diseases in the future and aims to learn more about the health crises in developing countries. You can find her in a laboratory doing tuberculosis research. ",
+    "img": "Priya.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Mohuya Khan",
+    "title": "Editor",
+    "description": "Ladies love the 'stache",
+    "img": "Momo.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Fardous Sabnur",
+    "title": "Web designer",
+    "description": "Short hair don't care",
+    "img": "Ferdous.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Amiya Prema Ahmed",
+    "title": "Cultural Chair",
+    "description": "Amiya Prema Ahmed is a sophomore at Hunter College, where she majoring in Human Biology to pursue her career in medicine, and double minoring in Sociology and Music. Prema is passionate about music, singing, performing, writing poetry, traveling, and spending her spare time with her children and family. She was born in  Bronx, New York but she has always felt proud of her Bangladeshi background and identity. Although she has yet to visit her motherland to this day, her mother has raised her into becoming a true Bangladeshi-American at heart, who can fluently speak, read, write, and sing in Bengali. Prema is willing to provide her compassionate care and support to people in need through her active participation in daily community service.",
+    "img": "Prema.jpg"
   }
 ]

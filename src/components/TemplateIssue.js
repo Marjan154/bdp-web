@@ -47,7 +47,7 @@ class TemplateIssue extends Component {
 
             <div class="col-lg-5">
               <h1 class="font-weight-light">{mainTitle}</h1>
-              <p>{mainSummary}</p>
+              <p style={{ color: "black" }}>{mainSummary}</p>
               <a class="btn btn-primary" href="#">
                 Call to Action!
               </a>

@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Donate from "./components/Donate";
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/team" component={Team} />
           <Route exact path="/nav" component={Nav} />
         </div>
+        <Footer />
       </Router>
     </div>
   );
