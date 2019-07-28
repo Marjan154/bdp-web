@@ -14,6 +14,7 @@ import Prositution from "./components/Prostitution";
 import Education from "./components/Education";
 import EarlyMarriage from "./components/EarlyMarriage";
 import Team from "./components/Team";
+import Articles from "./components/Articles";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/issues/earlymarriage" component={EarlyMarriage} />
           <Route exact path="/team" component={Team} />
           <Route exact path="/nav" component={Nav} />
+          <Route exact path="/articles" component={Articles} />
         </div>
         <Footer />
       </Router>
