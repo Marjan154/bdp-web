@@ -74,11 +74,10 @@ class Projects extends Component {
     return (
       <div>
         <ArticlesTemplate
-          mainImg={mainImg}
           mainTitle={<div>Ramadan 2019 Iftar Project</div>}
           content={content}
         />
-        <div style={{ width: "60%", margin: "0 auto" }}>
+        <div style={{ width: "60%", margin: "0 auto", padding: "100px" }}>
           <Carousel
             elements={elements}
             duration={3000}

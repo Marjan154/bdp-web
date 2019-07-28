@@ -13,10 +13,11 @@ class ArticlesTemplate extends Component {
           <Header as="h1" style={{ fontSize: "5em" }}>
             {mainTitle}
           </Header>
-
-          <Header as="h4" style={{ fontSize: "1em" }}>
-            By: {author} {date}
-          </Header>
+          {date && (
+            <Header as="h4" style={{ fontSize: "1em" }}>
+              By: {author} {date}
+            </Header>
+          )}
           <div />
         </div>
 
