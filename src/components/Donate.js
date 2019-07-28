@@ -5,8 +5,8 @@ class Donate extends Component {
   state = {};
   render() {
     return (
-      <div class="row">
-        <div class="col-75">
+      // <div class="row">
+      //   <div class="col-75">
           <div class="donate-container">
           <form action="/action_page.php">
             <div class="row">
@@ -113,15 +113,15 @@ class Donate extends Component {
             <input type="submit" value="Continue to checkout" class="btn w3-black"></input>
           </form>
           </div>
-        </div>
-        {/* <div class="col-25">
-          <div class="donate-container">
-            <h4>Donation Amount <span class="price" > </span></h4>
-            <p> <a>Donation</a> <span class="price">$15</span></p>
-            <p>Total <span class="price" ><b>$15</b></span></p>
-          </div>
-        </div> */}
-      </div>
+        // </div>
+        // {/* <div class="col-25">
+        //   <div class="donate-container">
+        //     <h4>Donation Amount <span class="price" > </span></h4>
+        //     <p> <a>Donation</a> <span class="price">$15</span></p>
+        //     <p>Total <span class="price" ><b>$15</b></span></p>
+        //   </div>
+        // </div> */}
+      // </div>
     );
   }
 }
