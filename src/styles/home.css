@@ -83,3 +83,7 @@ body {
   margin-right: 0;
   z-index: -1;
 }
+
+.ui.inverted.vertical.center.aligned.segment{
+  background-image: url(../images/Background.jpg);
+}
