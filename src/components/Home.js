@@ -56,7 +56,7 @@ const HomepageHeading = ({ mobile }) => (
       }}
     />
     <Link to="/donate">
-      <Button primary size="huge" style={{ background: "rgb(165, 18, 18)" }}>
+      <Button primary size="huge" style={{ background: "rgb(47, 137, 60)" }}>
         Donate
         <Icon name="right arrow" />
       </Button>
@@ -234,7 +234,10 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column textAlign="center">
             <Link to="/team">
-              <Button size="huge" style={{ color: "rgb(165, 18, 18)" }}>
+              <Button
+                size="huge"
+                style={{ background: "rgb(47, 137, 60)", color: "white" }}
+              >
                 Check Out Our Team
               </Button>
             </Link>
@@ -283,7 +286,11 @@ const HomepageLayout = () => (
           labor, and education.
         </p>
         <Link to="/issues">
-          <Button as="a" size="large" style={{ color: "rgb(165, 18, 18)" }}>
+          <Button
+            as="a"
+            size="large"
+            style={{ background: "rgb(47, 137, 60)", color: "white" }}
+          >
             Read More
           </Button>
         </Link>
@@ -294,7 +301,9 @@ const HomepageLayout = () => (
           horizontal
           style={{ margin: "3em 0em", textTransform: "uppercase" }}
         >
-          <a href="#">News</a>
+          <a href="#" style={{ color: "rgb(18, 80, 28)" }}>
+            News
+          </a>
         </Divider>
         <Header as="h3" style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}>
           2019 Ramadan Project
@@ -305,7 +314,11 @@ const HomepageLayout = () => (
           feed over a hundered starving people.
         </p>
         <Link to="/projects">
-          <Button as="a" size="large" style={{ color: "rgb(165, 18, 18)" }}>
+          <Button
+            as="a"
+            size="large"
+            style={{ background: "rgb(47, 137, 60)", color: "white" }}
+          >
             Read more about our projects
           </Button>
         </Link>
