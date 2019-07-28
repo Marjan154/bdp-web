@@ -35,7 +35,7 @@ class Nav extends Component {
               style={{ background: "rgb(165, 18, 18)" }}
             >
               <Container>
-                <Menu.Item as="a" header style={{ padding: "25px" }}>
+                <Menu.Item as={Link} to="/" header style={{ padding: "25px" }}>
                   <Image
                     size="tiny"
                     src={require("../images/logoBDP.png")}
@@ -46,6 +46,7 @@ class Nav extends Component {
                 <Menu.Item as={Link} to="/">
                   Home
                 </Menu.Item>
+                <DropdownNav />
                 <Menu.Item as={Link} to="/projects">
                   Projects
                 </Menu.Item>
@@ -55,7 +56,6 @@ class Nav extends Component {
                 <Menu.Item as={Link} to="/team">
                   Team
                 </Menu.Item>
-                <DropdownNav />
               </Container>
             </Menu>
           </Segment>
