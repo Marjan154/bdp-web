@@ -1,3 +1,5 @@
 .ui.inverted.vertical.center.aligned.segment {
-  background-image: url(../images/ladyhome.jpg);
+  background-image: url(../images/home7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

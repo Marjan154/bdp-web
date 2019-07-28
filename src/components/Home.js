@@ -56,7 +56,7 @@ const HomepageHeading = ({ mobile }) => (
       }}
     />
     <Link to="/donate">
-      <Button primary size="huge" style={{ background: "rgb(165, 18, 18)" }}>
+      <Button primary size="huge" style={{ background: "rgb(47, 137, 60)" }}>
         Donate
         <Icon name="right arrow" />
       </Button>
@@ -202,24 +202,17 @@ const HomepageLayout = () => (
           <Grid.Column width={8}>
             <Header
               as="h3"
-              style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}
+              style={{ fontSize: "3em", color: "rgb(165, 18, 18)" }}
             >
-              We Help Our Blood
+              Our Mission
             </Header>
-            <p style={{ fontSize: "1.33em", color: "black" }}>
-              We help raise awareness of the issues in Bangladesh that are
-              hidden adn we help solve them. With Your help, we can save the
-              world, one person at a time.
-            </p>
-            <Header
-              as="h3"
-              style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}
-            >
-              We Connect People
-            </Header>
-            <p style={{ fontSize: "1.33em", color: "black" }}>
-              We help reignite the connections between Bengali Americans with
-              their people back home
+            <p style={{ fontSize: "2em", color: "black" }}>
+              As young Bangladeshis in the United States, we believe that it is
+              imperative to shed light on the injustices imposed on
+              underprivileged children in Bangladesh. Unjust labor laws, unequal
+              educational opportunities, and healthcare inequities are everyday
+              realities that we cannot escape. Let us unite and work diligently
+              to ensure that no Bangladeshis are left behind.
             </p>
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
@@ -234,7 +227,12 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column textAlign="center">
             <Link to="/team">
-              <Button size="huge">Check Out Our Team</Button>
+              <Button
+                size="huge"
+                style={{ background: "rgb(47, 137, 60)", color: "white" }}
+              >
+                Check Out Our Team
+              </Button>
             </Link>
           </Grid.Column>
         </Grid.Row>
@@ -248,10 +246,12 @@ const HomepageLayout = () => (
               as="h3"
               style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}
             >
-              "We raised $XXXX"
+              We Help Our Blood.
             </Header>
             <p style={{ fontSize: "1.33em", color: "black" }}>
-              That is what they all say about us
+              We help raise awareness of the issues in Bangladesh that are
+              hidden and we help solve them. With Your help, we can save the
+              world, one person at a time.
             </p>
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
@@ -259,11 +259,11 @@ const HomepageLayout = () => (
               as="h3"
               style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}
             >
-              "I was able to help so many people with the power of BDP"
+              We Connect People
             </Header>
             <p style={{ fontSize: "1.33em", color: "black" }}>
-              <Image avatar src="/images/avatar/large/nan.jpg" />
-              <b>Marjan</b> A very important person
+              We help reignite the connections between Bengali Americans with
+              their people back home. Break the barriers of distance today!
             </p>
           </Grid.Column>
         </Grid.Row>
@@ -281,7 +281,11 @@ const HomepageLayout = () => (
           labor, and education.
         </p>
         <Link to="/issues">
-          <Button as="a" size="large" style={{ color: "rgb(165, 18, 18)" }}>
+          <Button
+            as="a"
+            size="large"
+            style={{ background: "rgb(47, 137, 60)", color: "white" }}
+          >
             Read More
           </Button>
         </Link>
@@ -292,18 +296,24 @@ const HomepageLayout = () => (
           horizontal
           style={{ margin: "3em 0em", textTransform: "uppercase" }}
         >
-          <a href="#">News</a>
+          <a href="#" style={{ color: "rgb(18, 80, 28)" }}>
+            News
+          </a>
         </Divider>
         <Header as="h3" style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}>
           2019 Ramadan Project
         </Header>
         <p style={{ fontSize: "1.33em", color: "black" }}>
           This Ramadan, BDP was incredibly successful in its largest project
-          yet. Within just a few weeks we were able to raise enough money to
-          feed over a hundered starving people.
+          yet. Within just a few days we were able to raise enough money to feed
+          over a thousand starving people.
         </p>
         <Link to="/projects">
-          <Button as="a" size="large" style={{ color: "rgb(165, 18, 18)" }}>
+          <Button
+            as="a"
+            size="large"
+            style={{ background: "rgb(47, 137, 60)", color: "white" }}
+          >
             Read more about our projects
           </Button>
         </Link>
