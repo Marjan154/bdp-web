@@ -13,6 +13,7 @@ import Prositution from "./components/Prostitution";
 import Education from "./components/Education";
 import EarlyMarriage from "./components/EarlyMarriage";
 import Team from "./components/Team";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/team" component={Team} />
           <Route exact path="/nav" component={Nav} />
         </div>
+        <Footer/>
       </Router>
     </div>
   );

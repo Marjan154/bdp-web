@@ -313,7 +313,7 @@ const HomepageLayout = () => (
         </Link>
       </Container>
     </Segment>
-    <Segment inverted vertical style={{ padding: "5em 0em" }}>
+    {/* <Segment inverted vertical style={{ padding: "5em 0em" }}>
       <Container>
         <Grid divided inverted stackable>
           <Grid.Row>
@@ -347,7 +347,7 @@ const HomepageLayout = () => (
           </Grid.Row>
         </Grid>
       </Container>
-    </Segment>
+    </Segment> */}
   </ResponsiveContainer>
 );
 export default HomepageLayout;
