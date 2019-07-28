@@ -42,7 +42,7 @@ input[type="text"] {
   margin: 0 auto;
 }
 
-.icon-container {
+.donate-container .icon-container {
   margin-bottom: 20px;
   padding: 7px 0;
   font-size: 24px;
@@ -53,7 +53,7 @@ span.price {
   color: grey;
 }
 
-.btn {
+.donate-container .btn {
   background-color: #4caf50;
   color: white;
   padding: 12px;
@@ -65,15 +65,15 @@ span.price {
   font-size: 17px;
 }
 
-.btn:hover {
+.donate-container .btn:hover {
   background-color: #45a049;
 }
 
-a {
+.donate-container a {
   color: #2196f3;
 }
-.col-25,
-.col-50,
-.col-75 {
+.donate-container .col-25,
+.donate-container .col-50,
+.donate-container .col-75 {
   padding: 0 16px;
 }

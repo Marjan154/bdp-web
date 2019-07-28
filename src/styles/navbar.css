@@ -2,7 +2,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   text-align: center;
-  background-color: #222;
+  background-color: rgb(165, 18, 18);
   display: flex;
   flex-flow: row wrap;
   align-content: flex-start;
@@ -25,7 +25,7 @@ nav li a {
   transition: all 0.4s ease-in-out;
 }
 nav li a:hover {
-  background-color: #333;
+  background-color: rgb(196, 21, 21);
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
   animation-delay: 0.2s;
@@ -58,7 +58,7 @@ nav li a:hover {
 }
 
 button {
-  background-color: #222;
+  background-color: rgb(193, 31, 31);
   text-align: center;
   justify-content: center;
   font-size: 15px;

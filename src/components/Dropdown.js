@@ -39,15 +39,13 @@ const DropdownExampleSimple = () => (
 );
 
 const DropdownNav = () => (
-  <Link to="/issues">
-    <Dropdown
-      text="Issues"
-      options={options}
-      simple
-      item
-      // style={{ color: "white" }}
-    />
-  </Link>
+  <Dropdown
+    text="Issues"
+    options={options}
+    simple
+    item
+    style={{ color: "white" }}
+  />
 );
 
 export default DropdownNav;
