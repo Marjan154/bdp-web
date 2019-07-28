@@ -25,7 +25,7 @@ const data = [
     img: "healthcard1.jpg"
   }
 ];
-const mainImg = require("../images/Education.jpg");
+const mainImg = require("../images/Russell-Watkins.jpg");
 const mainSummary = (
   <p>
     This is a template that is great for small businesses. It doesn't have too
