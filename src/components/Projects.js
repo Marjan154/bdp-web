@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "../styles/projects.css";
 import { Container, Grid, Image, Card, Icon } from "semantic-ui-react";
 import ArticlesTemplate from "./ArticlesTemplate";
-import { Slide } from "react-slideshow-image";
+import  Carousel  from "semantic-ui-carousel-react";
+// import "../styles/slideshow.css";
 
 class Projects extends Component {
   constructor(props) {
@@ -13,22 +14,6 @@ class Projects extends Component {
   componentDidMount() {}
 
   render() {
-    const slideImages = [
-      require("../images/1.jpg"),
-      require("../images/2.jpg"),
-      require("../images/3.jpg")
-    ];
-
-    const properties = {
-      duration: 5000,
-      transitionDuration: 500,
-      infinite: true,
-      indicators: true,
-      arrows: true,
-      onChange: (oldIndex, newIndex) => {
-        console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-      }
-    };
     const content = (
       <div>
         As the holy month of Ramadan nears its end, BDP took on a special
@@ -51,45 +36,47 @@ class Projects extends Component {
         #bangladeshdevelopmentproject
       </div>
     );
+
+    let  elements  = [
+      {
+        render:()=>{
+          return (
+            <Image src={require("../images/1.jpg")}/>
+          )
+        }
+      },
+      {
+        render:()=>{
+          return(
+            <Image src={require("../images/2.jpg")}/>
+          )
+        }
+      },
+      {
+        render:()=>{
+          return(
+            <Image src={require("../images/3.jpg")}/>
+          )
+        }
+      }
+    ]
+
     const mainImg = require("../images/5.jpg");
     return (
-      <div style={{ padding: "50px" }}>
-        <Slide {...properties}>
-          <div className="each-slide">
-            <div
-              style={{
-                backgroundImage: `url(${slideImages[0]})`
-              }}
-            >
-              <span>Slide 1</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div
-              style={{
-                backgroundImage: `url(${slideImages[1]})`
-              }}
-            >
-              <span>Slide 2</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div
-              style={{
-                backgroundImage: `url(${slideImages[2]})`
-              }}
-            >
-              <span>Slide 3</span>
-            </div>
-          </div>
-        </Slide>
-
-        {/* <ArticlesTemplate
-          mainImg={mainImg}
-          mainTitle={<div>Ramadan 2019 Iftar Project</div>}
-          content={content}
-        /> */}
-      </div>
+        <div>
+          <Carousel
+            elements  =  {  elements  }
+            duration  ={3000}
+            animation  ='slide left'
+            showNextPrev  =  {false}
+            showIndicators  ={true}
+          />
+        </div>
+      // <ArticlesTemplate
+      //     mainImg={mainImg}
+      //     mainTitle={<div>Ramadan 2019 Iftar Project</div>}
+      //     content={content}
+      //   />
     );
   }
 }
