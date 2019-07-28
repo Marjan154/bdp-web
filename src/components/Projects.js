@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../styles/projects.css";
 import { Container, Grid, Image, Card, Icon } from "semantic-ui-react";
 import ArticlesTemplate from "./ArticlesTemplate";
-import  Carousel  from "semantic-ui-carousel-react";
+import Carousel from "semantic-ui-carousel-react";
 // import "../styles/slideshow.css";
 
 class Projects extends Component {
@@ -37,46 +37,57 @@ class Projects extends Component {
       </div>
     );
 
-    let  elements  = [
+    let elements = [
       {
-        render:()=>{
+        render: () => {
           return (
-            <Image src={require("../images/1.jpg")}/>
-          )
+            <Image
+              src={require("../images/1.jpg")}
+              style={{ margin: "auto" }}
+            />
+          );
         }
       },
       {
-        render:()=>{
-          return(
-            <Image src={require("../images/2.jpg")}/>
-          )
+        render: () => {
+          return (
+            <Image
+              src={require("../images/2.jpg")}
+              style={{ margin: "auto" }}
+            />
+          );
         }
       },
       {
-        render:()=>{
-          return(
-            <Image src={require("../images/3.jpg")}/>
-          )
+        render: () => {
+          return (
+            <Image
+              src={require("../images/3.jpg")}
+              style={{ margin: "auto" }}
+            />
+          );
         }
       }
-    ]
+    ];
 
     const mainImg = require("../images/5.jpg");
     return (
-        <div>
+      <div>
+        <ArticlesTemplate
+          mainImg={mainImg}
+          mainTitle={<div>Ramadan 2019 Iftar Project</div>}
+          content={content}
+        />
+        <div style={{ width: "60%", margin: "0 auto" }}>
           <Carousel
-            elements  =  {  elements  }
-            duration  ={3000}
-            animation  ='slide left'
-            showNextPrev  =  {false}
-            showIndicators  ={true}
+            elements={elements}
+            duration={3000}
+            animation="slide left"
+            showNextPrev={false}
+            showIndicators={true}
           />
         </div>
-      // <ArticlesTemplate
-      //     mainImg={mainImg}
-      //     mainTitle={<div>Ramadan 2019 Iftar Project</div>}
-      //     content={content}
-      //   />
+      </div>
     );
   }
 }
