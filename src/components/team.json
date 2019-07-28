@@ -10,15 +10,43 @@
     "id": "2",
     "name": "Tahmid Zawad",
     "title": "Vice President",
-    "description": "Vice President Bio",
+    "description": "Tahmid graduated hunter College with A B.S in Biology and a minor in psychology. Dedicated towards understanding the plight of people and using his  resources to contribute in humanitarian efforts, he is socially active. Tahhmid has a keen interest in travelling and sports, especially basketball. Aspiring to be a physician, he is actiely pursuing a career in medicine.",
     "img": "Tahmid.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Naiful Bahri",
+    "title": "Vice President",
+    "description": "Ladies love the 'stache",
+    "img": "Naiful.jpg"
   },
   {
     "id": "4",
     "name": "Jaheen Haque",
     "title": "Law boi",
     "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
-    "img": "Jaheen.jpg"
+    "img": "Jaheen.JPG"
+  },
+  {
+    "id": "6",
+    "name": "Noshin Ahmed",
+    "title": "Editor/HR/Events",
+    "description": " Noshin graduated from Hunter College with a degree in English Literature and a minor in Psychology. She plans to become an educator in order to influence the youth to become the best versions of themselves. She is deeply passionate about charitable and youth work and iced tea.",
+    "img": "Noshin.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Tasmiyah Rahmad",
+    "title": "Vice President",
+    "description": "Ladies love the 'stache",
+    "img": "Simran.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Karima Khondakar",
+    "title": "Coordinate Associative and Outreach Manager",
+    "description": "Karima started Hunter college at the age of 16. She’s a rising sophomore who’s majoring in Biochemistry. She aspires to become a physician, create a hospital in Bangladesh and inspire the youth. She loves to listen to music, draw, photography, read mysteries and watch movies. ",
+    "img": "Karima.jpg"
   },
   {
     "id": "10",
@@ -42,11 +70,10 @@
     "img": "Jaheen.jpg"
   },
   {
-    "id": "6",
-    "name": "Noshin Ahmed",
-    "title": "Editor/HR/Events",
-    "description": " Noshin graduated from Hunter College with a degree in English Literature and a minor in Psychology. She plans to become an educator in order to influence the youth to become the best versions of themselves. She is deeply passionate about charitable and youth work and iced tea.",
-    "img": "Noshin.jpg"
+    "id": "3",
+    "title": "Tanjeela newaz",
+    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
+    "img": "Tanjeela.jpg"
   },
   {
     "id": "8",
@@ -55,24 +82,18 @@
     "img": "Priya.jpg"
   },
   {
-    "id": "3",
-    "title": "Tanjeela newaz",
-    "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
-    "img": "Tanjeela.jpg"
-  },
-  {
-    "id": "9",
-    "name": "Karima Khondakar",
-    "title": "Coordinate Associative and Outreach Manager",
-    "description": "Karima started Hunter college at the age of 16. She’s a rising sophomore who’s majoring in Biochemistry. She aspires to become a physician, create a hospital in Bangladesh and inspire the youth. She loves to listen to music, draw, photography, read mysteries and watch movies. ",
-    "img": "Karima.jpg"
-  },
-  {
-    "id": "12",
-    "name": "Naiful Bahri",
-    "title": "Vice President",
+    "id": "15",
+    "name": "Mohuya Khan",
+    "title": "Editor",
     "description": "Ladies love the 'stache",
-    "img": "Naiful.jpg"
+    "img": "Momo.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Fardous Sabnur",
+    "title": "Web designer",
+    "description": "Short hair don't care",
+    "img": "Ferdous.jpg"
   },
   {
     "id": "11",
