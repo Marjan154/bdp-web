@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Dropdown, Menu } from "semantic-ui-react";
 import { Link } from "react-router-dom";
-import styles from "../styles/navbar.css";
+import styles from "../styles/nav.css";
 import Navbar from "./Navbar";
 
 const options = [
@@ -24,26 +24,12 @@ const options = [
   }
 ];
 
-const DropdownExampleSimple = () => (
-  <Link to="/issues">
-    {/* <Menu compact style={{ background: "#222" }}> */}
-    <Dropdown
-      text="Issues"
-      options={options}
-      simple
-      item
-      style={{ color: "white" }}
-    />
-    {/* </Menu> */}
-  </Link>
-);
-
 const DropdownNav = () => (
   <Dropdown
+    item
+    simple
     text="Issues"
     options={options}
-    simple
-    item
     style={{ color: "white" }}
   />
 );

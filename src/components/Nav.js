@@ -12,6 +12,7 @@ import {
   Visibility
 } from "semantic-ui-react";
 import DropdownNav from "./Dropdown";
+import styles from "../styles/nav.css";
 import { Link } from "react-router-dom";
 
 class Nav extends Component {
@@ -21,7 +22,7 @@ class Nav extends Component {
   showFixedMenu = () => this.setState({ fixed: true });
   render() {
     return (
-      <div style={{ marginBottom: "5em" }}>
+      <div classname="Nav" style={{ marginBottom: "5em" }}>
         <Visibility
           once={false}
           onBottomPassed={this.showFixedMenu}
@@ -45,16 +46,17 @@ class Nav extends Component {
                 <Menu.Item as={Link} to="/">
                   Home
                 </Menu.Item>
-                <DropdownNav />
                 <Menu.Item as={Link} to="/projects">
                   Projects
                 </Menu.Item>
+                {/* <Menu.Item style={{ padding: "0px" }} /> */}
                 <Menu.Item as={Link} to="/donate">
                   Donate
                 </Menu.Item>
                 <Menu.Item as={Link} to="/team">
                   Team
                 </Menu.Item>
+                <DropdownNav />
               </Container>
             </Menu>
           </Segment>
