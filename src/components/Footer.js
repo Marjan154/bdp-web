@@ -7,7 +7,11 @@ function Footer() {
   return (
     <footer class="footer">
       <div>
-        <Segment inverted vertical style={{ padding: "5em 0em" }}>
+        <Segment
+          inverted
+          vertical
+          style={{ padding: "5em 0em", background: "rgb(165, 18, 18)" }}
+        >
           <Container>
             <Grid divided inverted stackable>
               <Grid.Row>
