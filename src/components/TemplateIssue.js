@@ -13,7 +13,7 @@ class TemplateIssue extends Component {
     const cards = data.map(member => {
       return (
         <div style={{ padding: "20px" }}>
-          <Card>
+          <Card color="green">
             <Image
               src={require("../images/" + member.img)}
               wrapped
@@ -21,11 +21,13 @@ class TemplateIssue extends Component {
             />
 
             <Card.Content>
-              <Card.Header>Article Title</Card.Header>
+              <Card.Header style={{ color: "rgb(165, 18, 18)" }}>
+                Article Title
+              </Card.Header>
               <Card.Meta>
                 <span className="date">By author</span>
               </Card.Meta>
-              <Link to="/articles">
+              <Link to="/articles" style={{ color: "rgb(47, 137, 60)" }}>
                 <Card.Description>Read More -></Card.Description>
               </Link>
             </Card.Content>
@@ -34,7 +36,7 @@ class TemplateIssue extends Component {
       );
     });
     return (
-      <div>
+      <div style={{ padding: "50px" }}>
         <div class="container">
           <div class="row align-items-center my-5">
             <div class="col-lg-7">
@@ -46,9 +48,18 @@ class TemplateIssue extends Component {
             </div>
 
             <div class="col-lg-5">
-              <h1 class="font-weight-light">{mainTitle}</h1>
+              <h1
+                class="font-weight-light"
+                style={{ color: "rgb(165, 18, 18)" }}
+              >
+                {mainTitle}
+              </h1>
               <p style={{ color: "black" }}>{mainSummary}</p>
-              <a class="btn btn-primary" href="#">
+              <a
+                class="btn btn-primary"
+                href="#"
+                style={{ background: "rgb(47, 137, 60)", color: "white" }}
+              >
                 Call to Action!
               </a>
             </div>
