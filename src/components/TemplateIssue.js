@@ -60,7 +60,7 @@ class TemplateIssue extends Component {
                 href="#"
                 style={{ background: "rgb(47, 137, 60)", color: "white" }}
               >
-                Call to Action!
+                Help This Cause >
               </a>
             </div>
           </div>

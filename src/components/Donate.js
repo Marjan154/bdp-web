@@ -13,7 +13,7 @@ class Donate extends Component {
           Donate
         </Header>
         <div className="donate-container">
-          <form action="/action_page.php">
+          <form>
             <div className="row">
               <div className="col-50">
                 <h3>Billing Address</h3>
