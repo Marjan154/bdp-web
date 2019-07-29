@@ -13,10 +13,12 @@ class ACard extends Component {
     const url = "../images/team/" + img;
     return (
       <div style={{ padding: "20px" }}>
-        <Card style={{ width: "400px" }}>
+        <Card color="green" style={{ width: "400px" }}>
           <Image src={img} wrapped ui={false} />
           <Card.Content>
-            <Card.Header>{name}</Card.Header>
+            <Card.Header style={{ color: "rgb(16, 114, 9)" }}>
+              {name}
+            </Card.Header>
             <Card.Meta>
               <span className="date">{title}</span>
             </Card.Meta>

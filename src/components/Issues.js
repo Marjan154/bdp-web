@@ -58,7 +58,7 @@ class Issues extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div style={{ marginLeft: "25%" }}>
         <BigCard
           image="https://d30fl32nd2baj9.cloudfront.net/media/2017/05/21/health.jpg/ALTERNATES/w640/Health.jpg"
           description={healthDes}

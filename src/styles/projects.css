@@ -2,4 +2,5 @@
   background-size: "cover";
   overflow: "hidden";
   padding: 500px;
+  background-repeat: no-repeat;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { Header } from "semantic-ui-react";
 
 class BigCard extends Component {
   state = {};
