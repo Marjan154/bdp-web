@@ -20,7 +20,7 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <div className="App">
-      <Router onUpdate={() => window.scrollTo(0, 0)}>
+      <Router>
         {/* <Navbar /> */}
 
         <Nav />
