@@ -9,7 +9,7 @@ class Donate extends Component {
       // <div className="row">
       //   <div className="col-75">
       <div style={{ padding: "50px" }}>
-        <Header as="h3" style={{ fontSize: "3em", color: "rgb(165, 18, 18)" }}>
+        <Header as="h3" style={{ fontSize: "3em", color: "rgb(47, 137, 60)" }}>
           Donate
         </Header>
         <div className="donate-container">

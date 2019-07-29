@@ -10,7 +10,10 @@ class ArticlesTemplate extends Component {
       <div class="articlebody">
         <div>
           <img class="articleimage" src={mainImg} alt="" />
-          <Header as="h1" style={{ fontSize: "5em" }}>
+          <Header
+            as="h1"
+            style={{ fontSize: "5em", color: "rgb(47, 137, 60)" }}
+          >
             {mainTitle}
           </Header>
           {date && (
