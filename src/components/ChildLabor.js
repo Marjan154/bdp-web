@@ -34,7 +34,7 @@ const mainSummary = (
   </div>
 );
 const actionline = (
-  <p>
+  <p style={{ color: "black" }}>
     This call to action card is a great place to showcase some important
     information or display a clever tagline!
   </p>

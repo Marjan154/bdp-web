@@ -65,9 +65,17 @@ class TemplateIssue extends Component {
             </div>
           </div>
 
-          <div class="card text-white bg-secondary my-5 py-4 text-center">
+          <div
+            // class="card text-white bg-secondary my-5 py-4 text-center"
+            style={{ background: "rgb(187,236,184)", color: "black" }}
+          >
             <div class="card-body">
-              <p class="text-white m-0">{actionline}</p>
+              <p
+                style={{ color: "black" }}
+                // class="text-white m-0"
+              >
+                {actionline}
+              </p>
             </div>
           </div>
 
