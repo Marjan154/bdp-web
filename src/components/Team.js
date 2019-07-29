@@ -32,7 +32,7 @@ class Team extends Component {
 
     return (
       <div style={{ padding: "50px" }}>
-        <Header as="h3" style={{ fontSize: "3em", color: "rgb(16, 114, 9)" }}>
+        <Header as="h3" style={{ fontSize: "3em", color: "rgb(165, 18, 18)" }}>
           The Team
         </Header>
 
