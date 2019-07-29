@@ -3,6 +3,7 @@ import "../styles/projects.css";
 import { Container, Grid, Image, Card, Icon } from "semantic-ui-react";
 import ArticlesTemplate from "./ArticlesTemplate";
 import Carousel from "semantic-ui-carousel-react";
+import Slideshow from "./Slideshow.js";
 // import "../styles/slideshow.css";
 
 class Projects extends Component {
@@ -37,39 +38,6 @@ class Projects extends Component {
       </div>
     );
 
-    let elements = [
-      {
-        render: () => {
-          return (
-            <Image
-              src={require("../images/1.jpg")}
-              style={{ margin: "auto" }}
-            />
-          );
-        }
-      },
-      {
-        render: () => {
-          return (
-            <Image
-              src={require("../images/2.jpg")}
-              style={{ margin: "auto" }}
-            />
-          );
-        }
-      },
-      {
-        render: () => {
-          return (
-            <Image
-              src={require("../images/3.jpg")}
-              style={{ margin: "auto" }}
-            />
-          );
-        }
-      }
-    ];
-
     const mainImg = require("../images/5.jpg");
     return (
       <div>
@@ -77,15 +45,7 @@ class Projects extends Component {
           mainTitle={<div>Ramadan 2019 Iftar Project</div>}
           content={content}
         />
-        <div style={{ width: "60%", margin: "0 auto", padding: "100px" }}>
-          <Carousel
-            elements={elements}
-            duration={3000}
-            animation="slide left"
-            showNextPrev={false}
-            showIndicators={true}
-          />
-        </div>
+        <Slideshow />
       </div>
     );
   }
