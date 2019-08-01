@@ -5,28 +5,28 @@ import TemplateIssue from "./TemplateIssue";
 const data = [
   {
     id: "1",
-    issue: "earlymarriage",
-    title: "Tanjeela newaz",
-    author: "author",
-    articleFile: "EarlyMarriage1",
+    issue: "childlabor",
+    title: "Child Labor",
+    author: "Marjan",
+    articleFile: "childlabor",
     img: "healthcard1.jpg"
   },
   {
-    id: "1",
-    issue: "earlymarriage",
-    title: "Tanjeela newaz",
-    author: "author",
-    articleFile: "EarlyMarriage1",
+    id: "2",
+    issue: "childlabor",
+    title: "Child Labor",
+    author: "Marjan",
+    articleFile: "childlabor",
     img: "healthcard1.jpg"
   },
   {
-    id: "1",
-    issue: "earlymarriage",
-    title: "Tanjeela newaz",
-    author: "author",
-    articleFile: "EarlyMarriage1",
+    id: "3",
+    issue: "childlabor",
+    title: "Child Labor",
+    author: "Marjan",
+    articleFile: "childlabor",
     img: "healthcard1.jpg"
-  }
+  },
 ];
 const mainImg = require("../images/MainLabor.jpg");
 const mainSummary = (

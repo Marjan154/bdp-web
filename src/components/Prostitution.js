@@ -5,43 +5,41 @@ import TemplateIssue from "./TemplateIssue";
 const data = [
   {
     id: "1",
-    issue: "earlymarriage",
-    title: "Tanjeela newaz",
-    author: "author",
-    articleFile: "EarlyMarriage1",
+    issue: "prostitution",
+    title: "Prostitution Article",
+    author: "Marjan",
+    articleFile: "prostitution1",
     img: "healthcard1.jpg"
   },
   {
-    id: "1",
-    issue: "earlymarriage",
-    title: "Tanjeela newaz",
-    author: "author",
-    articleFile: "EarlyMarriage1",
+    id: "2",
+    issue: "Prostitution",
+    title: "Prostitution Article",
+    author: "Marjan",
+    articleFile: "prostitution1",
     img: "healthcard1.jpg"
   },
   {
-    id: "1",
-    issue: "earlymarriage",
-    title: "Tanjeela newaz",
-    author: "author",
-    articleFile: "EarlyMarriage1",
+    id: "3",
+    issue: "prostitution",
+    title: "Prostitution Article",
+    author: "Marjan",
+    articleFile: "prostitution1",
     img: "healthcard1.jpg"
   }
 ];
 const mainImg = require("../images/mainProstitution.jpg");
 const mainSummary = (
   <div>
-    This is a template that is great for small businesses. It doesn't have too
-    much fancy flare to it, but it makes a great use of the standard Bootstrap
-    core components. Feel free to use this template for any project you want!
+    The health care in Bengladesh is poor. We need your help.
   </div>
 );
 const actionline = (
   <p style={{ color: "black" }}>
-    This call to action card is a great place to showcase some important
-    information or display a clever tagline!
+    Donate Now
   </p>
 );
+
 class Prostitution extends Component {
   state = {};
   render() {
