@@ -5,25 +5,28 @@ import TemplateIssue from "./TemplateIssue";
 const data = [
   {
     id: "1",
-    name: "Ashabul Khan",
-    title: "President & Founder",
-    description:
-      "I am Ashabul Khan, born and raised in Dhaka, Bangladesh. I graduated from Hunter College with a major in Political Science and a minor in Maths. I like studying history and playing piano during my pastime. I also like playing cricket and soccer during summer. I love traveling around the world. My dream is to see a Bangladesh free of poverty, illiteracy, and malnutrition.",
+    issue: "childlabor",
+    title: "Child Labor",
+    author: "Marjan",
+    articleFile: "childlabor",
     img: "healthcard1.jpg"
   },
   {
     id: "2",
-    name: "Tahmid Zawad",
-    title: "Vice President",
-    description: "Vice President Bio",
+    issue: "childlabor",
+    title: "Child Labor",
+    author: "Marjan",
+    articleFile: "childlabor",
     img: "healthcard1.jpg"
   },
   {
     id: "3",
-    title: "Tanjeela newaz",
-    description: "Cultural` Chair",
+    issue: "childlabor",
+    title: "Child Labor",
+    author: "Marjan",
+    articleFile: "childlabor",
     img: "healthcard1.jpg"
-  }
+  },
 ];
 const mainImg = require("../images/MainLabor.jpg");
 const mainSummary = (
