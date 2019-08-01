@@ -33,7 +33,7 @@ class Articles extends Component {
         mainTitle={mainTitle}
         author="JOHN DOE"
         date="7/11/19"
-        file={issuetype + id + ".txt"}
+        file={"../articles" + issuetype + id + ".txt"}
       />
     );
   }

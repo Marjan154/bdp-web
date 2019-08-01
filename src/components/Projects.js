@@ -11,9 +11,6 @@ class Projects extends Component {
     super(props);
     this.state = { count: 0 };
   }
-
-  componentDidMount() {}
-
   render() {
     const content = (
       <div>

@@ -6,10 +6,31 @@ class ArticlesTemplate extends Component {
   state = {};
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { content: "" };
   }
+
+  componentDidMount() {
+    this.readTextFile(this.props.file);
+  }
+  readTextFile = file => {
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = () => {
+      if (rawFile.readyState === 4) {
+        if (rawFile.status === 200 || rawFile.status == 0) {
+          let allText = rawFile.responseText;
+          this.setState({
+            content: allText
+          });
+        }
+      }
+    };
+    rawFile.send(null);
+  };
+
   render() {
     const { id, mainImg, mainTitle, date, author, file } = this.props;
+
     return (
       <div class="articlebody">
         <div>
@@ -29,7 +50,9 @@ class ArticlesTemplate extends Component {
         </div>
 
         <div>
-          <p style={{ fontSize: "1.33em", color: "black" }}>{}</p>
+          <p style={{ fontSize: "1.33em", color: "black" }}>
+            {this.state.content}
+          </p>
         </div>
       </div>
     );
