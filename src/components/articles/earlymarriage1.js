@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 const content = (
   <div>
     Pedophilia Related to Child Brides By: Mahima Hayat Child brides are the

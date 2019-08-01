@@ -25,15 +25,15 @@ const content = (
 class Articles extends Component {
   state = {};
   render() {
-    const { issuetype, id } = this.props.match.params;
+    const { issuetype, articleid } = this.props.match.params;
     return (
       <ArticlesTemplate
-        id={id}
+        id={articleid}
         mainImg={mainImg}
         mainTitle={mainTitle}
         author="JOHN DOE"
         date="7/11/19"
-        file={"../articles" + issuetype + id + ".txt"}
+        file={issuetype + articleid + ".js"}
       />
     );
   }

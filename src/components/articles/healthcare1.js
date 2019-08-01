@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 const content = (
   <div>
     In patriarchal societies, women are unable to further their ambitions and

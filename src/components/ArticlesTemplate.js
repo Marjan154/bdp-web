@@ -9,27 +9,12 @@ class ArticlesTemplate extends Component {
     this.state = { content: "" };
   }
 
-  componentDidMount() {
-    this.readTextFile(this.props.file);
-  }
-  readTextFile = file => {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, false);
-    rawFile.onreadystatechange = () => {
-      if (rawFile.readyState === 4) {
-        if (rawFile.status === 200 || rawFile.status == 0) {
-          let allText = rawFile.responseText;
-          this.setState({
-            content: allText
-          });
-        }
-      }
-    };
-    rawFile.send(null);
-  };
+  componentDidMount() {}
 
   render() {
     const { id, mainImg, mainTitle, date, author, file } = this.props;
+    console.log("file", file);
+    const content = require("./articles/" + file);
 
     return (
       <div class="articlebody">
@@ -50,9 +35,7 @@ class ArticlesTemplate extends Component {
         </div>
 
         <div>
-          <p style={{ fontSize: "1.33em", color: "black" }}>
-            {this.state.content}
-          </p>
+          <p style={{ fontSize: "1.33em", color: "black" }}>{content}</p>
         </div>
       </div>
     );

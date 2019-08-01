@@ -28,7 +28,7 @@ class TemplateIssue extends Component {
                 <span className="date">{article.author}</span>
               </Card.Meta>
               <Link
-                to={`/${article.issue}/${article.id}`}
+                to={`articles/${article.issue}/${article.id}`}
                 style={{ color: "rgb(47, 137, 60)" }}
               >
                 <Card.Description>Read More -></Card.Description>

@@ -35,7 +35,7 @@ function App() {
           <Route exact path="/issues/earlymarriage" component={EarlyMarriage} />
           <Route
             exact
-            path="/articles/:issuetype/:articleid"
+            path="/issues/articles/:issuetype/:articleid"
             component={Articles}
           />
           <Route exact path="/team" component={Team} />

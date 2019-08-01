@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 const content = (
   <div>
     Child Labor in Shipbreaking Industries The shipbreaking industry has one of

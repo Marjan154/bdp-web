@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 const content = (
   <div>
     It is not uncommon that women are sold, forced or tricked into prostitution
