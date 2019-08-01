@@ -13,7 +13,7 @@ class ACard extends Component {
     const url = "../images/team/" + img;
     return (
       <div style={{ padding: "20px" }}>
-        <Card color="green" style={{ width: "400px" }}>
+        <Card color="green" style={{ width: "300px" }}>
           <Image src={img} wrapped ui={false} />
           <Card.Content>
             <Card.Header style={{ color: "rgb(16, 114, 9)" }}>
