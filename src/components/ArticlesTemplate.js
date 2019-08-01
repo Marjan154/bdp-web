@@ -4,8 +4,12 @@ import { Header } from "semantic-ui-react";
 
 class ArticlesTemplate extends Component {
   state = {};
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   render() {
-    const { mainImg, mainTitle, date, author, content } = this.props;
+    const { id, mainImg, mainTitle, date, author, file } = this.props;
     return (
       <div class="articlebody">
         <div>
@@ -25,7 +29,7 @@ class ArticlesTemplate extends Component {
         </div>
 
         <div>
-          <p style={{ fontSize: "1.33em", color: "black" }}>{content}</p>
+          <p style={{ fontSize: "1.33em", color: "black" }}>{}</p>
         </div>
       </div>
     );

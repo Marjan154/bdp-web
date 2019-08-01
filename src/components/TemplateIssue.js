@@ -10,24 +10,27 @@ class TemplateIssue extends Component {
 
   render() {
     const { mainImg, mainSummary, mainTitle, actionline, data } = this.props;
-    const cards = data.map(member => {
+    const cards = data.map(article => {
       return (
         <div style={{ padding: "20px" }}>
           <Card color="green">
             <Image
-              src={require("../images/" + member.img)}
+              src={require("../images/" + article.img)}
               wrapped
               ui={false}
             />
 
             <Card.Content>
               <Card.Header style={{ color: "rgb(165, 18, 18)" }}>
-                Article Title
+                {article.title}
               </Card.Header>
               <Card.Meta>
-                <span className="date">By author</span>
+                <span className="date">{article.author}</span>
               </Card.Meta>
-              <Link to="/articles" style={{ color: "rgb(47, 137, 60)" }}>
+              <Link
+                to={`/${article.issue}/${article.id}`}
+                style={{ color: "rgb(47, 137, 60)" }}
+              >
                 <Card.Description>Read More -></Card.Description>
               </Link>
             </Card.Content>
