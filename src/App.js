@@ -15,6 +15,7 @@ import Education from "./components/Education";
 import EarlyMarriage from "./components/EarlyMarriage";
 import Team from "./components/Team";
 import Articles from "./components/Articles";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         {/* <Navbar /> */}
 
         <Nav />
+        <ScrollToTop>
         <div>
           <Route exact path="/" component={Home} />
           <Route exact path="/donate" component={Donate} />
@@ -42,6 +44,7 @@ function App() {
           <Route exact path="/nav" component={Nav} />
           <Route exact path="/articles" component={Articles} />
         </div>
+        </ScrollToTop>
         <Footer />
       </Router>
     </div>
