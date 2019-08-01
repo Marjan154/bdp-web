@@ -33,3 +33,4 @@ const content = (
     they will bring the change and freedom that society failed to give them.
   </div>
 );
+export default content;

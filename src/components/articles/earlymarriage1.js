@@ -54,3 +54,5 @@ const content = (
     YouTube, YouTube, 8 June 2015, www.youtube.com/watch?v=0pJk6M5LgCg.
   </div>
 );
+
+export default content;

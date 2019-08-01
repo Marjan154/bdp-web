@@ -48,3 +48,5 @@ const content = (
     9 Apr. 2019, borgenproject.org/girls-education-in-bangladesh/.
   </div>
 );
+
+export default content;

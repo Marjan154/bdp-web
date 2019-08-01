@@ -53,3 +53,5 @@ const content = (
     https://www.maritime-executive.com/features/Is-There-Child-Labor-in-Shipbreaking-Yards-2014-08-05
   </div>
 );
+
+export default content;
