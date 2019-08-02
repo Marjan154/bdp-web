@@ -35,6 +35,11 @@ function App() {
           <Route exact path="/issues/prostitution" component={Prositution} />
           <Route exact path="/issues/education" component={Education} />
           <Route exact path="/issues/earlymarriage" component={EarlyMarriage} />
+          <Route
+            exact
+            path="/issues/articles/:issuetype/:articleid"
+            component={Articles}
+          />
           <Route exact path="/team" component={Team} />
           <Route exact path="/nav" component={Nav} />
           <Route exact path="/articles" component={Articles} />
