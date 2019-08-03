@@ -1,5 +1,20 @@
 import React, { Component } from "react";
-const content = (
+
+class title extends Component{
+  state = {};
+  render() {
+    return (
+      <h1>
+        Early Marriage
+      </h1>
+    )}
+}
+
+class content extends Component{
+  state = {};
+
+  render() {
+    return (
   <div>
     Pedophilia Related to Child Brides By: Mahima Hayat Child brides are the
     gateway for grown men to have access to pedophilic acts. This cultural
@@ -53,6 +68,7 @@ const content = (
     Mar. 2017 HumanRightsWatch. “Epidemic of Child Marriage in Bangladesh.”
     YouTube, YouTube, 8 June 2015, www.youtube.com/watch?v=0pJk6M5LgCg.
   </div>
-);
+    )}
+}
 
-export default content;
+export {content, title};

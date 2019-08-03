@@ -1,6 +1,38 @@
 import React, { Component } from "react";
-const content = (
-  <div>
+
+// function author(){
+//   return(
+//     <div>
+//       Marjan Ansar
+//     </div>
+//   );
+// }
+
+// const date=(
+//   <div>
+//     1/1/2019
+//   </div>
+// )
+// const mainTitle=(
+//   <div>
+//     Child Labor
+//   </div>
+// )
+class title extends Component{
+  state = {};
+  render() {
+    return (
+      <h1>
+        Child Labor
+      </h1>
+    )}
+}
+
+class content extends Component{
+  state = {};
+  render() {
+    return (
+      <div>
     Child Labor in Shipbreaking Industries The shipbreaking industry has one of
     the most hazardous working conditions in Bangladesh. This industry attracts
     many young and poor laborers who have no previous work experience, are
@@ -51,7 +83,8 @@ const content = (
     https://www.latimes.com/world/asia/la-fg-bangladesh-ships-20160309-story.html
     https://www.fidh.org/IMG/pdf/DossierPresse-UK-02.pdf
     https://www.maritime-executive.com/features/Is-There-Child-Labor-in-Shipbreaking-Yards-2014-08-05
-  </div>
-);
+      </div>
+    )}
+}
 
-export default content;
+export {content, title};
