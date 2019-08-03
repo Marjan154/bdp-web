@@ -6,71 +6,52 @@ import { Image } from "semantic-ui-react";
 class Slideshow extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      ramadanImage: [
-        { 
-          img: "1.jpg"
-        },
-        {
-          img: "2.jpg"
-        },
-        {
-          img: "3.jpg"
-        }
-      ]
-    };
-  }
-
-  componentDidMount() {
-    console.log(this.state.ramadanImage);
-    // console.log(files);
+    this.state = {};
   }
 
   render() {
-    const elements = this.state.ramadanImage.map(member=>{
-      console.log(member.img);
-      {
-      render: ()=>{
+    const ramadanImage = ["1.jpg", "2.jpg", "3.jpg"];
+    const elements = ramadanImage.map(rimg => ({
+      render: () => {
         return (
           <Image
-            src={require(`../images/ramadan/${member.img}`)}
+            src={require(`../images/ramadan/${rimg}`)}
             style={{ margin: "auto" }}
           />
         );
       }
-          
-      }});
-      // let  elements  = [
-      // {
-      //   render: () => {
-      //     return (
-      //       <Image
-      //         src={require("../images/1.jpg")}
-      //         style={{ margin: "auto" }}
-      //       />
-      //     );
-      //   }
-      // },
-      // {
-      //   render: () => {
-      //     return (
-      //       <Image
-      //         src={require("../images/2.jpg")}
-      //         style={{ margin: "auto" }}
-      //       />
-      //     );
-      //   }
-      // },
-      // {
-      //   render: () => {
-      //     return (
-      //       <Image
-      //         src={require("../images/3.jpg")}
-      //         style={{ margin: "auto" }}
-      //       />
-      //     );
-      //   }
-      // }
+    }));
+    // let  elements  = [
+    // {
+    //   render: () => {
+    //     return (
+    //       <Image
+    //         src={require("../images/1.jpg")}
+    //         style={{ margin: "auto" }}
+    //       />
+    //     );
+    //   }
+    // },
+    // {
+    //   render: () => {
+    //     return (
+    //       <Image
+    //         src={require("../images/2.jpg")}
+    //         style={{ margin: "auto" }}
+    //       />
+    //     );
+    //   }
+    // },
+    // {
+    //   render: () => {
+    //     return (
+    //       <Image
+    //         src={require("../images/3.jpg")}
+    //         style={{ margin: "auto" }}
+    //       />
+    //     );
+    //   }
+    // }
     // ];
 
     return (
