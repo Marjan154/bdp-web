@@ -7,8 +7,8 @@ const data = [
     id: "1",
     issue: "childlabor",
     title: "Child Labor",
-    author: "Marjan",
-    articleFile: "childlabor",
+    author: "Marjan Ansar",
+    articleFile: "childlabor1.js",
     img: "healthcard1.jpg"
   },
   {

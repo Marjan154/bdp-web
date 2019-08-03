@@ -1,5 +1,19 @@
 import React, { Component } from "react";
-const content = (
+
+class title extends Component{
+  state = {};
+  render() {
+    return (
+      <h1>
+        Health Care
+      </h1>
+    )}
+}
+
+class content extends Component{
+  state = {};
+  render() {
+    return (
   <div>
     In patriarchal societies, women are unable to further their ambitions and
     have control of their agency. Usually they are constrained to gender roles
@@ -47,6 +61,7 @@ const content = (
     Https://Borgenproject.org/Wp-Content/Uploads/The_Borgen_Project_Logo_small.Jpg,
     9 Apr. 2019, borgenproject.org/girls-education-in-bangladesh/.
   </div>
-);
+)}
+}
 
-export default content;
+export {content, title};
