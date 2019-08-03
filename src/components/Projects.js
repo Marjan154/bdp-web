@@ -4,6 +4,7 @@ import { Container, Grid, Image, Card, Icon } from "semantic-ui-react";
 import ArticlesTemplate from "./ArticlesTemplate";
 import Carousel from "semantic-ui-carousel-react";
 import Slideshow from "./Slideshow.js";
+import { Header } from "semantic-ui-react";
 // import "../styles/slideshow.css";
 
 class Projects extends Component {
@@ -36,12 +37,23 @@ class Projects extends Component {
     );
 
     const mainImg = require("../images/5.jpg");
-    return (
-      <div>
-        <ArticlesTemplate
-          mainTitle={<div>Ramadan 2019 Iftar Project</div>}
-          content={content}
-        />
+    return (    
+       <div class="articlebody">
+        <div>
+          <Header
+            as="h1"
+            style={{ fontSize: "5em", color: "rgb(47, 137, 60)" }}
+          >
+            {<div>Ramadan 2019 Iftar Project</div>}
+          </Header>
+          <div />
+        </div>
+
+        <div>
+          <p style={{ fontSize: "1.33em", color: "black", padding: "20px" }}>
+            {content}
+          </p>
+        </div>
         <Slideshow />
       </div>
     );

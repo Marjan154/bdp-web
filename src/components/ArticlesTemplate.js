@@ -69,7 +69,7 @@ class ArticlesTemplate extends Component {
     return (
       <div class="articlebody">
         <div>
-        {Component && <Title/>}
+          {Component && <Title/>}
         </div>
           {Component && <Component/>}
       </div>
