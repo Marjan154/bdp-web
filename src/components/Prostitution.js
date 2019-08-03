@@ -13,7 +13,7 @@ const data = [
   },
   {
     id: "2",
-    issue: "Prostitution",
+    issue: "prostitution",
     title: "Prostitution Article",
     author: "Marjan",
     articleFile: "prostitution1",

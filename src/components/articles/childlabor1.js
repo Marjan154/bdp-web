@@ -1,23 +1,5 @@
 import React, { Component } from "react";
 
-// function author(){
-//   return(
-//     <div>
-//       Marjan Ansar
-//     </div>
-//   );
-// }
-
-// const date=(
-//   <div>
-//     1/1/2019
-//   </div>
-// )
-// const mainTitle=(
-//   <div>
-//     Child Labor
-//   </div>
-// )
 class title extends Component{
   state = {};
   render() {
