@@ -9,38 +9,17 @@ class Slideshow extends Component {
   }
 
   render() {
-    const elements = [
-      {
-        render: () => {
-          return (
-            <Image
-              src={require("../images/1.jpg")}
-              style={{ margin: "auto" }}
-            />
-          );
-        }
-      },
-      {
-        render: () => {
-          return (
-            <Image
-              src={require("../images/2.jpg")}
-              style={{ margin: "auto" }}
-            />
-          );
-        }
-      },
-      {
-        render: () => {
-          return (
-            <Image
-              src={require("../images/3.jpg")}
-              style={{ margin: "auto" }}
-            />
-          );
-        }
+    const ramadanImage = ["1.jpg", "2.jpg", "3.jpg"];
+    const elements = ramadanImage.map(rimg => ({
+      render: () => {
+        return (
+          <Image
+            src={require(`../images/ramadan/${rimg}`)}
+            style={{ margin: "auto" }}
+          />
+        );
       }
-    ];
+    }));
 
     return (
       <div style={{ width: "60%", margin: "0 auto", padding: "100px" }}>
