@@ -35,12 +35,19 @@ function Footer() {
                 </Grid.Column>
                 <Grid.Column width={7}>
                   <Header as="h4" inverted>
-                    Footer Header
+                    Follow us on social media
                   </Header>
-                  <p>
-                    Extra space for a call to action inside the footer that
-                    could help re-engage users.
-                  </p>
+                  <List horizontal>
+                    <List.Item>
+                      <a href="https://www.facebook.com/bangladeshdevelopmentproject/" target="_blank"><i class="facebook square icon"/></a> 
+                    </List.Item>
+                    <List.Item>
+                      <a href="https://twitter.com/deshdevelopment" target="_blank"><i class="twitter square icon"/></a>
+                    </List.Item>
+                    <List.Item>
+                      <i class="instagram icon"/>
+                    </List.Item>
+                  </List>
                 </Grid.Column>
               </Grid.Row>
             </Grid>
