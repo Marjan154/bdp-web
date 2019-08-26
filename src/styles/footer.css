@@ -18,7 +18,7 @@ p {
 
 .instagram.icon {
   color: white;
-  vertical-align: bottom;
+  vertical-align: baseline !important;
   font-size: 30px;
 }
 
