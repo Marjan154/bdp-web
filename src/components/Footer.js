@@ -13,9 +13,9 @@ function Footer() {
           style={{ padding: "5em 0em", background: "rgb(165, 18, 18)" }}
         >
           <Container>
-            <Grid divided inverted stackable>
+            <Grid >
               <Grid.Row>
-                <Grid.Column width={3}>
+                {/* <Grid.Column width={3}>
                   <Header inverted as="h4" content="About" />
                   <List link inverted>
                     <List.Item as="a">Sitemap</List.Item>
@@ -32,15 +32,26 @@ function Footer() {
                     <List.Item as="a">How To Access</List.Item>
                     <List.Item as="a">Favorite X-Men</List.Item>
                   </List>
-                </Grid.Column>
-                <Grid.Column width={7}>
-                  <Header as="h4" inverted>
-                    Footer Header
+                </Grid.Column> */}
+                <Grid.Column width={50}>
+                  <Header as="h2" inverted>
+                    Follow us on social media
                   </Header>
-                  <p>
-                    Extra space for a call to action inside the footer that
-                    could help re-engage users.
-                  </p>
+                  <List horizontal>
+                    <List.Item>
+                      <a href="https://www.facebook.com/bangladeshdevelopmentproject/" target="_blank"><i class="facebook square icon" /></a>
+                    </List.Item>
+                    <List.Item>
+                      <a href="https://twitter.com/deshdevelopment" target="_blank"><i class="twitter square icon" /></a>
+                    </List.Item>
+                    <List.Item>
+                      <i class="instagram icon" />
+                    </List.Item>
+                    <List.Item>
+                      <a href="https://twitter.com/deshdevelopment" target="_blank"><i class="linkedin square icon" /></a>
+                    </List.Item>
+
+                  </List>
                 </Grid.Column>
               </Grid.Row>
             </Grid>
