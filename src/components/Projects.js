@@ -37,12 +37,12 @@ class Projects extends Component {
     );
 
     const mainImg = require("../images/5.jpg");
-    return (    
-       <div class="articlebody">
+    return (
+      <div className="articlebody" style={{ padding: "50px" }}>
         <div>
           <Header
             as="h1"
-            style={{ fontSize: "5em", color: "rgb(47, 137, 60)" }}
+            style={{ fontSize: "3em", color: "rgb(47, 137, 60)" }}
           >
             {<div>Ramadan 2019 Iftar Project</div>}
           </Header>
