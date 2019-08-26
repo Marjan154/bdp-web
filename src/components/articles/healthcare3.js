@@ -5,9 +5,12 @@ class content extends Component {
   render() {
     return (
       <div style={{ padding: "20px", marginLeft: "8%" }}>
-        <h1 style={{ padding: "20px", fontSize: "50px" }}>
+        <h1 className="tStyle">
           Bangladesh’s Ongoing Struggle: Arsenic in Water
         </h1>
+
+        <h5>By: Priya Saha</h5>
+
         <div className="pStyle">
           Excess amounts of arsenic in water have now become a debilitating
           problem for the civilians of Bangladesh. The population being exposed

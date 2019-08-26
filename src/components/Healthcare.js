@@ -8,39 +8,33 @@ const data = [
   {
     id: "1",
     issue: "healthcare",
-    title: "Health Care",
-    author: "Marjan",
+    title: "Bangladesh’s Ongoing Struggle: Arsenic in Water",
+    author: " Priya Saha",
     articleFile: "healthcare1",
     img: "healthcard1.jpg"
   },
   {
     id: "2",
     issue: "healthcare",
-    title: "Health Care",
-    author: "Marjan",
+    title: "Heavy Metals and Bangladesh Waters",
+    author: "Mohammed Tousif Nur",
     articleFile: "healthcare1",
     img: "healthcard1.jpg"
   },
   {
     id: "3",
     issue: "healthcare",
-    title: "Health Care",
-    author: "Marjan",
+    title: "Bangladesh’s Ongoing Struggle: Arsenic in Water",
+    author: " Priya Saha",
     articleFile: "healthcare1",
     img: "healthcard1.jpg"
-  },
+  }
 ];
 const mainImg = require("../images/Russell-Watkins.jpg");
 const mainSummary = (
-  <div>
-    The health care in Bengladesh is poor. We need your help.
-  </div>
+  <div>The health care in Bengladesh is poor. We need your help.</div>
 );
-const actionline = (
-  <p style={{ color: "black" }}>
-    Donate Now
-  </p>
-);
+const actionline = <p style={{ color: "black" }}>Donate Now</p>;
 
 class Healthcare extends Component {
   state = {};

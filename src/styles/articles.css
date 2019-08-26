@@ -9,6 +9,11 @@
   width: 70%;
 }
 
+.tStyle {
+  padding: 20px;
+  font-size: 50px;
+}
+
 .pStyle {
   padding: 2px;
   line-height: 200%;

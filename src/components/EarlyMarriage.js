@@ -27,17 +27,23 @@ const data = [
     author: "Marjan",
     articleFile: "earlymarriage1",
     img: "healthcard1.jpg"
-  },
+  }
 ];
 const mainImg = require("../images/pinkMarriage.jpg");
 const mainSummary = (
   <div>
-    The health care in Bengladesh is poor. We need your help.
+    Bangladesh has the fourth highest rate for early childhood marriages in the
+    world. Due to various factors such as cultural values and norms, social
+    pressures, and poverty, many girls are married between the ages of 15-16.
+    59% of girls are married before age 18, and 22% are married before they are
+    even 15 years old.
   </div>
 );
 const actionline = (
   <p style={{ color: "black" }}>
-    Donate Now
+    Interested in learning more about BDP’s 5 core areas of focus? Read our
+    research articles below and get inspired to change Bangladesh for the better
+    too!
   </p>
 );
 

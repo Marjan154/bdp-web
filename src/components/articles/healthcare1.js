@@ -1,67 +1,66 @@
 import React, { Component } from "react";
-
-class title extends Component {
-  render() {
-    return (
-      <h1>
-        Health Care
-      </h1>
-    )
-  }
-}
+import "../../styles/articles.css";
 
 class content extends Component {
   render() {
     return (
-      <div>
-        In patriarchal societies, women are unable to further their ambitions and
-        have control of their agency. Usually they are constrained to gender roles
-        that they’ve been determined to since birth. In particular, the country of
-        Bangladesh sees a significant disparity in gender roles in terms of
-        household work and labor force. The identity of women lies in the
-        traditional standard of being a housewife and mother and they are not
-        expected to provide economically. The idea of a woman breaking out this
-        tradition is still widely debated in this day and age. UNICEF reports that
-        there has been a rise in enrollment for girls within primary and lower
-        secondary schools in the 90’s. However on average about 1.5 million girls
-        drop out of school or never attend. The quality of education makes a massive
-        difference in attaining one as well. Bangladesh sees more dropout rates in
-        the secondary years because of the poor quality of schools. This causes poor
-        attendance and participation, and lower standards of achievement. Despite
-        these ratings, there has been an increase and implementation of madrasas
-        that have enabled an urgent response in girls education. With the idea of
-        religious beliefs being catered to, parents feel that they are achieving not
-        only civil/general education, but also fulfilling religious obligations as
-        well. Because of this there has been an increase in enrollments at madrasas
-        than traditional schooling. Growing up, I have been aware of the disparity
-        of women in school versus women in the household. My mother who was able to
-        secure a masters degree in Bangladesh always made a point to take advantage
-        of my education that was granted to me because there are so many girls who
-        are put into positions where they must sacrifice their livelihoods in order
-        to have an education. My mother was fortunate enough to be in a household
-        where education was a priority and was taught about the power that comes
-        with seeking knowledge. Due to the emphasis of education throughout my life
-        I have sought out to be in the education field and provide knowledge to
-        those who truly want it. Even though there has been progression with
-        enrollment rates, due to the rapid urbanization, safety and reliable source
-        of transportation have been compromised. Women are subjected to sexual
-        harassment and experience violence on their commute. It’s difficult to make
-        progress in a country where patriarchal norms dominate so much where “one
-        third of women aged 15-49 believe in at least one justification for a
-        husband hitting his wife, such as arguing with him.” Even though there has
-        been progress for women in Bangladesh, there is still much more to
-        accomplish. We are only scratching the surface of the glass ceiling. ~Noshin
-        Ahmed Sources: Asian Development Bank. “Bangladesh Women Making Progress But
-        Still Face Gender Gap.” Asian Development Bank, Asian Development Bank, 7
-        Feb. 2018,
-        www.adb.org/news/bangladesh-women-making-progress-still-face-gender-gap.
-        Project, Borgen. “Girls' Education in Bangladesh.” The Borgen Project,
-        Borgen Project
-        Https://Borgenproject.org/Wp-Content/Uploads/The_Borgen_Project_Logo_small.Jpg,
-        9 Apr. 2019, borgenproject.org/girls-education-in-bangladesh/.
-  </div>
-    )
+      <div style={{ padding: "20px", marginLeft: "8%" }}>
+        <h1 className="tStyle">
+          Bangladesh’s Ongoing Struggle: Arsenic in Water
+        </h1>
+
+        <h5>By: Priya Saha</h5>
+
+        <div className="pStyle">
+          Excess amounts of arsenic in water have now become a debilitating
+          problem for the civilians of Bangladesh. The population being exposed
+          to the arsenic-contaminated groundwater is at an all time high and
+          requires immediate attention/action. The civilians of Bangladesh have
+          no other option but to drink the potentially contaminated groundwater,
+          which raises major health concerns. There have been reports over time
+          of individuals affected by arsenic in Bangladesh and surrounding
+          areas. It has been discovered that the arsenic contamination is
+          extremely high in the tube-wells, which is where majority of the
+          population retrieve their water. Arsenic in groundwater poses a huge
+          threat to the lives of millions in Bangladesh.
+        </div>
+        <div className="pStyle">
+          Attached below is a table breaking down the different regions of
+          Bangladesh and how they compare to containing arsenic contaminants in
+          groundwater. Contamination of drinking-water by arsenic in Bangladesh:
+          a public health emergency. As you can see here, arsenic in groundwater
+          is dominant in many regions of Bangladesh out of the samples surveyed.
+          This issue is being brought to light as of recently due to the
+          significant use of tube-wells by most of the Bangladeshi population.
+          The effects of arsenic are major and cause life-threatening
+          complications. These include (but are not limited to) skin lesions,
+          skin cancer, pulmonary disease, etc. There have also been reports of a
+          small number of cases of skin cancer, which may lead to a rapid
+          increase if arsenic levels aren’t managed. Tube-wells have been used
+          for over decades and continue to be used by the majority. The lack of
+          awareness should not be the cause of millions of individuals being
+          affected on a daily basis.
+        </div>
+        <div className="pStyle">
+          There should be increased urgency and action taken against the high
+          concentrations of arsenic in groundwater. The mitigation of arsenic
+          exposure is fairly straightforward, however the lack of funding makes
+          this an increasingly difficult problem to solve. Innocent lives
+          shouldn’t be at stake for a problem that can be moderated by taking a
+          few steps to raise awareness and gain funds.
+        </div>
+        <div className="wStyle">
+          Works Cited Ahmad, Sk Akhtar et al. “Arsenic contamination in
+          groundwater in Bangladesh: implications and challenges for healthcare
+          policy.” Risk management and healthcare policy vol. 11 251-261. 30
+          Nov. 2018, doi:10.2147/RMHP.S153188 Smith, A H et al. “Contamination
+          of drinking-water by arsenic in Bangladesh: a public health
+          emergency.” Bulletin of the World Health Organization vol. 78,9
+          (2000): 1093-103.
+        </div>
+      </div>
+    );
   }
 }
 
-export { content, title };
+export { content };
