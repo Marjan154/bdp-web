@@ -77,14 +77,7 @@ class Nav extends Component {
                   Team
                 </Menu.Item>
                 <Menu.Item position="right">
-                  <Button
-                    as="a"
-                    style={{
-                      background: "transparent",
-                      borderColor: "white",
-                      borderRadius: "10px"
-                    }}
-                  >
+                  <Button inverted size="large" as={Link} to="/donate">
                     Donate
                   </Button>
                 </Menu.Item>

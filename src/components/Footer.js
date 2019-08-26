@@ -42,6 +42,7 @@ function Footer() {
                       <a
                         href="https://www.facebook.com/bangladeshdevelopmentproject/"
                         target="_blank"
+                        style={{ textDecoration: "none" }}
                       >
                         <i class="facebook square icon" />
                       </a>
@@ -50,6 +51,7 @@ function Footer() {
                       <a
                         href="https://twitter.com/deshdevelopment"
                         target="_blank"
+                        style={{ textDecoration: "none" }}
                       >
                         <i class="twitter square icon" />
                       </a>
@@ -61,6 +63,7 @@ function Footer() {
                       <a
                         href="https://twitter.com/deshdevelopment"
                         target="_blank"
+                        style={{ textDecoration: "none" }}
                       >
                         <i class="linkedin square icon" />
                       </a>
