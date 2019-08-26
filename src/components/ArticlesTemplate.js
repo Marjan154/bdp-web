@@ -2,39 +2,31 @@ import React, { Component } from "react";
 import "../styles/articles.css";
 import { Header } from "semantic-ui-react";
 
-
 class ArticlesTemplate extends Component {
   state = {};
   constructor(props) {
     super(props);
-    this.state = { 
+    this.state = {
       content: null,
       title: null
     };
   }
 
   componentDidMount() {
-    const { id, file } = this.props;
-    console.log(file);
-    import(`./articles/${file}`)
-      .then(({content, title}) => this.setState({ 
-        content: content, 
-      title: title,}))
+    const { issuetype, articleid } = this.props.match.params;
+    const file = issuetype + articleid + ".js";
+    import(`./articles/${file}`).then(({ content }) =>
+      this.setState({
+        content: content
+      })
+    );
   }
 
   render() {
     // mainImg, mainTitle, date, author,
-    console.log(this.state.content);
-    const { title: Title } = this.state;
+    // const { title: Title } = this.state;
     const { content: Component } = this.state;
-    return (
-      <div class="articlebody">
-        <div>
-          {Component && <Title/>}
-        </div>
-          {Component && <Component/>}
-      </div>
-    );
+    return <div class="articlebody">{Component && <Component />}</div>;
   }
 }
 

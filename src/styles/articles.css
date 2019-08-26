@@ -1,11 +1,24 @@
-.articlebody{
+.articlebody {
   width: 70%;
   margin: 0 auto;
 }
 
 .articleimage {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 70%;
 }
 
+.pStyle {
+  padding: 2px;
+  line-height: 200%;
+  font-size: 16px;
+  text-align: start;
+  text-indent: 5%;
+}
+.wStyle {
+  margin-top: 70px;
+  line-height: 200%;
+  font-size: 12px;
+  text-align: start;
+}
