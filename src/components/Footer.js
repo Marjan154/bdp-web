@@ -57,11 +57,17 @@ function Footer() {
                       </a>
                     </List.Item>
                     <List.Item>
-                      <i class="instagram icon" />
+                      <a
+                        href="https://www.instagram.com/bd.development/"
+                        target="_blank"
+                        style={{ textDecoration: "none" }}
+                      >
+                        <i class="instagram icon" />
+                      </a>
                     </List.Item>
                     <List.Item>
                       <a
-                        href="https://twitter.com/deshdevelopment"
+                        href="https://www.linkedin.com/company/bangladeshdevelopmentproject/about/"
                         target="_blank"
                         style={{ textDecoration: "none" }}
                       >
