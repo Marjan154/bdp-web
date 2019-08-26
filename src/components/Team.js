@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import data from "./team.json";
-import ACard from "./Card.js";
 import "../styles/card.css";
 import { Header } from "semantic-ui-react";
+import { Card, Image } from "semantic-ui-react";
 
 class Team extends Component {
   constructor(props) {
@@ -19,14 +19,26 @@ class Team extends Component {
     const { team } = this.state;
 
     let cards = team.map(member => {
+      const { title, name, description, img, id } = member;
       return (
-        <ACard
-          id={member.id}
-          name={member.name}
-          title={member.title}
-          description={member.description}
-          img={require("../images/team/" + member.img)}
-        />
+        <div style={{ padding: "20px" }}>
+          <Card color="green" style={{ width: "300px" }}>
+            <Image
+              src={require("../images/team/" + member.img)}
+              wrapped
+              ui={false}
+            />
+            <Card.Content>
+              <Card.Header style={{ color: "rgb(16, 114, 9)" }}>
+                {name}
+              </Card.Header>
+              <Card.Meta>
+                <span className="date">{title}</span>
+              </Card.Meta>
+              <Card.Description>{description}</Card.Description>
+            </Card.Content>
+          </Card>
+        </div>
       );
     });
 

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../styles/education2.css";
-import ACard from "./Card.js";
 import "../styles/card.css";
 import { Card, Icon, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
