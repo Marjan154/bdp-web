@@ -13,7 +13,7 @@ function Footer() {
           style={{ padding: "5em 0em", background: "rgb(165, 18, 18)" }}
         >
           <Container>
-            <Grid >
+            <Grid>
               <Grid.Row>
                 {/* <Grid.Column width={3}>
                   <Header inverted as="h4" content="About" />
@@ -39,18 +39,32 @@ function Footer() {
                   </Header>
                   <List horizontal>
                     <List.Item>
-                      <a href="https://www.facebook.com/bangladeshdevelopmentproject/" target="_blank"><i class="facebook square icon" /></a>
+                      <a
+                        href="https://www.facebook.com/bangladeshdevelopmentproject/"
+                        target="_blank"
+                      >
+                        <i class="facebook square icon" />
+                      </a>
                     </List.Item>
                     <List.Item>
-                      <a href="https://twitter.com/deshdevelopment" target="_blank"><i class="twitter square icon" /></a>
+                      <a
+                        href="https://twitter.com/deshdevelopment"
+                        target="_blank"
+                      >
+                        <i class="twitter square icon" />
+                      </a>
                     </List.Item>
                     <List.Item>
                       <i class="instagram icon" />
                     </List.Item>
                     <List.Item>
-                      <a href="https://twitter.com/deshdevelopment" target="_blank"><i class="linkedin square icon" /></a>
+                      <a
+                        href="https://twitter.com/deshdevelopment"
+                        target="_blank"
+                      >
+                        <i class="linkedin square icon" />
+                      </a>
                     </List.Item>
-
                   </List>
                 </Grid.Column>
               </Grid.Row>

@@ -30,7 +30,7 @@ const DropdownNav = () => (
     simple
     text="Issues"
     options={options}
-    style={{ color: "white" }}
+    style={{ color: "white", height: "100px" }}
   />
 );
 
