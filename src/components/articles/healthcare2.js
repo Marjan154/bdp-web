@@ -94,34 +94,66 @@ class content extends Component {
         </div>
 
         <div className="wStyle">
-          References Loewenberg, S. In Bangladesh, arsenic poisoning is a
-          neglected issue. The Lancet 2016, 388, 2336-2337. Ali, M., M.; Ali,
-          M., L.; Islam, M., S.; Rahman, M., Z. Preliminary assessment of heavy
-          metals in water and sediment of Karnaphuli River, Bangladesh.
-          Environmental Nanotechnology, Monitoring & Management 2016, 5, 27-35.
-          Baki, M., A.; Hossain, M., M.; Akter, J.; Quraishi, S., B.; Shojib,
-          M., F., H.; Ullah, A., K., M., A.; Khan, M., F. Concentration of heavy
-          metals in seafood fishes, shrimp, lobster and crabs and human health
-          assessment in Saint Martin Island, Bangladesh. Ecotoxicology and
-          Environmental Safety 2018, 159, 153-163. Kibria, G.; Hossain, M., M.;
+          References
+        <ol>
+          <blockquote>
+            Loewenberg, S. In Bangladesh, arsenic poisoning is a
+            neglected issue. <cite>The Lancet</cite> <strong>2016</strong>, 388, 2336-2337. 
+          </blockquote>
+          <blockquote>
+            Ali, M., M.; Ali, M., L.; Islam, M., S.; Rahman, M., Z. Preliminary assessment of heavy
+            metals in water and sediment of Karnaphuli River, Bangladesh.
+            <cite>Environmental Nanotechnology, Monitoring & Management</cite> <strong>2016</strong>, 5, 27-35.
+          </blockquote>
+          <blockquote>
+            Baki, M., A.; Hossain, M., M.; Akter, J.; Quraishi, S., B.; Shojib, M., F., H.; Ullah, A., K., M., A.; Khan, M., F. Concentration of heavy
+            metals in seafood fishes, shrimp, lobster and crabs and human health
+            assessment in Saint Martin Island, Bangladesh. <cite>Ecotoxicology and Environmental Safety</cite> <strong>2018</strong>, 159, 153-163.
+          </blockquote>
+          <blockquote>
+          Kibria, G.; Hossain, M., M.;
           Mallick, D.; Lau, T., C.; Wu, R. Trace/heavy metal pollution
           monitoring in estuary and coastal area of Bay of Bengal, Bangladesh
-          and implicated impacts. Marine Pollution Bulletin 2016, 105, 393-402.
+          and implicated impacts. <cite>Marine Pollution Bulletin</cite> <strong>2016</strong>, 105, 393-402.
+          </blockquote>
+          <blockquote>
           Islam, G., M., R.; Habib, M., R.; Waid, J., L.; Rahman, M., S.; Kabir,
           J.; Akter, S.; Jolly, Y., N. Heavy metal contamination of freshwater
           prawn (Macrobrachium rosenbergii) and prawn feed in Bangladesh: A
-          market-based study to highlight probable health risks. Chemosphere
-          2017, 170, 282-289. Huq, M., E.; Fahad, S.; Shao, Z.; Sarven, M., S.;
+          market-based study to highlight probable health risks. <cite>Chemosphere</cite>
+          <strong>2017</strong>, 170, 282-289.
+          </blockquote>
+          <blockquote>
+          Huq, M., E.; Fahad, S.; Shao, Z.; Sarven, M., S.;
           Al-Huqail, A., A.; Siddiqui, M., H.; Rahman, M., H.; Khan, I., A.;
           Alam, M.; Saeed, M.; Rauf, A.; Basir, A.; Jamal, Y.; Khan, S., U. High
           arsenic contamination and presence of other trace metals in drinking
-          water of Kushtia district, Bangladesh. Journal of Environmental
-          Management 2019, 242, 199-209. Wasserman, G., A.; Liu, X.; Parvez, F.;
+          water of Kushtia district, Bangladesh. <cite>Journal of Environmental
+          Management</cite> <strong>2019</strong>, 242, 199-209.
+          </blockquote>
+          <blockquote>
+          Wasserman, G., A.; Liu, X.; Parvez, F.;
           Factor-Litvak, P.; Kline, J.; Siddique, A., B.; Shahriar, H.; Uddin,
           M., N.; van Geen, A.; Mey, J., L.; Balac, O.; Graziano, J., H. Child
           Intelligence and Reductions in Water Arsenic and Manganese: A Two‑Year
-          Follow-up Study in Bangladesh. Environmental Health Perspectives 2016,
-          124 (7), 1114-1120. Mundy SW. Arsenic. In: Goldfrank's Toxicologic
+          Follow-up Study in Bangladesh. <cite>Environmental Health Perspectives</cite> <strong>2016</strong>,
+          124 (7), 1114-1120.
+          </blockquote>
+          <blockquote>
+            Ali, M., M.; Ali, M., L.; Islam, M., S.; Rahman, M., Z. Preliminary assessment of heavy
+            metals in water and sediment of Karnaphuli River, Bangladesh.
+            <cite>Environmental Nanotechnology, Monitoring & Management</cite> <strong>2016</strong>, 5, 27-35.
+          </blockquote>
+          <blockquote>
+            Ali, M., M.; Ali, M., L.; Islam, M., S.; Rahman, M., Z. Preliminary assessment of heavy
+            metals in water and sediment of Karnaphuli River, Bangladesh.
+            <cite>Environmental Nanotechnology, Monitoring & Management</cite> <strong>2016</strong>, 5, 27-35.
+          </blockquote>
+          
+
+
+           
+             Mundy SW. Arsenic. In: Goldfrank's Toxicologic
           Emergencies, 10th ed, Hoffman RS, Lewin NA, Howland MA, et al (Eds),
           Mcgraw-Hill Education, New York 2015. p.1169. Mass, M., J.; Tennant,
           A.; Roop, B., C.; Cullen, W., R.; Styblo, M.; Thomas, D., J.;
@@ -149,7 +181,9 @@ class content extends Component {
           3-year-old children in Bangladesh with elevated blood lead and
           exposure to arsenic and manganese in drinking water. Environmental
           Health 2016, 1-9.
+          </ol>
         </div>
+        
       </div>
     );
     return <div></div>;

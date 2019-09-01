@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import "../../styles/articles.css";
+
 class title extends Component{
   state = {};
   render() {
