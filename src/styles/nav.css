@@ -5,3 +5,7 @@
 .ui.inverted.navbar.menu {
   border-radius: 0 !important;
 }
+
+#donate_button.right.item:before {
+  width: 0px !important;
+}

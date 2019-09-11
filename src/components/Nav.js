@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {
+  Button,
   Container,
   Divider,
   Dropdown,
@@ -55,6 +56,11 @@ class Nav extends Component {
                 </Menu.Item>
                 <Menu.Item as={Link} to="/team">
                   Team
+                </Menu.Item>
+                <Menu.Item position="right" id="donate_button">
+                  <Button inverted size="large" as={Link} to="/donate">
+                    Donate
+                  </Button>
                 </Menu.Item>
               </Container>
             </Menu>
