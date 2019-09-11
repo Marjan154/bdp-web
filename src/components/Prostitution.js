@@ -14,7 +14,7 @@ const data = [
   {
     id: "2",
     issue: "prostitution",
-    title: "Prostitution Article",
+    title: "The Horrors of Child Prostitution",
     author: "Marjan",
     articleFile: "prostitution1",
     img: "healthcard1.jpg"
@@ -30,15 +30,9 @@ const data = [
 ];
 const mainImg = require("../images/mainProstitution.jpg");
 const mainSummary = (
-  <div>
-    The health care in Bengladesh is poor. We need your help.
-  </div>
+  <div>The health care in Bengladesh is poor. We need your help.</div>
 );
-const actionline = (
-  <p style={{ color: "black" }}>
-    Donate Now
-  </p>
-);
+const actionline = <p style={{ color: "black" }}>Donate Now</p>;
 
 class Prostitution extends Component {
   state = {};

@@ -7,7 +7,7 @@ const data = [
   {
     id: "1",
     issue: "earlymarriage",
-    title: "Early Marriage",
+    title: "Pedophilia Related to Child Brides",
     author: "Marjan",
     articleFile: "earlymarriage1",
     img: "healthcard1.jpg"
@@ -15,7 +15,7 @@ const data = [
   {
     id: "2",
     issue: "earlymarriage",
-    title: "Early Marriage",
+    title: "Pedophilia Related to Child Brides",
     author: "Marjan",
     articleFile: "earlymarriage1",
     img: "healthcard1.jpg"

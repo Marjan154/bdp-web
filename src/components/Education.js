@@ -5,7 +5,7 @@ const data = [
   {
     id: "1",
     issue: "education",
-    title: "Education",
+    title: "Education For Girls/Madrasas",
     author: "Marjan",
     articleFile: "education1",
     img: "healthcard1.jpg"
@@ -25,20 +25,14 @@ const data = [
     author: "Marjan",
     articleFile: "education1",
     img: "healthcard1.jpg"
-  },
+  }
 ];
 
 const mainImg = require("../images/Education.jpg");
 const mainSummary = (
-  <div>
-    The health care in Bengladesh is poor. We need your help.
-  </div>
+  <div>The health care in Bengladesh is poor. We need your help.</div>
 );
-const actionline = (
-  <p style={{ color: "black" }}>
-    Donate Now
-  </p>
-);
+const actionline = <p style={{ color: "black" }}>Donate Now</p>;
 
 class Education extends Component {
   state = {};
