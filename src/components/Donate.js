@@ -8,10 +8,85 @@ class Donate extends Component {
     return (
       // <div className="row">
       //   <div className="col-75">
-      <div style={{ padding: "50px" }}>
-        <Header as="h3" style={{ fontSize: "3em", color: "rgb(47, 137, 60)" }}>
+      <div>
+        <Header
+          as="h3"
+          style={{
+            fontSize: "3em",
+            color: "rgb(47, 137, 60)",
+            paddingTop: "20px"
+          }}
+        >
           Donate
         </Header>
+        <div style={{ padding: "50px" }}>
+          <div className="donate-container" style={{ height: "300px" }}>
+            <Header
+              as="h3"
+              style={{
+                fontSize: "1.2em",
+                color: "rgb(47, 137, 60)",
+                paddingTop: "30px"
+              }}
+            >
+              Currently we are only accepting PayPal Donations. Please click the
+              button below. Ypu can pay through credit or debit card when you
+              click the donate button below. Other payment methods coming are
+              coming soon!
+            </Header>
+            <Header
+              as="h3"
+              style={{
+                fontSize: "1.2em",
+                color: "rgb(47, 137, 60)",
+                paddingBottom: "40px"
+              }}
+            >
+              Thank you for your donation!
+            </Header>
+
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr"
+              method="post"
+              target="_top"
+            >
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input
+                type="hidden"
+                name="hosted_button_id"
+                value="UTXEM8J5VZEWU"
+              />
+              <input
+                type="image"
+                src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                border="0"
+                name="submit"
+                title="PayPal - The safer, easier way to pay online!"
+                alt="Donate with PayPal button"
+              />
+              <img
+                alt=""
+                border="0"
+                src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+                width="1"
+                height="1"
+              />
+            </form>
+          </div>
+        </div>
+
+        <Header
+          as="h3"
+          style={{
+            fontSize: "1.2em",
+            color: "rgb(47, 137, 60)",
+            padding: "20px"
+          }}
+        >
+          Sorry! We do not accept donations directly from our website yet.
+          Please donate through the secure Paypal option above.
+        </Header>
+
         <div className="donate-container">
           <form>
             <div className="row">
@@ -121,9 +196,6 @@ class Donate extends Component {
                   </div>
                 </div>
 
-                {/* <label for="cname">Name on Card</label>
-              <input type="text" id="cname" name="cardname" placeholder="John More Doe"></input> */}
-
                 <div className="row">
                   <div className="col-25">
                     <label for="ccnum">Credit card number</label>
@@ -157,19 +229,6 @@ class Donate extends Component {
                     />
                   </div>
                 </div>
-
-                {/* <label for="expmonth">Exp Month</label>
-              
-              <div className="row">
-                <div className="col-50">
-                  <label for="expyear">Exp Year</label>
-                  <input type="text" id="expyear" name="expyear" placeholder="2018"></input>
-                </div>
-                <div className="col-50">
-                  <label for="cvv">CVV</label>
-                  <input type="text" id="cvv" name="cvv" placeholder="352"></input>
-                </div>
-              </div> */}
               </div>
             </div>
             <input
@@ -180,14 +239,6 @@ class Donate extends Component {
           </form>
         </div>
       </div>
-      // {/* <div className="col-25">
-      //   <div className="donate-container">
-      //     <h4>Donation Amount <span className="price" > </span></h4>
-      //     <p> <a>Donation</a> <span className="price">$15</span></p>
-      //     <p>Total <span className="price" ><b>$15</b></span></p>
-      //   </div>
-      // </div> */}
-      // </div>
     );
   }
 }
