@@ -6,8 +6,8 @@ const data = [
   {
     id: "1",
     issue: "childlabor",
-    title: "Child Labor",
-    author: "Marjan Ansar",
+    title: "Child Labor in Shipbreaking Industries",
+    author: "Mohuya Khan",
     articleFile: "childlabor1.js",
     img: "healthcard1.jpg"
   },
@@ -26,7 +26,7 @@ const data = [
     author: "Marjan",
     articleFile: "childlabor",
     img: "healthcard1.jpg"
-  },
+  }
 ];
 const mainImg = require("../images/MainLabor.jpg");
 const mainSummary = (

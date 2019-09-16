@@ -7,13 +7,6 @@
     "img": "Ashabul.jpg"
   },
   {
-    "id": "2",
-    "name": "Tahmid Zawad",
-    "title": "Vice President",
-    "description": "Tahmid graduated hunter College with A B.S in Biology and a minor in psychology. Dedicated towards understanding the plight of people and using his  resources to contribute in humanitarian efforts, he is socially active. Tahhmid has a keen interest in travelling and sports, especially basketball. Aspiring to be a physician, he is actiely pursuing a career in medicine.",
-    "img": "Tahmid.jpg"
-  },
-  {
     "id": "12",
     "name": "Naiful Bahri",
     "title": "Vice President",
@@ -21,9 +14,30 @@
     "img": "Naiful.jpg"
   },
   {
+    "id": "2",
+    "name": "Tahmid Zawad",
+    "title": "Executive Director",
+    "description": "Tahmid graduated hunter College with A B.S in Biology and a minor in psychology. Dedicated towards understanding the plight of people and using his  resources to contribute in humanitarian efforts, he is socially active. Tahhmid has a keen interest in travelling and sports, especially basketball. Aspiring to be a physician, he is actiely pursuing a career in medicine.",
+    "img": "Tahmid.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Tasmiyah Rahman",
+    "title": "Secretary",
+    "description": "Tasmiyah is majoring in Human Biology and minoring in Political Science at Hunter College. Tasmiyah is always looking for ways to help the community by volunteering at doctors offices, rehabilitation centers and schools. Her long term goal is to become a cardiothoracic surgeon and help those back in Bangladesh who do not have access to proper health care.",
+    "img": "Simran.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Karima Khondakar",
+    "title": "Office Administrator",
+    "description": "Karima started Hunter college at the age of 16. She’s a rising sophomore who’s majoring in Biochemistry. She aspires to become a physician, create a hospital in Bangladesh and inspire the youth. She loves to listen to music, draw, photography, read mysteries and watch movies. ",
+    "img": "Karima.jpg"
+  },
+  {
     "id": "4",
     "name": "Jaheen Haque",
-    "title": "Law boi",
+    "title": "Treasury Department",
     "description": "Jaheen Haque graduated from Fordham University  with a degree in Economics (Honors). He aspires to be a lawyer because he wants to implement public policies that aid people in developing countries. Today, you can find Jaheen living in the library with his Venti dark roast coffee, an LSAT book, and noise cancelling headphones. ",
     "img": "Jaheen.JPG"
   },
@@ -34,20 +48,7 @@
     "description": " Noshin graduated from Hunter College with a degree in English Literature and a minor in Psychology. She plans to become an educator in order to influence the youth to become the best versions of themselves. She is deeply passionate about charitable and youth work and iced tea.",
     "img": "Noshin.jpg"
   },
-  {
-    "id": "14",
-    "name": "Tasmiyah Rahman",
-    "title": "Vice President",
-    "description": "Tasmiyah is majoring in Human Biology and minoring in Political Science at Hunter College. Tasmiyah is always looking for ways to help the community by volunteering at doctors offices, rehabilitation centers and schools. Her long term goal is to become a cardiothoracic surgeon and help those back in Bangladesh who do not have access to proper health care.",
-    "img": "Simran.jpg"
-  },
-  {
-    "id": "9",
-    "name": "Karima Khondakar",
-    "title": "Coordinate Associative and Outreach Manager",
-    "description": "Karima started Hunter college at the age of 16. She’s a rising sophomore who’s majoring in Biochemistry. She aspires to become a physician, create a hospital in Bangladesh and inspire the youth. She loves to listen to music, draw, photography, read mysteries and watch movies. ",
-    "img": "Karima.jpg"
-  },
+
   {
     "id": "10",
     "name": "Sila Pollen",
@@ -100,7 +101,7 @@
   {
     "id": "13",
     "name": "Fardous Sabnur",
-    "title": "Web Designer",
+    "title": "Treasury Department",
     "description": "Fardous is a junior at Hunter College double majoring in Computer Science and Maths and minoring in Dance. She wants to pursue a career in Machine learning and Artificial Intelligence to help the development of struggling societies. She was born in Bangladesh and moved to United States at age 13. She likes watching Japanese anime and high adrenaline activities.",
     "img": "Ferdous.jpg"
   },
