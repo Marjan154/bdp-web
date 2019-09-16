@@ -30,9 +30,9 @@ class Donate extends Component {
               }}
             >
               Currently we are only accepting PayPal Donations. Please click the
-              button below. Ypu can pay through credit or debit card when you
-              click the donate button below. Other payment methods coming are
-              coming soon!
+              button below to donate and you will be redirected to a page where
+              you can pay through credit or debit card. Other payment methods
+              coming are coming soon!
             </Header>
             <Header
               as="h3"
