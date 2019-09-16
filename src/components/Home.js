@@ -276,9 +276,9 @@ const HomepageLayout = () => (
         </Header>
         <p style={{ fontSize: "1.33em", color: "black" }}>
           Bangladesh is one of the fastest growing third world countries in the
-          world. Yet is still riddled with issues that are difficult to solves.
-          These issues include prostitution, healthcare, early marriage, child
-          labor, and education.
+          world, yet it is still riddled with issues that are difficult to
+          solve. These issues include prostitution, healthcare, early marriage,
+          child labor, and education.
         </p>
         <Link to="/issues">
           <Button
