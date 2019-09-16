@@ -32,9 +32,19 @@ const data = [
 ];
 const mainImg = require("../images/Russell-Watkins.jpg");
 const mainSummary = (
-  <div>The health care in Bengladesh is poor. We need your help.</div>
+  <div>
+    We all know how important access to health care is yet, in third world
+    countries, disease is rampant and the healthcare is poor. We need all the
+    help we can get to protect the struggling.
+  </div>
 );
-const actionline = <p style={{ color: "black" }}>Donate Now</p>;
+const actionline = (
+  <p style={{ color: "black" }}>
+    Interested in learning more about BDP’s 5 core areas of focus? Read our
+    research articles below and get inspired to change Bangladesh for the better
+    too!
+  </p>
+);
 
 class Healthcare extends Component {
   state = {};

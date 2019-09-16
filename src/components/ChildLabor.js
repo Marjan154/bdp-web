@@ -31,15 +31,16 @@ const data = [
 const mainImg = require("../images/MainLabor.jpg");
 const mainSummary = (
   <div>
-    This is a template that is great for small businesses. It doesn't have too
-    much fancy flare to it, but it makes a great use of the standard Bootstrap
-    core components. Feel free to use this template for any project you want!
+    Children are forced to work in unimaginable conditions at a very young age,
+    because they can barely feed themselves, let alone get educated. We need to
+    put and end to this vicious cycle of poverty, labor and uneducation.
   </div>
 );
 const actionline = (
   <p style={{ color: "black" }}>
-    This call to action card is a great place to showcase some important
-    information or display a clever tagline!
+    Interested in learning more about BDP’s 5 core areas of focus? Read our
+    research articles below and get inspired to change Bangladesh for the better
+    too!
   </p>
 );
 

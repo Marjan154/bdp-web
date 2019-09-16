@@ -57,13 +57,15 @@ class TemplateIssue extends Component {
                 {mainTitle}
               </h1>
               <p style={{ color: "black" }}>{mainSummary}</p>
-              <a
-                class="btn btn-primary"
-                href="#"
-                style={{ background: "rgb(47, 137, 60)", color: "white" }}
-              >
-                Help This Cause >
-              </a>
+              <Link to={`/Donate`}>
+                <a
+                  class="btn btn-primary"
+                  href="#"
+                  style={{ background: "rgb(47, 137, 60)", color: "white" }}
+                >
+                  Help This Cause >
+                </a>
+              </Link>
             </div>
           </div>
 

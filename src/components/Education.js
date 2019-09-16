@@ -30,9 +30,20 @@ const data = [
 
 const mainImg = require("../images/Education.jpg");
 const mainSummary = (
-  <div>The health care in Bengladesh is poor. We need your help.</div>
+  <div>
+    Education is one of the world's greatest equalizers. Unfortunately,
+    Bangladesh suffers a lack of education and innaccessibility. Help the youth
+    become educated so they can be the bright futures that will change
+    Bangladesh for the better{" "}
+  </div>
 );
-const actionline = <p style={{ color: "black" }}>Donate Now</p>;
+const actionline = (
+  <p style={{ color: "black" }}>
+    Interested in learning more about BDP’s 5 core areas of focus? Read our
+    research articles below and get inspired to change Bangladesh for the better
+    too!
+  </p>
+);
 
 class Education extends Component {
   state = {};
