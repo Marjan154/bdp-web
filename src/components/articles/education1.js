@@ -7,7 +7,7 @@ class content extends Component {
       <div style={{ padding: "20px", marginLeft: "8%" }}>
         <h1 className="tStyle">Education For Girls/Madrasas</h1>
 
-        <h5></h5>
+        <h5>Noshin Ahmed</h5>
 
         <div className="pStyle">
           In patriarchal societies, women are unable to further their ambitions

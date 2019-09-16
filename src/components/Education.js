@@ -6,7 +6,7 @@ const data = [
     id: "1",
     issue: "education",
     title: "Education For Girls/Madrasas",
-    author: "Marjan",
+    author: "Mohuya Khan",
     articleFile: "education1",
     img: "healthcard1.jpg"
   },
