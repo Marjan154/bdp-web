@@ -19,7 +19,7 @@ class Donate extends Component {
         >
           Donate
         </Header>
-        <div style={{ padding: "50px" }}>
+        <div style={{ padding: "40px" }}>
           <div className="donate-container" style={{ height: "300px" }}>
             <Header
               as="h3"
@@ -87,7 +87,7 @@ class Donate extends Component {
           Please donate through the secure Paypal option above.
         </Header>
 
-        <div className="donate-container">
+        <div className="donate-container" style={{ marginBottom: "50px" }}>
           <form>
             <div className="row">
               <div className="col-50">
