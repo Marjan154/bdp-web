@@ -13,3 +13,10 @@
 a.active.selected.item .text {
   color: rgb(47, 137, 60) !important;
 }
+.ui.inverted.button:hover {
+  color: rgb(47, 137, 60) !important;
+}
+
+.ui.inverted.button:focus {
+  color: rgb(47, 137, 60) !important;
+}
