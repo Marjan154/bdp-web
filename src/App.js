@@ -3,7 +3,6 @@ import "./App.css";
 import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Donate from "./components/Donate";
 import Issues from "./components/Issues";
@@ -22,8 +21,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Navbar /> */}
-
         <Nav isArticle={isArticle} />
         <ScrollToTop>
           <div>

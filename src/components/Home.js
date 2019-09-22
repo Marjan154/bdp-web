@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles/home.css";
+import DropdownNav from "./Dropdown";
 import {
   Button,
   Container,
@@ -10,7 +11,6 @@ import {
   Header,
   Icon,
   Image,
-  List,
   Menu,
   Responsive,
   Segment,
@@ -137,34 +137,47 @@ class MobileContainer extends Component {
           vertical
           visible={sidebarOpened}
         >
-          <Menu.Item as="a" active>
+          <Menu.Item as={Link} to="/">
             Home
           </Menu.Item>
-          <Menu.Item as="a">Work</Menu.Item>
-          <Menu.Item as="a">Company</Menu.Item>
-          <Menu.Item as="a">Careers</Menu.Item>
-          <Menu.Item as="a">Log in</Menu.Item>
-          <Menu.Item as="a">Sign Up</Menu.Item>
+          <Menu.Item as={Link} to="/issues">
+            Issues
+          </Menu.Item>
+          <Menu.Item as={Link} to="/projects">
+            Projects
+          </Menu.Item>
+          <Menu.Item as={Link} to="/donate">
+            Donate
+          </Menu.Item>
+          <Menu.Item as={Link} to="/team">
+            Team
+          </Menu.Item>
         </Sidebar>
 
         <Sidebar.Pusher dimmed={sidebarOpened}>
           <Segment
             inverted
             textAlign="center"
-            style={{ minHeight: 350, padding: "1em 0em" }}
+            style={{
+              minHeight: 350,
+              padding: "1em 0em"
+            }}
             vertical
           >
             <Container>
-              <Menu inverted pointing secondary size="large">
+              <Menu
+                inverted
+                pointing
+                secondary
+                size="large"
+                style={{ background: "rgb(165, 18, 18)" }}
+              >
                 <Menu.Item onClick={this.handleToggle}>
                   <Icon name="sidebar" />
                 </Menu.Item>
                 <Menu.Item position="right">
-                  <Button as="a" inverted>
-                    Log in
-                  </Button>
-                  <Button as="a" inverted style={{ marginLeft: "0.5em" }}>
-                    Sign Up
+                  <Button inverted size="large" as={Link} to="/donate">
+                    Donate
                   </Button>
                 </Menu.Item>
               </Menu>
