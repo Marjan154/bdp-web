@@ -43,3 +43,9 @@
   margin: 0px;
   padding: 0px;
 }
+
+/* */
+
+.green:hover {
+  text-shadow: none;
+}
