@@ -63,6 +63,7 @@ class content extends Component {
         </div>
         <div className="wStyle">
           Works Cited
+          <br />
           https://widerimage.reuters.com/story/teenage-prostitutes-in-bangladesh
         </div>
       </div>

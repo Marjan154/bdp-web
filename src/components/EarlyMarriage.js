@@ -13,20 +13,20 @@ const data = [
     img: "marriageArticle1.jpg"
   },
   {
-    id: "2",
-    issue: "earlymarriage",
-    title: "Pedophilia Related to Child Brides",
-    author: "Marjan",
-    articleFile: "earlymarriage1",
-    img: "healthcard1.jpg"
-  },
-  {
     id: "3",
     issue: "earlymarriage",
-    title: "Early Marriage",
-    author: "Marjan",
-    articleFile: "earlymarriage1",
-    img: "healthcard1.jpg"
+    title: "Early Child Marriage: A Cover for Pedophilia in Bangladesh?",
+    author: "Farhana Hussain",
+    articleFile: "earlymarriage3",
+    img: "marriageArticle2.jpg"
+  },
+  {
+    id: "2",
+    issue: "earlymarriage",
+    title: "Early Marriage in Bangladesh: Women in Education vs. Women at Home",
+    author: "Amiya Prema",
+    articleFile: "earlymarriage2",
+    img: "marriageArticle3.jpg"
   }
 ];
 const mainImg = require("../images/pinkMarriage.jpg");
