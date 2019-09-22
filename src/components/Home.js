@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles/home.css";
-import DropdownNav from "./Dropdown";
 import {
   Button,
   Container,
@@ -219,7 +218,7 @@ const HomepageLayout = () => (
             >
               Our Mission
             </Header>
-            <p style={{ fontSize: "2em", color: "black" }}>
+            <p style={{ fontSize: "2em" }}>
               As young Bangladeshis in the United States, we believe that it is
               imperative to shed light on the injustices imposed on
               underprivileged children in Bangladesh. Unjust labor laws, unequal
@@ -261,7 +260,7 @@ const HomepageLayout = () => (
             >
               We Help Our Blood.
             </Header>
-            <p style={{ fontSize: "1.33em", color: "black" }}>
+            <p style={{ fontSize: "1.33em" }}>
               We help raise awareness of the issues in Bangladesh that are
               hidden and we help solve them. With Your help, we can save the
               world, one person at a time.
@@ -274,7 +273,7 @@ const HomepageLayout = () => (
             >
               We Connect People
             </Header>
-            <p style={{ fontSize: "1.33em", color: "black" }}>
+            <p style={{ fontSize: "1.33em" }}>
               We help reignite the connections between Bengali Americans with
               their people back home. Break the barriers of distance today!
             </p>
@@ -287,7 +286,7 @@ const HomepageLayout = () => (
         <Header as="h3" style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}>
           Did you know that prostitution is still legalized in Bangladesh?
         </Header>
-        <p style={{ fontSize: "1.33em", color: "black" }}>
+        <p style={{ fontSize: "1.33em" }}>
           Bangladesh is one of the fastest growing third world countries in the
           world, yet it is still riddled with issues that are difficult to
           solve. These issues include prostitution, healthcare, early marriage,
@@ -316,7 +315,7 @@ const HomepageLayout = () => (
         <Header as="h3" style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}>
           2019 Ramadan Project
         </Header>
-        <p style={{ fontSize: "1.33em", color: "black" }}>
+        <p style={{ fontSize: "1.33em" }}>
           This Ramadan, BDP was incredibly successful in its largest project
           yet. Within just a few days we were able to raise enough money to feed
           over a thousand starving people.

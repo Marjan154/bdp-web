@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/issues.css";
 import "../styles/card.css";
-import { Card, Icon, Image, Header, Grid, Container } from "semantic-ui-react";
+import { Card, Image, Header } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 const des = (

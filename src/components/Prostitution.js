@@ -36,7 +36,7 @@ const mainSummary = (
   </div>
 );
 const actionline = (
-  <p style={{ color: "black" }}>
+  <p>
     Interested in learning more about BDP’s 5 core areas of focus? Read our
     research articles below and get inspired to change Bangladesh for the better
     too!

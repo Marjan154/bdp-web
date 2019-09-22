@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/education.css";
 import "../styles/card.css";
-import { Card, Icon, Image } from "semantic-ui-react";
+import { Card, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 class TemplateIssue extends Component {
@@ -60,7 +60,7 @@ class TemplateIssue extends Component {
               >
                 {mainTitle}
               </h1>
-              <p style={{ color: "black" }}>{mainSummary}</p>
+              <p>{mainSummary}</p>
               <Link to={`/Donate`}>
                 <a
                   class="btn btn-primary"
@@ -73,17 +73,9 @@ class TemplateIssue extends Component {
             </div>
           </div>
 
-          <div
-            // class="card text-white bg-secondary my-5 py-4 text-center"
-            style={{ background: "rgb(187,236,184)", color: "black" }}
-          >
+          <div style={{ background: "rgb(187,236,184)" }}>
             <div class="card-body">
-              <p
-                style={{ color: "black" }}
-                // class="text-white m-0"
-              >
-                {actionline}
-              </p>
+              <p>{actionline}</p>
             </div>
           </div>
 

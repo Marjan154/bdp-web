@@ -6,8 +6,6 @@ class Donate extends Component {
   state = {};
   render() {
     return (
-      // <div className="row">
-      //   <div className="col-75">
       <div>
         <Header
           as="h3"

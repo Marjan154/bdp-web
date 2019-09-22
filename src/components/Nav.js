@@ -3,13 +3,8 @@ import PropTypes from "prop-types";
 import {
   Button,
   Container,
-  Divider,
-  Dropdown,
-  Grid,
-  Header,
   Icon,
   Image,
-  List,
   Menu,
   Segment,
   Sidebar,

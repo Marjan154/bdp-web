@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../styles/articles.css";
-import { Header } from "semantic-ui-react";
 
 class ArticlesTemplate extends Component {
   state = {};
@@ -23,8 +22,6 @@ class ArticlesTemplate extends Component {
   }
 
   render() {
-    // mainImg, mainTitle, date, author,
-    // const { title: Title } = this.state;
     const { content: Component } = this.state;
     return <div class="articlebody">{Component && <Component />}</div>;
   }
