@@ -26,9 +26,6 @@ class BigCard extends Component {
                 <p className="card-text" style={{ color: "black" }}>
                   {description}
                 </p>
-                <p className="card-text">
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </p>
                 <Link to={`/issues${linkroute}`}>Read More</Link>
               </div>
             </div>
