@@ -285,7 +285,7 @@ const HomepageLayout = () => (
     <Segment style={{ padding: "8em 0em" }} vertical>
       <Container text>
         <Header as="h3" style={{ fontSize: "2em", color: "rgb(165, 18, 18)" }}>
-          Did you know that prostitution is still leagalized in Bangladesh?
+          Did you know that prostitution is still legalized in Bangladesh?
         </Header>
         <p style={{ fontSize: "1.33em", color: "black" }}>
           Bangladesh is one of the fastest growing third world countries in the

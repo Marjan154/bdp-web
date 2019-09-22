@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/issues.css";
-import { Card, Icon, Image, Grid, Container } from "semantic-ui-react";
-import BigCard from "./BigCard";
+import "../styles/card.css";
+import { Card, Icon, Image, Header, Grid, Container } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 const des = (
@@ -54,44 +54,85 @@ const marriageDes = (
   </div>
 );
 
+const issues = [
+  {
+    image: "Russell-Watkins.jpg",
+    description: healthDes,
+    title: "Healthcare",
+    linkroute: "/healthcare"
+  },
+  {
+    image: "mainProstitution.jpg",
+    description: prostitutionDes,
+    title: "Prostitution",
+    linkroute: "/prostitution"
+  },
+
+  {
+    image: "educationmain.jpg",
+    description: educationDes,
+    title: "Education",
+    linkroute: "/education"
+  },
+
+  {
+    image: "pinkMarriage.jpg",
+    description: marriageDes,
+    title: "Child Marriage",
+    linkroute: "/earlymarriage"
+  },
+
+  {
+    image: "MainLabor.jpg",
+    description: laborDes,
+    title: "Child Labor",
+    linkroute: "/childlabor"
+  }
+];
+
 class Issues extends Component {
   state = {};
   render() {
+    let cards = issues.map(issue => {
+      const { title, description, image, linkroute } = issue;
+      return (
+        <div style={{ padding: "20px" }}>
+          <Card
+            color="green"
+            style={{ width: "400px", height: "520px" }}
+            as={Link}
+            to={`/issues${linkroute}`}
+          >
+            <Image src={require("../images/" + image)} wrapped ui={false} />
+            <Card.Content>
+              <Card.Header style={{ color: "rgb(16, 114, 9)" }}>
+                {title}
+              </Card.Header>
+              <Card.Description>{description}</Card.Description>
+              <Card.Meta style={{ marginTop: "10px" }}>
+                <p>
+                  <Link
+                    to={`/issues${linkroute}`}
+                    style={{ color: "green", fontWeight: "bold" }}
+                  >
+                    Read More
+                  </Link>
+                </p>
+              </Card.Meta>
+            </Card.Content>
+          </Card>
+        </div>
+      );
+    });
+
     return (
-      <div style={{ marginLeft: "25%" }}>
-        <BigCard
-          image="https://d30fl32nd2baj9.cloudfront.net/media/2017/05/21/health.jpg/ALTERNATES/w640/Health.jpg"
-          description={healthDes}
-          title="Healthcare"
-          linkroute="/healthcare"
-        />
-        <BigCard
-          image="https://d30fl32nd2baj9.cloudfront.net/media/2017/05/21/health.jpg/ALTERNATES/w640/Health.jpg"
-          description={prostitutionDes}
-          title="Prostitution"
-          linkroute="/prostitution"
-        />
-
-        <BigCard
-          image="https://d30fl32nd2baj9.cloudfront.net/media/2017/05/21/health.jpg/ALTERNATES/w640/Health.jpg"
-          description={educationDes}
-          title="Education"
-          linkroute="/education"
-        />
-
-        <BigCard
-          image="https://d30fl32nd2baj9.cloudfront.net/media/2017/05/21/health.jpg/ALTERNATES/w640/Health.jpg"
-          description={marriageDes}
-          title="Child marriage"
-          linkroute="/earlymarriage"
-        />
-
-        <BigCard
-          image="https://d30fl32nd2baj9.cloudfront.net/media/2017/05/21/health.jpg/ALTERNATES/w640/Health.jpg"
-          description={laborDes}
-          title="Child Labor"
-          linkroute="/childlabor"
-        />
+      <div style={{ paddingTop: "50px" }}>
+        <Header as="h3" style={{ fontSize: "3em", color: "rgb(47, 137, 60)" }}>
+          The Big 5 Issues
+        </Header>
+        <div className="card-container-outer">
+          <div className="card-container">{cards}</div>{" "}
+        </div>
       </div>
     );
   }

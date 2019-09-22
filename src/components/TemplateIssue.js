@@ -12,7 +12,11 @@ class TemplateIssue extends Component {
     const cards = data.map(article => {
       return (
         <div style={{ padding: "20px" }}>
-          <Card color="green">
+          <Card
+            color="green"
+            as={Link}
+            to={`articles/${article.issue}/${article.id}`}
+          >
             <Image
               src={require("../images/" + article.img)}
               wrapped
