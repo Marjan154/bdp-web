@@ -21,8 +21,8 @@ const data = [
   {
     id: "3",
     issue: "education",
-    title: "Education",
-    author: "Marjan",
+    title: "Religious Schools",
+    author: "Sila Pollen",
     articleFile: "education1",
     img: "educationArticle3.jpg"
   }
