@@ -9,6 +9,11 @@ class content extends Component {
 
         <h5>By: Marjan Ansar</h5>
 
+        <img
+          src={require("../../images/prostitutionArticle1.jpg")}
+          style={{ padding: "20px" }}
+        ></img>
+
         <div className="pStyle">
           It is not uncommon that women are sold, forced or tricked into
           prostitution in Bangladesh. However, there are those who never even

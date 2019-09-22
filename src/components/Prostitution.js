@@ -4,28 +4,28 @@ import TemplateIssue from "./TemplateIssue";
 
 const data = [
   {
-    id: "1",
-    issue: "prostitution",
-    title: "Prostitution Article",
-    author: "Marjan",
-    articleFile: "prostitution1",
-    img: "healthcard1.jpg"
-  },
-  {
     id: "2",
     issue: "prostitution",
     title: "The Horrors of Child Prostitution",
-    author: "Marjan",
+    author: "Marjan Ansar",
+    articleFile: "prostitution2",
+    img: "prostitutionArticle1.jpg"
+  },
+  {
+    id: "1",
+    issue: "prostitution",
+    title: "Prostitution in Bangladesh",
+    author: "Shourov Deb",
     articleFile: "prostitution1",
-    img: "healthcard1.jpg"
+    img: "prostitutionArticle2.jpg"
   },
   {
     id: "3",
     issue: "prostitution",
-    title: "Prostitution Article",
-    author: "Marjan",
-    articleFile: "prostitution1",
-    img: "healthcard1.jpg"
+    title: "The Prevalence of Brothels in Bangladesh",
+    author: "Mahima Hayat",
+    articleFile: "prostitution3",
+    img: "prostitutionArticle3.jpg"
   }
 ];
 const mainImg = require("../images/mainProstitution.jpg");
