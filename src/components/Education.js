@@ -8,15 +8,15 @@ const data = [
     title: "Education For Girls/Madrasas",
     author: "Mohuya Khan",
     articleFile: "education1",
-    img: "healthcard1.jpg"
+    img: "educationArticle1.jpg"
   },
   {
     id: "2",
     issue: "education",
-    title: "Education",
-    author: "Marjan",
-    articleFile: "education1",
-    img: "healthcard1.jpg"
+    title: "Access to public education in Bangladesh",
+    author: "Oasima Mahi",
+    articleFile: "education2",
+    img: "educationArticle2.jpg"
   },
   {
     id: "3",
@@ -24,11 +24,11 @@ const data = [
     title: "Education",
     author: "Marjan",
     articleFile: "education1",
-    img: "healthcard1.jpg"
+    img: "educationArticle3.jpg"
   }
 ];
 
-const mainImg = require("../images/Education.jpg");
+const mainImg = require("../images/educationmain.jpg");
 const mainSummary = (
   <div>
     Education is one of the world's greatest equalizers. Unfortunately,

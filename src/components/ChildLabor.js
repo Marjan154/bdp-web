@@ -14,17 +14,17 @@ const data = [
   {
     id: "2",
     issue: "childlabor",
-    title: "Child Labor",
-    author: "Marjan",
-    articleFile: "childlabor",
+    title: "A Look Into Child Labor in Bangladesh",
+    author: "Tausif Islam",
+    articleFile: "childlabor2.js",
     img: "healthcard1.jpg"
   },
   {
     id: "3",
     issue: "childlabor",
-    title: "Child Labor",
-    author: "Marjan",
-    articleFile: "childlabor",
+    title: "Fashion at a Cost; Child Labor in Bangladesh’s Sweatshops",
+    author: "Farhana Hussain",
+    articleFile: "childlabor3.js",
     img: "healthcard1.jpg"
   }
 ];

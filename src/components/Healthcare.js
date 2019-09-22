@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import "../styles/healthcare.css";
 import TemplateIssue from "./TemplateIssue";
 
-import ArticlesTemplate from "./ArticlesTemplate.js";
-
 const data = [
   {
     id: "1",
@@ -18,15 +16,15 @@ const data = [
     issue: "healthcare",
     title: "Heavy Metals and Bangladesh Waters",
     author: "Mohammed Tousif Nur",
-    articleFile: "healthcare1",
+    articleFile: "healthcare2",
     img: "healthArticle2.jpg"
   },
   {
     id: "3",
     issue: "healthcare",
-    title: "Bangladesh’s Ongoing Struggle: Arsenic in Water",
-    author: " Priya Saha",
-    articleFile: "healthcare1",
+    title: "Access to Healthcare in Bangladesh: A Review",
+    author: " Murad Razzak",
+    articleFile: "healthcare3",
     img: "healthcard1.jpg"
   }
 ];

@@ -9,6 +9,11 @@ class content extends Component {
 
         <h5>Noshin Ahmed</h5>
 
+        <img
+          src={require("../../images/educationArticle1.jpg")}
+          style={{ padding: "20px" }}
+        ></img>
+
         <div className="pStyle">
           In patriarchal societies, women are unable to further their ambitions
           and have control of their agency. Usually they are constrained to
