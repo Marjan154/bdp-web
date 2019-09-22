@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/education2.css";
+import "../styles/education.css";
 import TemplateIssue from "./TemplateIssue";
 const data = [
   {
@@ -32,8 +32,8 @@ const mainImg = require("../images/educationmain.jpg");
 const mainSummary = (
   <div>
     Education is one of the world's greatest equalizers. Unfortunately,
-    Bangladesh suffers a lack of education and innaccessibility. Help the youth
-    become educated so they can be the bright futures that will change
+    Bangladesh suffers from innaccessibility and a lack of education. Help the
+    youth become educated so they can be the bright futures that will change
     Bangladesh for the better{" "}
   </div>
 );

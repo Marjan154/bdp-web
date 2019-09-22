@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../styles/healthcare.css";
 import TemplateIssue from "./TemplateIssue";
 
 const data = [

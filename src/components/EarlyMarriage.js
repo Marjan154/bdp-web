@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { Card, Icon, Image, Grid } from "semantic-ui-react";
-import "../styles/earlymarriage.css";
 import TemplateIssue from "./TemplateIssue";
 
 const data = [

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Dropdown, Menu } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styles from "../styles/nav.css";
-import Navbar from "./Navbar";
 
 const options = [
   { key: 1, text: "Education", value: 1, as: Link, to: "/issues/education" },

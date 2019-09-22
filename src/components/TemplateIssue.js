@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/education2.css";
+import "../styles/education.css";
 import "../styles/card.css";
 import { Card, Icon, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";

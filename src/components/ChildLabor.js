@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../styles/childlabor.css";
 import TemplateIssue from "./TemplateIssue";
 
 const data = [
