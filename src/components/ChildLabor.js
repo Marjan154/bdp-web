@@ -30,7 +30,7 @@ const data = [
 const mainImg = require("../images/MainLabor.jpg");
 const mainSummary = (
   <div>
-    Children are forced to work in unimaginable conditions at a very young age,
+    Children are forced to work in unimaginable conditions at a very young age
     because they can barely feed themselves, let alone get educated. We need to
     put and end to this vicious cycle of poverty, labor and uneducation.
   </div>

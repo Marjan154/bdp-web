@@ -30,8 +30,9 @@ const data = [
 const mainImg = require("../images/mainProstitution.jpg");
 const mainSummary = (
   <div>
-    Thousands of women have their lives stolen away from them, and trapped into
-    a life of prostitution. Help these women take back their basic human rights!{" "}
+    Thousands of women have their lives stolen away from them, and are trapped
+    into a life of prostitution. Help these women take back their basic human
+    rights!{" "}
   </div>
 );
 const actionline = (

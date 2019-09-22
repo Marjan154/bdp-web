@@ -34,7 +34,7 @@ const mainSummary = (
     Education is one of the world's greatest equalizers. Unfortunately,
     Bangladesh suffers from innaccessibility and a lack of education. Help the
     youth become educated so they can be the bright futures that will change
-    Bangladesh for the better{" "}
+    Bangladesh for the better.{" "}
   </div>
 );
 const actionline = (
