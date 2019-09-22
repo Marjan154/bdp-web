@@ -9,3 +9,7 @@
 #donate_button.right.item:before {
   width: 0px !important;
 }
+
+a.active.selected.item .text {
+  color: rgb(47, 137, 60) !important;
+}
