@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 import "../styles/projects.css";
-import { Container, Grid, Image, Card, Icon } from "semantic-ui-react";
-import ArticlesTemplate from "./ArticlesTemplate";
-import Carousel from "semantic-ui-carousel-react";
 import Slideshow from "./Slideshow.js";
 import { Header } from "semantic-ui-react";
-// import "../styles/slideshow.css";
 
 class Projects extends Component {
   constructor(props) {

@@ -9,7 +9,15 @@ class Slideshow extends Component {
   }
 
   render() {
-    const ramadanImage = ["1.jpg", "2.jpg", "3.jpg"];
+    const ramadanImage = [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ];
     const elements = ramadanImage.map(rimg => ({
       render: () => {
         return (
