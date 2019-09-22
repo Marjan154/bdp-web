@@ -7,7 +7,7 @@ const data = [
     id: "1",
     issue: "healthcare",
     title: "Bangladesh’s Ongoing Struggle: Arsenic in Water",
-    author: " Priya Saha",
+    author: "Priya Saha",
     articleFile: "healthcare1",
     img: "healthArticle1.jpg"
   },
@@ -22,8 +22,8 @@ const data = [
   {
     id: "3",
     issue: "healthcare",
-    title: "Access to Healthcare in Bangladesh: A Review",
-    author: " Murad Razzak",
+    title: "Medical Falsification in Bangladesh",
+    author: "Karima Khondakar",
     articleFile: "healthcare3",
     img: "healthcard1.jpg"
   }

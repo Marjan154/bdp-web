@@ -5,9 +5,9 @@ class content extends Component {
   render() {
     return (
       <div style={{ padding: "20px", marginLeft: "8%" }}>
-        <h1 className="tStyle">Access to Healthcare in Bangladesh: A Review</h1>
+        <h1 className="tStyle">Medical Falsification in Bangladesh</h1>
 
-        <h5>By: Murad Razzak </h5>
+        <h5>By: Karima Khondakar </h5>
 
         <img
           src={require("../../images/healthcard1.jpg")}
@@ -15,86 +15,94 @@ class content extends Component {
         ></img>
 
         <div className="pStyle">
-          Martin Luther King Jr. once said, “Of all the forms of inequality,
-          injustice in health care is the most shocking and inhumane”. He
-          encapsulated the importance of a proper and equal healthcare system.
-          Access to healthcare is a greater issue in third world countries.
-          Bangladesh, a developing nation, suffers from a large socioeconomic
-          gap in access to care. This gap creates an inefficient delivery of
-          proper healthcare which leads to major health concerns.
+          Medical negligence, or otherwise known as medical malpractice, is an
+          error that is present during the treatment/diagnosis of a patient or
+          the aftermath, such as being prescribed the wrong medicine. In
+          Bangladesh, there are many cases where patients have died from
+          consuming the wrong medicine, which were prescribed to them by the
+          doctor. Certain deaths could have been prevented if they were treated
+          with proper care and respect in the hospital.
         </div>
         <div className="pStyle">
-          Bangladesh gained its independence in 1971 and ever since then, it has
-          grown into a well-developed nation. In 2018, the United Nations
-          recognized Bangladesh as a developing nation.1 However, this is far
-          from perfect. The healthcare system of Bangladesh follows the Primary
-          Healthcare System or the PHC, which plans to make universal healthcare
-          for all. There are three levels of healthcare service: Primary,
-          Secondary and Tertiary level. The primary level is the union
-          domiciliary, secondary is provided through medical facilities in each
-          district, while tertiary is available in medical college or public
-          health institutes at the national level.2 However, there is a large
-          shortage of Human Health Resources (HHR) in Bangladesh. 3 According to
-          the World Health Organization (WHO), there is 3.05 physicians per
-          10,000 population and 1.07 nurses per 10,000 population.4These numbers
-          signify a poor result of delivery. Without the right resources based
-          on an even geographic distribution, in national and district level,
-          delivering proper healthcare for all becomes difficult. It is also
-          important to note that there is a disparity between sanctioned and
-          filled health worker positions.
-          <br />1
-          https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(17)30470-9/fulltext
+          Over the last couple of years, medical negligence has been a common
+          trend present in all the hospitals. Multiple claims have been made by
+          families of their deceased family members. For example, a first year
+          student in the Zoology department from Dhaka University, named Afia
+          Akter Chaity, had died in the hospital due to an error in identifying
+          the main cause of her sickness. In 2018, she was diagnosed with Acute
+          Myeloid (Myeloblastic) Leukemia, which is a cancer of the blood and
+          bone marrow, acute meaning it occurs rapidly. However, despite the
+          analysis proving the same diagnostic, doctors said she was suffering
+          from Dengue, a viral disease transmitted by mosquitoes. An article in
+          the Dhaka Tribune stated, “...Sometimes the doctors refused to share
+          information about the patient with their family members, which can
+          lead to wrong treatment.” Doctors don't always tell the truth to the
+          patient's family so they can prescribe the wrong medicine on purpose.
+          A hospital is supposed to help people recover from their sickness or
+          find the main source of their illness but multiple patients are being
+          harmed or even killed due to the wrong treatment.
         </div>
         <div className="pStyle">
-          Let us focus on the tertiary level of service. According to the WHO,
-          70% of Bangladesh’s population is in rural areas. However, most of the
-          HHR is located in tertiary level which makes it virtually inaccessible
-          for the rural population. So what are some issues that could be
-          addressed? WHO recognized these as the major challenges. The need for
-          a centralized and well-governed healthcare structure with a proper
-          regulation and framework, fragmented delivery service for the public,
-          maldistribution of the HHR, poor maintenance of the facilities and
-          lack of regulation of the public sector. A major step in solving the
-          issue is with the governmental level: increasing the funding and
-          standardizing the healthcare system with proper public policies to
-          ensure equal service. Figure 2 shows a tremendous low healthcare
-          expenditure in Bangladesh. In order to tackle these inequalities, it
-          is important to make healthcare affordable for the poor and increase
-          HHR in rural areas through small facilities. Decentralize the
-          recruitment process and recruit high-quality doctors and nurses to
-          tackle the issue of malpractice. In order to decrease the cost, create
-          a digitized healthcare database with patient information accessible
-          throughout the country. Increase the frontline health workers and foot
-          doctors, which can address the lack of care in rural areas.
-          <br />2 https://en.wikipedia.org/wiki/Health_policy_in_Bangladesh
-          <br />3 https://www.who.int/workforcealliance/countries/bgd/en/
-          <br />4 Ibid
+          Since people are given the wrong treatment and medicine, The
+          Directorate General of Drug Administration (DGDA) has created six
+          international standard mini-labs to make sure fake medicine aren't
+          being given out and to lower the number of medical mishaps. Within
+          three hours, the administration can verify if the medicine is good
+          quality. This is better than labs, which takes several weeks to figure
+          out its components. It’s present in areas such as Rangpur, Dhaka,
+          Chattogram, Barisal, Rajshahi and Khulna. They are trying to spread
+          out and help lower the number of deaths.
         </div>
         <div className="pStyle">
-          Tackling the issue of healthcare is a major concern for any country,
-          however, with the right amount of effort and awareness it is possible.
-          Bangladesh has the capacity to improve their healthcare significantly,
-          however, without a proper structure and mindset, it will be only a
-          dream.
+          From October 2008 to February 2016, more than 500 people had died from
+          medical accidents. Another similar case occurred in 2011 with an eight
+          month old baby, the baby remains nameless. His dad, Mustafiz (not his
+          real name), took the baby to the United Hospital and later he was
+          placed in an intensive care unit. Mustafiz was told that his child was
+          suffering from pneumonia, so they shifted his kid to a normal room; he
+          was put under the ventilator for eighteen days. After twenty-one days,
+          his baby died and the doctors didn't release any information about the
+          cause of the death. After this incident, Dhaka Tribune said, Mustafiz
+          created a group on Facebook called “Blacklist Doctors.” Multiple
+          people wrote a countless numbers of doctors names who used wrong
+          treatments or their practice resulted in the patients' deaths.
+        </div>
+        <div className="pStyle">
+          These deaths have made people question whether or not they should go
+          to the hospital. Usually when people go to treat their illness, they
+          get a wrong treatment in Bangladesh and when they travel to a hospital
+          in another country, they are told that they didn't need to do a
+          certain action. For example, in the Dhaka Tribune, Afrose Jahan Chaity
+          said, “In fiscal year 2015-16, India saw 460,000 inbound patients at
+          its different hospitals,...165,000 were from Bangladesh.
+          Interestingly, only around 58,000 medical visas were issued to
+          Bangladeshi nationals then, the survey reveals” (Chaity). Usually
+          patients would be confused on what to do and have no trust in
+          Bangladeshi doctors so they relied heavily on hospitals in other
+          countries. Another example is from 2001, Suraiaya Begum, found a
+          tumour present in her back. When she went to a hospital in Dhaka, they
+          removed her left ovary. However, when she went to Kolkata, a doctor
+          had informed her that removing her ovary was unnecessary and she
+          could've have better treatment. People tend to not trust Bangladesh
+          hospitals for their misleading treatments and because doctors choose
+          not to explore better options that would benefit the patients.
+        </div>
+        <div className="pStyle">
+          Bangladesh is trying to improve their hospital records. They have
+          taken measures to check the quality of all the medicine to make sure
+          they are safe. Medical mishaps cases have a huge record in Bangladesh
+          and the government is updating their system by changing their old
+          ways.
         </div>
 
         <div className="wStyle">
           Sources used:
           <br />
-          Who.int. (2019). WHO | Bangladesh. [online]. Accessed 14 Jun. 2019.
-          https://www.who.int/workforcealliance/countries/bgd/en/
+          https://www.dhakatribune.com/opinion/special/2018/01/27/will-medical-professionals-bangladesh-receive-immunity
           <br />
-          Allyane, Adams, Syed Masud Ahmed, and Timothy G. Evans. "Universal
-          Health Care in Bangladesh—promises and Perils." The Lancet. Accessed
-          June 13, 2019.
-          https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(17)30470-9/fulltext.
+          https://www.dhakatribune.com/feature/health-wellness/2017/11/30/doctor-trust-bangladesh
           <br />
-          "Health Policy in Bangladesh." Wikipedia. October 17, 2018. Accessed
-          June 14, 2019.
-          https://en.wikipedia.org/wiki/Health_policy_in_Bangladesh
-          <br />
-          . Second Last in Govt Expenditure on Health. World Health
-          Organization, World Health Statistics, 2017
+          https://www.thedailystar.net/backpage/news/minilabs-six-districts-1683232
           <br />
         </div>
       </div>
