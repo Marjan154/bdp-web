@@ -44,6 +44,9 @@
   padding: 0px;
 }
 
+.card:hover {
+  text-decoration: none !important;
+}
 .green:hover {
   text-shadow: none;
 }
