@@ -9,7 +9,7 @@ const data = [
     title: "Child Labor in Shipbreaking Industries",
     author: "Mohuya Khan",
     articleFile: "childlabor1.js",
-    img: "healthcard1.jpg"
+    img: "laborArticle1.jpg"
   },
   {
     id: "2",
@@ -17,15 +17,15 @@ const data = [
     title: "A Look Into Child Labor in Bangladesh",
     author: "Tausif Islam",
     articleFile: "childlabor2.js",
-    img: "healthcard1.jpg"
+    img: "laborArticle2.jpg"
   },
   {
     id: "3",
     issue: "childlabor",
-    title: "Fashion at a Cost; Child Labor in Bangladesh’s Sweatshops",
+    title: "Fashion at a Cost: Child Labor in Bangladesh’s Sweatshops",
     author: "Farhana Hussain",
     articleFile: "childlabor3.js",
-    img: "healthcard1.jpg"
+    img: "laborArticle3.jpg"
   }
 ];
 const mainImg = require("../images/MainLabor.jpg");

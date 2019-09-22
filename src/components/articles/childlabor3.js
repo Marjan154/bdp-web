@@ -8,10 +8,15 @@ class content extends Component {
     return (
       <div style={{ padding: "20px", marginLeft: "8%" }}>
         <h1 className="tStyle">
-          Fashion at a Cost; Child Labor in Bangladesh’s Sweatshops
+          Fashion at a Cost: Child Labor in Bangladesh’s Sweatshops
         </h1>
 
         <h5>By: Farhana Hussain</h5>
+
+        <img
+          src={require("../../images/laborArticle3.jpg")}
+          style={{ padding: "20px" }}
+        ></img>
 
         <div className="pStyle">
           In the globalized world we live in today, it is easier than ever to

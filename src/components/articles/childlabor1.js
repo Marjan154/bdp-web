@@ -11,6 +11,11 @@ class content extends Component {
 
         <h5>By: Mohuya Khan</h5>
 
+        <img
+          src={require("../../images/laborArticle1.jpg")}
+          style={{ padding: "20px" }}
+        ></img>
+
         <div className="pStyle">
           The shipbreaking industry has one of the most hazardous working
           conditions in Bangladesh. This industry attracts many young and poor

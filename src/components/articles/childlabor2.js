@@ -11,6 +11,11 @@ class content extends Component {
 
         <h5>By: Tausif Islam</h5>
 
+        <img
+          src={require("../../images/laborArticle2.jpg")}
+          style={{ padding: "20px" }}
+        ></img>
+
         <div className="pStyle">
           An alarming issue in Bangladesh is unwarranted child labor. Children
           of ages from 5-14 years old are being put into tedious, unescapable
