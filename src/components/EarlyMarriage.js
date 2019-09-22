@@ -8,9 +8,9 @@ const data = [
     id: "1",
     issue: "earlymarriage",
     title: "Pedophilia Related to Child Brides",
-    author: "Marjan",
+    author: "Mahima Hayat",
     articleFile: "earlymarriage1",
-    img: "healthcard1.jpg"
+    img: "marriageArticle1.jpg"
   },
   {
     id: "2",

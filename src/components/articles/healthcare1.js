@@ -11,6 +11,11 @@ class content extends Component {
 
         <h5>By: Priya Saha</h5>
 
+        <img
+          src={require("../../images/healthArticle1.jpg")}
+          style={{ padding: "20px" }}
+        ></img>
+
         <div className="pStyle">
           Excess amounts of arsenic in water have now become a debilitating
           problem for the civilians of Bangladesh. The population being exposed

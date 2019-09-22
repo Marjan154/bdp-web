@@ -11,7 +11,7 @@ const data = [
     title: "Bangladesh’s Ongoing Struggle: Arsenic in Water",
     author: " Priya Saha",
     articleFile: "healthcare1",
-    img: "healthcard1.jpg"
+    img: "healthArticle1.jpg"
   },
   {
     id: "2",
@@ -19,7 +19,7 @@ const data = [
     title: "Heavy Metals and Bangladesh Waters",
     author: "Mohammed Tousif Nur",
     articleFile: "healthcare1",
-    img: "healthcard1.jpg"
+    img: "healthArticle2.jpg"
   },
   {
     id: "3",

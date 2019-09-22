@@ -11,6 +11,11 @@ class content extends Component {
 
         <h5>By: Mahima Hayat</h5>
 
+        <img
+          src={require("../../images/marriageArticle1.jpg")}
+          style={{ padding: "20px" }}
+        ></img>
+
         <div className="pStyle">
           Child brides are the gateway for grown men to have access to
           pedophilic acts. This cultural practice is just an unjust and

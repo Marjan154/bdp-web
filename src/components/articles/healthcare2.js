@@ -13,6 +13,10 @@ class content extends Component {
         <h1 className="tStyle">Heavy Metals and Bangladesh Waters</h1>
 
         <h5>By: Mohammed Tousif Nur</h5>
+        <img
+          src={require("../../images/healthArticle2.jpg")}
+          style={{ padding: "20px" }}
+        ></img>
 
         <div className="pStyle">
           Bangladesh is a river-studded nation with country coastlines located
@@ -95,95 +99,111 @@ class content extends Component {
 
         <div className="wStyle">
           References
-        <ol>
-          <blockquote>
-            Loewenberg, S. In Bangladesh, arsenic poisoning is a
-            neglected issue. <cite>The Lancet</cite> <strong>2016</strong>, 388, 2336-2337. 
-          </blockquote>
-          <blockquote>
-            Ali, M., M.; Ali, M., L.; Islam, M., S.; Rahman, M., Z. Preliminary assessment of heavy
-            metals in water and sediment of Karnaphuli River, Bangladesh.
-            <cite>Environmental Nanotechnology, Monitoring & Management</cite> <strong>2016</strong>, 5, 27-35.
-          </blockquote>
-          <blockquote>
-            Baki, M., A.; Hossain, M., M.; Akter, J.; Quraishi, S., B.; Shojib, M., F., H.; Ullah, A., K., M., A.; Khan, M., F. Concentration of heavy
-            metals in seafood fishes, shrimp, lobster and crabs and human health
-            assessment in Saint Martin Island, Bangladesh. <cite>Ecotoxicology and Environmental Safety</cite> <strong>2018</strong>, 159, 153-163.
-          </blockquote>
-          <blockquote>
-          Kibria, G.; Hossain, M., M.;
-          Mallick, D.; Lau, T., C.; Wu, R. Trace/heavy metal pollution
-          monitoring in estuary and coastal area of Bay of Bengal, Bangladesh
-          and implicated impacts. <cite>Marine Pollution Bulletin</cite> <strong>2016</strong>, 105, 393-402.
-          </blockquote>
-          <blockquote>
-          Islam, G., M., R.; Habib, M., R.; Waid, J., L.; Rahman, M., S.; Kabir,
-          J.; Akter, S.; Jolly, Y., N. Heavy metal contamination of freshwater
-          prawn (Macrobrachium rosenbergii) and prawn feed in Bangladesh: A
-          market-based study to highlight probable health risks. <cite>Chemosphere</cite>
-          <strong>2017</strong>, 170, 282-289.
-          </blockquote>
-          <blockquote>
-          Huq, M., E.; Fahad, S.; Shao, Z.; Sarven, M., S.;
-          Al-Huqail, A., A.; Siddiqui, M., H.; Rahman, M., H.; Khan, I., A.;
-          Alam, M.; Saeed, M.; Rauf, A.; Basir, A.; Jamal, Y.; Khan, S., U. High
-          arsenic contamination and presence of other trace metals in drinking
-          water of Kushtia district, Bangladesh. <cite>Journal of Environmental
-          Management</cite> <strong>2019</strong>, 242, 199-209.
-          </blockquote>
-          <blockquote>
-          Wasserman, G., A.; Liu, X.; Parvez, F.;
-          Factor-Litvak, P.; Kline, J.; Siddique, A., B.; Shahriar, H.; Uddin,
-          M., N.; van Geen, A.; Mey, J., L.; Balac, O.; Graziano, J., H. Child
-          Intelligence and Reductions in Water Arsenic and Manganese: A Two‑Year
-          Follow-up Study in Bangladesh. <cite>Environmental Health Perspectives</cite> <strong>2016</strong>,
-          124 (7), 1114-1120.
-          </blockquote>
-          <blockquote>
-            Ali, M., M.; Ali, M., L.; Islam, M., S.; Rahman, M., Z. Preliminary assessment of heavy
-            metals in water and sediment of Karnaphuli River, Bangladesh.
-            <cite>Environmental Nanotechnology, Monitoring & Management</cite> <strong>2016</strong>, 5, 27-35.
-          </blockquote>
-          <blockquote>
-            Ali, M., M.; Ali, M., L.; Islam, M., S.; Rahman, M., Z. Preliminary assessment of heavy
-            metals in water and sediment of Karnaphuli River, Bangladesh.
-            <cite>Environmental Nanotechnology, Monitoring & Management</cite> <strong>2016</strong>, 5, 27-35.
-          </blockquote>
-          
-
-
-           
-             Mundy SW. Arsenic. In: Goldfrank's Toxicologic
-          Emergencies, 10th ed, Hoffman RS, Lewin NA, Howland MA, et al (Eds),
-          Mcgraw-Hill Education, New York 2015. p.1169. Mass, M., J.; Tennant,
-          A.; Roop, B., C.; Cullen, W., R.; Styblo, M.; Thomas, D., J.;
-          Kligerman, A., D. Methylated Trivalent Arsenic Species Are Genotoxic.
-          Chemical Research in Toxicology 2001, 14 (4), 355-361. Wang, T.;
-          Chung, C.; Wang, A., S., S.; Bau, D.; Samikkannu, T.; Jan, K.; Cheng,
-          Y.; Lee, T. Endonuclease III, Formamidopyrimidine-DNA Glycosylase, and
-          Proteinase K Additively Enhance Arsenic-Induced DNA Strand Breaks in
-          Human Cells. Chemical Research in Toxicology 2002, 15 (10), 1254-1258.
-          Yoshinaga, M.; Ninomiya, H.; Al Hossain, M., M., A.; Sudo, M.; Akhand,
-          A., A.; Ahsan, N.; Alim, M., A.; Khalequzzaman, M.; Iida, M.; Yajima,
-          I.; Ohgami, N.; Kato. M.; A comprehensive study including monitoring,
-          assessment of health effects and development of a remediation method
-          for chromium pollution. Chemosphere 2018, 201, 667-675. Vannoort RW,
-          Thomson BM (2006) 2003/2004 New Zealand total diet survey:
-          agricultural compound residue, selected contaminants and nutrients.
-          New Zealand Food Safety Authority 2006:144. Gray MA, Harrins A,
-          Centeno JA (2005) The role of cadmium, zinc, and selenium in prostate
-          disease. In: Moore TA, Black A, Centeno JA, Harding JS, Trumm DA (eds)
-          Metal contaminants in New Zealand: sources, treatments, and effects on
-          ecology and human health. Resolutionz Press, Christchurch, pp 393–414.
-          Rodrigues, E., G.; Bellinger, D, C.; Valeri, L.; Ibne Hasan, M., O.,
-          S.; Quamruzzaman, Q.; Golam, M.; Kile, M. L.; Christiani, D., C.;
-          Wright, R., O.; Mazumdar, M. Neurodevelopmental outcomes among 2- to
-          3-year-old children in Bangladesh with elevated blood lead and
-          exposure to arsenic and manganese in drinking water. Environmental
-          Health 2016, 1-9.
+          <ol>
+            <blockquote>
+              Loewenberg, S. In Bangladesh, arsenic poisoning is a neglected
+              issue. <cite>The Lancet</cite> <strong>2016</strong>, 388,
+              2336-2337.
+            </blockquote>
+            <blockquote>
+              Ali, M., M.; Ali, M., L.; Islam, M., S.; Rahman, M., Z.
+              Preliminary assessment of heavy metals in water and sediment of
+              Karnaphuli River, Bangladesh.
+              <cite>
+                Environmental Nanotechnology, Monitoring & Management
+              </cite>{" "}
+              <strong>2016</strong>, 5, 27-35.
+            </blockquote>
+            <blockquote>
+              Baki, M., A.; Hossain, M., M.; Akter, J.; Quraishi, S., B.;
+              Shojib, M., F., H.; Ullah, A., K., M., A.; Khan, M., F.
+              Concentration of heavy metals in seafood fishes, shrimp, lobster
+              and crabs and human health assessment in Saint Martin Island,
+              Bangladesh. <cite>Ecotoxicology and Environmental Safety</cite>{" "}
+              <strong>2018</strong>, 159, 153-163.
+            </blockquote>
+            <blockquote>
+              Kibria, G.; Hossain, M., M.; Mallick, D.; Lau, T., C.; Wu, R.
+              Trace/heavy metal pollution monitoring in estuary and coastal area
+              of Bay of Bengal, Bangladesh and implicated impacts.{" "}
+              <cite>Marine Pollution Bulletin</cite> <strong>2016</strong>, 105,
+              393-402.
+            </blockquote>
+            <blockquote>
+              Islam, G., M., R.; Habib, M., R.; Waid, J., L.; Rahman, M., S.;
+              Kabir, J.; Akter, S.; Jolly, Y., N. Heavy metal contamination of
+              freshwater prawn (Macrobrachium rosenbergii) and prawn feed in
+              Bangladesh: A market-based study to highlight probable health
+              risks. <cite>Chemosphere</cite>
+              <strong>2017</strong>, 170, 282-289.
+            </blockquote>
+            <blockquote>
+              Huq, M., E.; Fahad, S.; Shao, Z.; Sarven, M., S.; Al-Huqail, A.,
+              A.; Siddiqui, M., H.; Rahman, M., H.; Khan, I., A.; Alam, M.;
+              Saeed, M.; Rauf, A.; Basir, A.; Jamal, Y.; Khan, S., U. High
+              arsenic contamination and presence of other trace metals in
+              drinking water of Kushtia district, Bangladesh.{" "}
+              <cite>Journal of Environmental Management</cite>{" "}
+              <strong>2019</strong>, 242, 199-209.
+            </blockquote>
+            <blockquote>
+              Wasserman, G., A.; Liu, X.; Parvez, F.; Factor-Litvak, P.; Kline,
+              J.; Siddique, A., B.; Shahriar, H.; Uddin, M., N.; van Geen, A.;
+              Mey, J., L.; Balac, O.; Graziano, J., H. Child Intelligence and
+              Reductions in Water Arsenic and Manganese: A Two‑Year Follow-up
+              Study in Bangladesh.{" "}
+              <cite>Environmental Health Perspectives</cite>{" "}
+              <strong>2016</strong>, 124 (7), 1114-1120.
+            </blockquote>
+            <blockquote>
+              Ali, M., M.; Ali, M., L.; Islam, M., S.; Rahman, M., Z.
+              Preliminary assessment of heavy metals in water and sediment of
+              Karnaphuli River, Bangladesh.
+              <cite>
+                Environmental Nanotechnology, Monitoring & Management
+              </cite>{" "}
+              <strong>2016</strong>, 5, 27-35.
+            </blockquote>
+            <blockquote>
+              Ali, M., M.; Ali, M., L.; Islam, M., S.; Rahman, M., Z.
+              Preliminary assessment of heavy metals in water and sediment of
+              Karnaphuli River, Bangladesh.
+              <cite>
+                Environmental Nanotechnology, Monitoring & Management
+              </cite>{" "}
+              <strong>2016</strong>, 5, 27-35.
+            </blockquote>
+            Mundy SW. Arsenic. In: Goldfrank's Toxicologic Emergencies, 10th ed,
+            Hoffman RS, Lewin NA, Howland MA, et al (Eds), Mcgraw-Hill
+            Education, New York 2015. p.1169. Mass, M., J.; Tennant, A.; Roop,
+            B., C.; Cullen, W., R.; Styblo, M.; Thomas, D., J.; Kligerman, A.,
+            D. Methylated Trivalent Arsenic Species Are Genotoxic. Chemical
+            Research in Toxicology 2001, 14 (4), 355-361. Wang, T.; Chung, C.;
+            Wang, A., S., S.; Bau, D.; Samikkannu, T.; Jan, K.; Cheng, Y.; Lee,
+            T. Endonuclease III, Formamidopyrimidine-DNA Glycosylase, and
+            Proteinase K Additively Enhance Arsenic-Induced DNA Strand Breaks in
+            Human Cells. Chemical Research in Toxicology 2002, 15 (10),
+            1254-1258. Yoshinaga, M.; Ninomiya, H.; Al Hossain, M., M., A.;
+            Sudo, M.; Akhand, A., A.; Ahsan, N.; Alim, M., A.; Khalequzzaman,
+            M.; Iida, M.; Yajima, I.; Ohgami, N.; Kato. M.; A comprehensive
+            study including monitoring, assessment of health effects and
+            development of a remediation method for chromium pollution.
+            Chemosphere 2018, 201, 667-675. Vannoort RW, Thomson BM (2006)
+            2003/2004 New Zealand total diet survey: agricultural compound
+            residue, selected contaminants and nutrients. New Zealand Food
+            Safety Authority 2006:144. Gray MA, Harrins A, Centeno JA (2005) The
+            role of cadmium, zinc, and selenium in prostate disease. In: Moore
+            TA, Black A, Centeno JA, Harding JS, Trumm DA (eds) Metal
+            contaminants in New Zealand: sources, treatments, and effects on
+            ecology and human health. Resolutionz Press, Christchurch, pp
+            393–414. Rodrigues, E., G.; Bellinger, D, C.; Valeri, L.; Ibne
+            Hasan, M., O., S.; Quamruzzaman, Q.; Golam, M.; Kile, M. L.;
+            Christiani, D., C.; Wright, R., O.; Mazumdar, M. Neurodevelopmental
+            outcomes among 2- to 3-year-old children in Bangladesh with elevated
+            blood lead and exposure to arsenic and manganese in drinking water.
+            Environmental Health 2016, 1-9.
           </ol>
         </div>
-        
       </div>
     );
     return <div></div>;
