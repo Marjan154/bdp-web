@@ -30,7 +30,7 @@ class Nav extends Component {
     return (
       <div>
         <Responsive minWidth={768}>
-          <div>
+          <div class="nav" style={{ marginBottom: "5em" }}>
             <Visibility
               once={false}
               onBottomPassed={this.showFixedMenu}
