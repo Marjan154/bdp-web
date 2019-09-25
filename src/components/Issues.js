@@ -41,7 +41,7 @@ const prostitutionDes = (
 
 const educationDes = (
   <div>
-    Pooverty in Bangaldesh is widespread, it is no surprise that education is
+    Poverty in Bangaldesh is widespread, it is no surprise that education is
     limited. Children cannot offord to have education, becuase they cannot pay
     the fees or are to busy paying to survive
   </div>
