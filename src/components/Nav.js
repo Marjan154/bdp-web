@@ -30,55 +30,55 @@ class Nav extends Component {
     return (
       <div>
         <Responsive minWidth={768}>
-          {/* <div class="nav" style={{ marginBottom: "5em" }}> */}
-          <Visibility
-            once={false}
-            onBottomPassed={this.showFixedMenu}
-            onBottomPassedReverse={this.hideFixedMenu}
-          >
-            <Segment>
-              <Menu
-                fixed="top"
-                inverted
-                style={{ background: "rgb(165, 18, 18)" }}
-              >
-                <Container>
-                  <Menu.Item
-                    as={Link}
-                    to="/"
-                    header
-                    style={{ padding: "25px" }}
-                  >
-                    <Image
-                      size="tiny"
-                      src={require("../images/logoBDP.png")}
-                      style={{ marginRight: "1.5em" }}
-                    />
-                    Bangladesh Development Project
-                  </Menu.Item>
-                  <Menu.Item as={Link} to="/">
-                    Home
-                  </Menu.Item>
-                  <DropdownNav />
-                  <Menu.Item as={Link} to="/projects">
-                    Projects
-                  </Menu.Item>
-                  <Menu.Item as={Link} to="/donate">
-                    Donate
-                  </Menu.Item>
-                  <Menu.Item as={Link} to="/team">
-                    Team
-                  </Menu.Item>
-                  <Menu.Item position="right" id="donate_button">
-                    <Button inverted size="large" as={Link} to="/donate">
+          <div class="nav" style={{ marginBottom: "5em" }}>
+            <Visibility
+              once={false}
+              onBottomPassed={this.showFixedMenu}
+              onBottomPassedReverse={this.hideFixedMenu}
+            >
+              <Segment>
+                <Menu
+                  fixed="top"
+                  inverted
+                  style={{ background: "rgb(165, 18, 18)" }}
+                >
+                  <Container>
+                    <Menu.Item
+                      as={Link}
+                      to="/"
+                      header
+                      style={{ padding: "25px" }}
+                    >
+                      <Image
+                        size="tiny"
+                        src={require("../images/logoBDP.png")}
+                        style={{ marginRight: "1.5em" }}
+                      />
+                      Bangladesh Development Project
+                    </Menu.Item>
+                    <Menu.Item as={Link} to="/">
+                      Home
+                    </Menu.Item>
+                    <DropdownNav />
+                    <Menu.Item as={Link} to="/projects">
+                      Projects
+                    </Menu.Item>
+                    <Menu.Item as={Link} to="/donate">
                       Donate
-                    </Button>
-                  </Menu.Item>
-                </Container>
-              </Menu>
-            </Segment>
-          </Visibility>
-          {/* </div> */}
+                    </Menu.Item>
+                    <Menu.Item as={Link} to="/team">
+                      Team
+                    </Menu.Item>
+                    <Menu.Item position="right" id="donate_button">
+                      <Button inverted size="large" as={Link} to="/donate">
+                        Donate
+                      </Button>
+                    </Menu.Item>
+                  </Container>
+                </Menu>
+              </Segment>
+            </Visibility>
+          </div>
         </Responsive>
         {this.props.location.pathname !== "/" && <MobileContainer />}
       </div>
