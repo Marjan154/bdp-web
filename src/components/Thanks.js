@@ -5,7 +5,7 @@ class Thanks extends Component {
   state = {};
   render() {
     return (
-      <div style={{ padding: "100px" }}>
+      <div style={{ paddingTop: "100px", marginBottom: "25%" }}>
         <Header
           as="h1"
           style={{
