@@ -14,6 +14,7 @@ import Education from "./components/Education";
 import EarlyMarriage from "./components/EarlyMarriage";
 import Team from "./components/Team";
 import ArticlesTemplate from "./components/ArticlesTemplate";
+import Thanks from "./components/Thanks";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/issues/prostitution" component={Prositution} />
           <Route exact path="/issues/education" component={Education} />
           <Route exact path="/issues/earlymarriage" component={EarlyMarriage} />
+          <Route exact path="/thankyou" component={Thanks} />
           <Route
             exact
             path="/issues/articles/:issuetype/:articleid"

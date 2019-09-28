@@ -18,7 +18,7 @@ class Donate extends Component {
           Donate
         </Header>
         <div style={{ padding: "40px" }}>
-          <div className="donate-container" style={{ height: "300px" }}>
+          <div className="donate-container" style={{ maxHeight: "500px" }}>
             <Header
               as="h3"
               style={{
@@ -52,7 +52,7 @@ class Donate extends Component {
               <input
                 type="hidden"
                 name="hosted_button_id"
-                value="UTXEM8J5VZEWU"
+                value="T4H5782RYM6H4"
               />
               <input
                 type="image"
