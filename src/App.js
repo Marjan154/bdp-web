@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
+import { HashRouter as Router, Route, withRouter } from "react-router-dom";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
@@ -21,7 +21,7 @@ function App() {
   let isArticle = window.location.href.includes("/articles/") ? true : false;
   return (
     <div className="App">
-      <Router>
+      <Router basename="/">
         <Nav isArticle={isArticle} />
         <ScrollToTop>
           {/* <div> */}
