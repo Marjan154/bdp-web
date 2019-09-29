@@ -52,7 +52,7 @@ class Donate extends Component {
               <input
                 type="hidden"
                 name="hosted_button_id"
-                value="T4H5782RYM6H4"
+                value="P5NYYDSX7759C"
               />
               <input
                 type="image"
