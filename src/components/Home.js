@@ -211,6 +211,44 @@ const HomepageLayout = () => (
     <Segment style={{ padding: "8em 0em" }} vertical>
       <Grid container stackable verticalAlign="middle">
         <Grid.Row>
+          <Grid.Column floated="left" width={6}>
+            <Image
+              bordered
+              rounded
+              size="large"
+              src={require("../images/Education_Flyer.jpg")}
+            />
+          </Grid.Column>
+          <Grid.Column width={8}>
+            <Header
+              as="h3"
+              style={{ fontSize: "3em", color: "rgb(165, 18, 18)" }}
+            >
+              The Latest
+            </Header>
+
+            <p style={{ fontSize: "2em" }}>
+              Education is the world's greatest equalizer. Unfortunately, many
+              of the youth cannot afford to pay for their tuition fees. With
+              only $12, you can sponsor an entire month of education for a child
+              in need.
+            </p>
+            <Link to="/donate">
+              <Button
+                size="huge"
+                style={{ background: "rgb(47, 137, 60)", color: "white" }}
+              >
+                I want to help
+              </Button>
+            </Link>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+    </Segment>
+
+    <Segment style={{ padding: "8em 0em" }} vertical>
+      <Grid container stackable verticalAlign="middle">
+        <Grid.Row>
           <Grid.Column width={8}>
             <Header
               as="h3"
