@@ -57,38 +57,17 @@ const marriageDes = (
 
 const projects = [
   {
-    image: "/ramadan2019/Ramadan1.jpeg",
-    description: "Ramdan 2019 Project",
-    title: "Healthcare",
-    linkroute: "/projects/ramadan2019"
-  },
-  {
     image: "/educationProject/EducationProject1.jpg",
     description: "Education Project",
     title: "Prostitution",
     linkroute: "/projects/education2019"
+  },
+  {
+    image: "/ramadan2019/Ramadan1.jpeg",
+    description: "Ramdan 2019 Project",
+    title: "Healthcare",
+    linkroute: "/projects/ramadan2019"
   }
-
-  // {
-  //   image: "educationmain.jpg",
-  //   description: educationDes,
-  //   title: "Education",
-  //   linkroute: "/education"
-  // },
-
-  // {
-  //   image: "pinkMarriage.jpg",
-  //   description: marriageDes,
-  //   title: "Child Marriage",
-  //   linkroute: "/earlymarriage"
-  // },
-
-  // {
-  //   image: "MainLabor.jpg",
-  //   description: laborDes,
-  //   title: "Child Labor",
-  //   linkroute: "/childlabor"
-  // }
 ];
 
 class Projects extends Component {

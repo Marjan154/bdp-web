@@ -236,9 +236,21 @@ const HomepageLayout = () => (
             <Link to="/donate">
               <Button
                 size="huge"
-                style={{ background: "rgb(47, 137, 60)", color: "white" }}
+                style={{
+                  background: "rgb(47, 137, 60)",
+                  color: "white",
+                  marginRight: "15px"
+                }}
               >
                 I want to help
+              </Button>
+            </Link>
+            <Link to="/projects/education2019">
+              <Button
+                size="huge"
+                style={{ background: "rgb(47, 137, 60)", color: "white" }}
+              >
+                Read More
               </Button>
             </Link>
           </Grid.Column>
