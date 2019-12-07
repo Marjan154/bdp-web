@@ -4,3 +4,60 @@
   padding: 500px;
   background-repeat: no-repeat;
 }
+
+.circular {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.circular img {
+  width: 150px;
+  height: 150px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  width: 100vw;
+}
+
+.card-container-outer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 25px;
+}
+
+.circular-img {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  border: 2px solid rgb(16, 114, 9);
+  transition: all 0.4s ease-in-out;
+}
+
+.project-title {
+  text-shadow: 2px 2px 4px grey;
+}
+
+.project {
+  transition: all 0.4s ease-in-out;
+}
+.circular-img:hover {
+  box-shadow: 0 8px 16px 0 rgb(16, 114, 9);
+  transition: all 0.4s ease-in-out;
+}
